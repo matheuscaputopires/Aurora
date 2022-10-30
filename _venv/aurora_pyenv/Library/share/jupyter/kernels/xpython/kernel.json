@@ -1,0 +1,10 @@
+{
+  "display_name": "Python 3.9 (XPython)",
+  "argv": [
+      "P:/xeus_python/installed/x64/RelWithDebInfo/bin/xpython",
+      "-f",
+      "{connection_file}"
+  ],
+  "language": "python",
+  "metadata": { "debugger": true }
+}

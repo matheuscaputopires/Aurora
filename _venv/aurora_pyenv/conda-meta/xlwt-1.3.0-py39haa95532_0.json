@@ -1,0 +1,391 @@
+{
+  "arch": "x86_64",
+  "build": "py39haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\xlwt-1.3.0-py39haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/xlwt-1.3.0-py3.9.egg-info/PKG-INFO",
+    "Lib/site-packages/xlwt-1.3.0-py3.9.egg-info/SOURCES.txt",
+    "Lib/site-packages/xlwt-1.3.0-py3.9.egg-info/dependency_links.txt",
+    "Lib/site-packages/xlwt-1.3.0-py3.9.egg-info/not-zip-safe",
+    "Lib/site-packages/xlwt-1.3.0-py3.9.egg-info/top_level.txt",
+    "Lib/site-packages/xlwt/BIFFRecords.py",
+    "Lib/site-packages/xlwt/Bitmap.py",
+    "Lib/site-packages/xlwt/Cell.py",
+    "Lib/site-packages/xlwt/Column.py",
+    "Lib/site-packages/xlwt/CompoundDoc.py",
+    "Lib/site-packages/xlwt/ExcelFormula.py",
+    "Lib/site-packages/xlwt/ExcelFormulaLexer.py",
+    "Lib/site-packages/xlwt/ExcelFormulaParser.py",
+    "Lib/site-packages/xlwt/ExcelMagic.py",
+    "Lib/site-packages/xlwt/Formatting.py",
+    "Lib/site-packages/xlwt/Row.py",
+    "Lib/site-packages/xlwt/Style.py",
+    "Lib/site-packages/xlwt/UnicodeUtils.py",
+    "Lib/site-packages/xlwt/Utils.py",
+    "Lib/site-packages/xlwt/Workbook.py",
+    "Lib/site-packages/xlwt/Worksheet.py",
+    "Lib/site-packages/xlwt/__init__.py",
+    "Lib/site-packages/xlwt/__pycache__/BIFFRecords.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/Bitmap.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/Cell.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/Column.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/CompoundDoc.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/ExcelFormula.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/ExcelFormulaLexer.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/ExcelFormulaParser.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/ExcelMagic.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/Formatting.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/Row.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/Style.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/UnicodeUtils.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/Utils.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/Workbook.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/Worksheet.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/antlr.cpython-39.pyc",
+    "Lib/site-packages/xlwt/__pycache__/compat.cpython-39.pyc",
+    "Lib/site-packages/xlwt/antlr.py",
+    "Lib/site-packages/xlwt/compat.py",
+    "Lib/site-packages/xlwt/excel-formula.g",
+    ".nonadmin"
+  ],
+  "fn": "xlwt-1.3.0-py39haa95532_0.conda",
+  "license": "BSD",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\xlwt-1.3.0-py39haa95532_0",
+    "type": 1
+  },
+  "md5": "b068c0983e1728d74de46b7da0842be7",
+  "name": "xlwt",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\xlwt-1.3.0-py39haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/xlwt-1.3.0-py3.9.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "ac98a4bc5e22151a53df5eea1104c76329b64ad32110073518eb43fa813b19db",
+        "sha256_in_prefix": "ac98a4bc5e22151a53df5eea1104c76329b64ad32110073518eb43fa813b19db",
+        "size_in_bytes": 4328
+      },
+      {
+        "_path": "Lib/site-packages/xlwt-1.3.0-py3.9.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "c2c77d276c24ac5b4dafea1cc1dd1f4b15f4380126a475eac2f60c1b83d35552",
+        "sha256_in_prefix": "c2c77d276c24ac5b4dafea1cc1dd1f4b15f4380126a475eac2f60c1b83d35552",
+        "size_in_bytes": 1889
+      },
+      {
+        "_path": "Lib/site-packages/xlwt-1.3.0-py3.9.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/xlwt-1.3.0-py3.9.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/xlwt-1.3.0-py3.9.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3e83eb31e817fee729c5f1332e70b8f33c2a099e4783f75dd9124fc9eb715de3",
+        "sha256_in_prefix": "3e83eb31e817fee729c5f1332e70b8f33c2a099e4783f75dd9124fc9eb715de3",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/BIFFRecords.py",
+        "path_type": "hardlink",
+        "sha256": "e3499133815c9b25f9e841388719ca6b68385fea8cf2e93605a7a880888aaba3",
+        "sha256_in_prefix": "e3499133815c9b25f9e841388719ca6b68385fea8cf2e93605a7a880888aaba3",
+        "size_in_bytes": 97384
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/Bitmap.py",
+        "path_type": "hardlink",
+        "sha256": "91181cefdf170e33903b8d32ff59749c0190f0663cfa9fbdef001c9a4493b358",
+        "sha256_in_prefix": "91181cefdf170e33903b8d32ff59749c0190f0663cfa9fbdef001c9a4493b358",
+        "size_in_bytes": 10930
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/Cell.py",
+        "path_type": "hardlink",
+        "sha256": "2ab9e68a6da2d5831d58783ce10993aad4aaef94d816ab0feee2d5ba71946754",
+        "sha256_in_prefix": "2ab9e68a6da2d5831d58783ce10993aad4aaef94d816ab0feee2d5ba71946754",
+        "size_in_bytes": 8559
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/Column.py",
+        "path_type": "hardlink",
+        "sha256": "1120ee58f85ea7a7a9e37415d6fee5922e12c1cfd4d6f28183c79d810a72dc9b",
+        "sha256_in_prefix": "1120ee58f85ea7a7a9e37415d6fee5922e12c1cfd4d6f28183c79d810a72dc9b",
+        "size_in_bytes": 1510
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/CompoundDoc.py",
+        "path_type": "hardlink",
+        "sha256": "db838645160d4aeee4e1971f2de977fc6b95d199b8ab37b53e83d703a99db8a9",
+        "sha256_in_prefix": "db838645160d4aeee4e1971f2de977fc6b95d199b8ab37b53e83d703a99db8a9",
+        "size_in_bytes": 9931
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/ExcelFormula.py",
+        "path_type": "hardlink",
+        "sha256": "997bf3e06cdaa6af7fa0cb2e3aa05ee437986bd1ef7136c5a011696e076b83ca",
+        "sha256_in_prefix": "997bf3e06cdaa6af7fa0cb2e3aa05ee437986bd1ef7136c5a011696e076b83ca",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/ExcelFormulaLexer.py",
+        "path_type": "hardlink",
+        "sha256": "69594a973b718ecf52b74d0129ae116469a0f27fe26ef4798cce6819a2857e7e",
+        "sha256_in_prefix": "69594a973b718ecf52b74d0129ae116469a0f27fe26ef4798cce6819a2857e7e",
+        "size_in_bytes": 4197
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/ExcelFormulaParser.py",
+        "path_type": "hardlink",
+        "sha256": "a185579c974359513c03260ea6d7f7e73309096fc6146b45acb4e7f22cd42397",
+        "sha256_in_prefix": "a185579c974359513c03260ea6d7f7e73309096fc6146b45acb4e7f22cd42397",
+        "size_in_bytes": 22209
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/ExcelMagic.py",
+        "path_type": "hardlink",
+        "sha256": "22289ee1cad1b1630da0a8815da6e3a51122ce64a0e2f889bd59701e498ea3ac",
+        "sha256_in_prefix": "22289ee1cad1b1630da0a8815da6e3a51122ce64a0e2f889bd59701e498ea3ac",
+        "size_in_bytes": 28839
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/Formatting.py",
+        "path_type": "hardlink",
+        "sha256": "8a6e75a83b9ecb7da17990546f2f72bf39b43330a40ef75272e9cd62b20f0114",
+        "sha256_in_prefix": "8a6e75a83b9ecb7da17990546f2f72bf39b43330a40ef75272e9cd62b20f0114",
+        "size_in_bytes": 8542
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/Row.py",
+        "path_type": "hardlink",
+        "sha256": "c8f63c3de93afd7bceb56a9ff8bb8b6509705301a86365a241253d839d020f8a",
+        "sha256_in_prefix": "c8f63c3de93afd7bceb56a9ff8bb8b6509705301a86365a241253d839d020f8a",
+        "size_in_bytes": 11732
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/Style.py",
+        "path_type": "hardlink",
+        "sha256": "c81a2f343300ab09d3d336cb1999641f1dbcc9f9c8696c46c6f9d0337099d898",
+        "sha256_in_prefix": "c81a2f343300ab09d3d336cb1999641f1dbcc9f9c8696c46c6f9d0337099d898",
+        "size_in_bytes": 23716
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/UnicodeUtils.py",
+        "path_type": "hardlink",
+        "sha256": "18a099b37fb48282e9e39fd4653f89548a05410326415786d711c9be4747342b",
+        "sha256_in_prefix": "18a099b37fb48282e9e39fd4653f89548a05410326415786d711c9be4747342b",
+        "size_in_bytes": 5033
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/Utils.py",
+        "path_type": "hardlink",
+        "sha256": "c09bd11208d780c3ce5e375886b21a3973a675dd56e113c05823185120a053c4",
+        "sha256_in_prefix": "c09bd11208d780c3ce5e375886b21a3973a675dd56e113c05823185120a053c4",
+        "size_in_bytes": 5150
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/Workbook.py",
+        "path_type": "hardlink",
+        "sha256": "87bcb60dfc8b78ae391cedffb0cbb32a9fffe5b33d561fedbab62ef7c016a0b9",
+        "sha256_in_prefix": "87bcb60dfc8b78ae391cedffb0cbb32a9fffe5b33d561fedbab62ef7c016a0b9",
+        "size_in_bytes": 23632
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/Worksheet.py",
+        "path_type": "hardlink",
+        "sha256": "e8111d56230088c6a8f5f7be982bd997448f7f0fa879d690a572054315307b0e",
+        "sha256_in_prefix": "e8111d56230088c6a8f5f7be982bd997448f7f0fa879d690a572054315307b0e",
+        "size_in_bytes": 47776
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aeb71ac4bbb6718d4cd1072cd6d373c75fff10ba1f76dba70a500c01b18c5a45",
+        "sha256_in_prefix": "aeb71ac4bbb6718d4cd1072cd6d373c75fff10ba1f76dba70a500c01b18c5a45",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/BIFFRecords.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc77fec31e660630329af29e1a855624d87318d5b468f753ae20d2f90e76eea1",
+        "sha256_in_prefix": "bc77fec31e660630329af29e1a855624d87318d5b468f753ae20d2f90e76eea1",
+        "size_in_bytes": 101397
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/Bitmap.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "064c98466278659d98284c04f2388e367c240acfaa13b74d541078678b2ae614",
+        "sha256_in_prefix": "064c98466278659d98284c04f2388e367c240acfaa13b74d541078678b2ae614",
+        "size_in_bytes": 7101
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/Cell.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d1a79271e7e1c33303bb78d03b52ee59a0db66e00c8e6e034b9723e1006174da",
+        "sha256_in_prefix": "d1a79271e7e1c33303bb78d03b52ee59a0db66e00c8e6e034b9723e1006174da",
+        "size_in_bytes": 6098
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/Column.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8709603c1428b29d3c9899001d5bdca7fc765fdd67bf084e1ee081f472b19699",
+        "sha256_in_prefix": "8709603c1428b29d3c9899001d5bdca7fc765fdd67bf084e1ee081f472b19699",
+        "size_in_bytes": 1907
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/CompoundDoc.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ac9126e4162053725029fe015b0896c5d0a0ec34d4f9e63832d99303bd928de",
+        "sha256_in_prefix": "5ac9126e4162053725029fe015b0896c5d0a0ec34d4f9e63832d99303bd928de",
+        "size_in_bytes": 4466
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/ExcelFormula.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "21a0290cdaecdc79f65880d16901f64628473d43a9d45b371ad9a89cc8f38d56",
+        "sha256_in_prefix": "21a0290cdaecdc79f65880d16901f64628473d43a9d45b371ad9a89cc8f38d56",
+        "size_in_bytes": 1858
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/ExcelFormulaLexer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "80ad3e54b5c8873e3fb103079c39d8df495d9f6d3956dc7b79af024714d10175",
+        "sha256_in_prefix": "80ad3e54b5c8873e3fb103079c39d8df495d9f6d3956dc7b79af024714d10175",
+        "size_in_bytes": 3776
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/ExcelFormulaParser.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "efef73fbd042fd92c3db48fc1099d7118c514781e6e0ccabd780ca77c7c4aeb8",
+        "sha256_in_prefix": "efef73fbd042fd92c3db48fc1099d7118c514781e6e0ccabd780ca77c7c4aeb8",
+        "size_in_bytes": 11447
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/ExcelMagic.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1bb6e9817c16d2c726a398c34bba38679d07c76117894789b49ddee154979e0c",
+        "sha256_in_prefix": "1bb6e9817c16d2c726a398c34bba38679d07c76117894789b49ddee154979e0c",
+        "size_in_bytes": 21385
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/Formatting.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "07e43e6e35ef9e2235cc6c4631f6fc33d48660b7b7f91262b44b49974e739dee",
+        "sha256_in_prefix": "07e43e6e35ef9e2235cc6c4631f6fc33d48660b7b7f91262b44b49974e739dee",
+        "size_in_bytes": 7494
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/Row.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "787822c7d94188853dac31ff48c728527a6266d8475b188180fdd321c1ce6023",
+        "sha256_in_prefix": "787822c7d94188853dac31ff48c728527a6266d8475b188180fdd321c1ce6023",
+        "size_in_bytes": 9389
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/Style.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bdeea58451e5c9c5dfdb68da99354a5727c420606de23f2e5497a2752b5a335b",
+        "sha256_in_prefix": "bdeea58451e5c9c5dfdb68da99354a5727c420606de23f2e5497a2752b5a335b",
+        "size_in_bytes": 16078
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/UnicodeUtils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e60170c2592e31e00f85191fdaf28f55a7911db79807ecf693a41592d5e6a5f",
+        "sha256_in_prefix": "7e60170c2592e31e00f85191fdaf28f55a7911db79807ecf693a41592d5e6a5f",
+        "size_in_bytes": 3738
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/Utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9dc08e85116f7cb69374da446dd421145d48cf24b58c7faa41b3cbc51f0f693c",
+        "sha256_in_prefix": "9dc08e85116f7cb69374da446dd421145d48cf24b58c7faa41b3cbc51f0f693c",
+        "size_in_bytes": 4133
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/Workbook.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7134ec5da70f7be350c2a343a77c8cf21dca996254784a2054bf8c8d106ec411",
+        "sha256_in_prefix": "7134ec5da70f7be350c2a343a77c8cf21dca996254784a2054bf8c8d106ec411",
+        "size_in_bytes": 22738
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/Worksheet.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f393bf842ecec08b8f2b58937a77534fd6af21cca9a755c7c6cca82335a3d626",
+        "sha256_in_prefix": "f393bf842ecec08b8f2b58937a77534fd6af21cca9a755c7c6cca82335a3d626",
+        "size_in_bytes": 41808
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe87eb559a63f1dabb3f9bbd81ff3e9604cba99477f37e6376cf7b5bf643b8f1",
+        "sha256_in_prefix": "fe87eb559a63f1dabb3f9bbd81ff3e9604cba99477f37e6376cf7b5bf643b8f1",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/antlr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a5dc71e0706d4ff31d78b2635b1bedcee0eab3e21778ece1b2282b95c42c2ca",
+        "sha256_in_prefix": "3a5dc71e0706d4ff31d78b2635b1bedcee0eab3e21778ece1b2282b95c42c2ca",
+        "size_in_bytes": 75664
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/__pycache__/compat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae799e30337f8d503e7bc259e2d61e742996ebf776eb7490a72c8c2188806a0c",
+        "sha256_in_prefix": "ae799e30337f8d503e7bc259e2d61e742996ebf776eb7490a72c8c2188806a0c",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/antlr.py",
+        "path_type": "hardlink",
+        "sha256": "58a0f1d1c1aea1e7f11a6b8a108e901614282e16bf6b265a803791ac22fff2ed",
+        "sha256_in_prefix": "58a0f1d1c1aea1e7f11a6b8a108e901614282e16bf6b265a803791ac22fff2ed",
+        "size_in_bytes": 84153
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/compat.py",
+        "path_type": "hardlink",
+        "sha256": "1c372de749b14a5ed77d560f8b73ea7d2e6e6fe6dc8d3bed3ee06366717cb0da",
+        "sha256_in_prefix": "1c372de749b14a5ed77d560f8b73ea7d2e6e6fe6dc8d3bed3ee06366717cb0da",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "Lib/site-packages/xlwt/excel-formula.g",
+        "path_type": "hardlink",
+        "sha256": "177bd4f20412773efef6a88123e1ba6b1f5167b01af9eab595a323e73c679fb1",
+        "sha256_in_prefix": "177bd4f20412773efef6a88123e1ba6b1f5167b01af9eab595a323e73c679fb1",
+        "size_in_bytes": 11337
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "defaults/win-64::xlwt==1.3.0=py39haa95532_0",
+  "sha256": "90a29b5a44da93b6dbc4371be2ea3b57abd6cb1fd32aa08602f793f30991add8",
+  "size": 163997,
+  "subdir": "win-64",
+  "timestamp": 1607542844478,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/xlwt-1.3.0-py39haa95532_0.conda",
+  "version": "1.3.0"
+}

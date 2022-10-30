@@ -1,0 +1,92 @@
+.rendered_html * + table.notebook {
+    margin-top: 0px !important;
+}
+
+table.notebook {
+    table-layout: fixed;
+    width: 80%;
+    border-spacing: 2px !important;
+    border-collapse: unset !important;
+    text-align: left !important;
+}
+
+table.notebook th {
+    display: table-cell;
+    font-weight: bold;
+    line-height: 1.75rem !important;
+    color: #2b2b2b;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem !important;
+    max-width: 80ch;
+    overflow: hidden;
+    background-color: #dfdfdf;
+    text-align: left !important;
+}
+
+table.notebook td {
+    display: table-cell;
+    line-height: 1.75rem !important;
+    color: #4a4a4a;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem !important;
+    word-break: break-all !important;
+    max-width: 80ch;
+    text-align: left !important;
+}
+
+table.notebook thead tr, table.notebook thead tr th {
+    background-color: #dfdfdf;
+}
+
+table.notebook tr, table.notebook tr td {
+    background-color: #f6f8f8;
+}
+
+table.notebook tr:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+table.notebook tr:nth-child(even) td {
+    background-color: #ebebeb;
+}
+
+.title {
+    font-weight: bold;
+    color: #2b2b2b;
+    font-family: sans-serif;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.subtitle {
+    font-weight: bold;
+    color: #2b2b2b;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-top: 5px;
+    padding-left: 14px;
+    padding-bottom: 5px;
+}
+
+.chevron-open {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA0SURBVHgBzYsxDgAABAP9nJ9jMIgQ3WjS6e6I3o7jMBe/DhEHkwq6aJS7aJVrBMk5guXjGUF5Ee8pnpQRAAAAAElFTkSuQmCC");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-right: 2px;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 4px;
+}
+
+
+.chevron-closed {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA/SURBVHgBxY3BCQAgDAOjuHfr5NVHHiKoAREPQinkCHCJMUvK9KdBqBDxnsBh6Z2UN0LwJggYBf9bBotyWaIBw2cP+jbr35sAAAAASUVORK5CYII=");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-right: 2px;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 4px;
+}

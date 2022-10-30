@@ -1,0 +1,72 @@
+{
+  "arch": "x86_64",
+  "build": "py39_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [
+    "mpmath >=0.19",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\sympy-1.9-py39_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/sympy-1.9-py3.9.egg",
+    "Lib/site-packages/sympy.pth",
+    "Scripts/isympy-script.py",
+    "Scripts/isympy.exe",
+    ".nonadmin"
+  ],
+  "fn": "sympy-1.9-py39_1.tar.bz2",
+  "license": "3-clause BSD",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\sympy-1.9-py39_1",
+    "type": 1
+  },
+  "md5": "728aefa62016185a5db00cbbe56d16ab",
+  "name": "sympy",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\sympy-1.9-py39_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/sympy-1.9-py3.9.egg",
+        "path_type": "hardlink",
+        "sha256": "42016b5bb91fdae57d8c3c65deb02b07edcc08562cf37d0d9fff1e970e7fd211",
+        "sha256_in_prefix": "42016b5bb91fdae57d8c3c65deb02b07edcc08562cf37d0d9fff1e970e7fd211",
+        "size_in_bytes": 6157514
+      },
+      {
+        "_path": "Lib/site-packages/sympy.pth",
+        "path_type": "hardlink",
+        "sha256": "3c8f727ca0c728da6158aa0f450da2846c2142cab2eb6f933cecbe16a777e6e8",
+        "sha256_in_prefix": "3c8f727ca0c728da6158aa0f450da2846c2142cab2eb6f933cecbe16a777e6e8",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "Scripts/isympy-script.py",
+        "path_type": "hardlink",
+        "sha256": "e62204e106bdef7d99fa9deeeaedaf06d45867a39dddad1f76b26a14dab011fe",
+        "sha256_in_prefix": "e62204e106bdef7d99fa9deeeaedaf06d45867a39dddad1f76b26a14dab011fe",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "Scripts/isympy.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::sympy==1.9=py39_1",
+  "sha256": "87ca1349df79b54312a93fb23e24d591ba8559c68652c8eacf5bceff17b7b29f",
+  "size": 6057571,
+  "subdir": "win-64",
+  "timestamp": 1643823191339,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/sympy-1.9-py39_1.tar.bz2",
+  "version": "1.9"
+}

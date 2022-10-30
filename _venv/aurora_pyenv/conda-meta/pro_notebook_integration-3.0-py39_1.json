@@ -1,0 +1,497 @@
+{
+  "arch": "x86_64",
+  "build": "py39_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [
+    "arcgispro 3.0.*",
+    "notebook",
+    "python >=3.9,<3.10.0a0",
+    "tornado"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\pro_notebook_integration-3.0-py39_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pro_notebook_integration-2.5.dist-info/INSTALLER",
+    "Lib/site-packages/pro_notebook_integration-2.5.dist-info/METADATA",
+    "Lib/site-packages/pro_notebook_integration-2.5.dist-info/RECORD",
+    "Lib/site-packages/pro_notebook_integration-2.5.dist-info/REQUESTED",
+    "Lib/site-packages/pro_notebook_integration-2.5.dist-info/WHEEL",
+    "Lib/site-packages/pro_notebook_integration-2.5.dist-info/direct_url.json",
+    "Lib/site-packages/pro_notebook_integration-2.5.dist-info/top_level.txt",
+    "Lib/site-packages/pro_notebook_integration/__init__.py",
+    "Lib/site-packages/pro_notebook_integration/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/__pycache__/handlers.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/client/__init__.py",
+    "Lib/site-packages/pro_notebook_integration/client/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/client/__pycache__/kernelspec.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/client/kernelspec.py",
+    "Lib/site-packages/pro_notebook_integration/handlers.py",
+    "Lib/site-packages/pro_notebook_integration/services/__init__.py",
+    "Lib/site-packages/pro_notebook_integration/services/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/services/config/__init__.py",
+    "Lib/site-packages/pro_notebook_integration/services/config/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/services/config/__pycache__/manager.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/services/config/manager.py",
+    "Lib/site-packages/pro_notebook_integration/services/contents/ProCheckpoints.py",
+    "Lib/site-packages/pro_notebook_integration/services/contents/__init__.py",
+    "Lib/site-packages/pro_notebook_integration/services/contents/__pycache__/ProCheckpoints.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/services/contents/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/services/contents/__pycache__/largefilemanager.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/services/contents/largefilemanager.py",
+    "Lib/site-packages/pro_notebook_integration/services/kernels/__init__.py",
+    "Lib/site-packages/pro_notebook_integration/services/kernels/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/services/kernels/__pycache__/kernelmanager.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/services/kernels/kernelmanager.py",
+    "Lib/site-packages/pro_notebook_integration/utils/__init__.py",
+    "Lib/site-packages/pro_notebook_integration/utils/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/utils/__pycache__/connection.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/utils/__pycache__/launcher.cpython-39.pyc",
+    "Lib/site-packages/pro_notebook_integration/utils/connection.py",
+    "Lib/site-packages/pro_notebook_integration/utils/launcher.py",
+    "share/jupyter/kernels/ArcGISPro/dark/custom.css",
+    "share/jupyter/kernels/ArcGISPro/dark/custom.js",
+    "share/jupyter/kernels/ArcGISPro/dark/images/chevron-down-16-h16-dark.svg",
+    "share/jupyter/kernels/ArcGISPro/dark/images/chevron-down-16-h4-dark.svg",
+    "share/jupyter/kernels/ArcGISPro/dark/images/chevron-left-16-h16-dark.svg",
+    "share/jupyter/kernels/ArcGISPro/dark/images/chevron-left-16-h4-dark.svg",
+    "share/jupyter/kernels/ArcGISPro/dark/images/chevron-right-16-h16-dark.svg",
+    "share/jupyter/kernels/ArcGISPro/dark/images/chevron-right-16-h4-dark.svg",
+    "share/jupyter/kernels/ArcGISPro/dark/messages.css",
+    "share/jupyter/kernels/ArcGISPro/dark/messages.js",
+    "share/jupyter/kernels/ArcGISPro/default/custom.css",
+    "share/jupyter/kernels/ArcGISPro/default/custom.js",
+    "share/jupyter/kernels/ArcGISPro/default/images/chevron-down-16-h16.svg",
+    "share/jupyter/kernels/ArcGISPro/default/images/chevron-down-16-h4.svg",
+    "share/jupyter/kernels/ArcGISPro/default/images/chevron-left-16-h16.svg",
+    "share/jupyter/kernels/ArcGISPro/default/images/chevron-left-16-h4.svg",
+    "share/jupyter/kernels/ArcGISPro/default/images/chevron-right-16-h16.svg",
+    "share/jupyter/kernels/ArcGISPro/default/images/chevron-right-16-h4.svg",
+    "share/jupyter/kernels/ArcGISPro/default/messages.css",
+    "share/jupyter/kernels/ArcGISPro/default/messages.js",
+    ".nonadmin"
+  ],
+  "fn": "pro_notebook_integration-3.0-py39_1.tar.bz2",
+  "license": "Apache 2.0",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\pro_notebook_integration-3.0-py39_1",
+    "type": 1
+  },
+  "md5": "ac80d9a350d3b44114630a75726870cc",
+  "name": "pro_notebook_integration",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\pro_notebook_integration-3.0-py39_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration-2.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration-2.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "20f6e775687fa232e7be12448fb8a1c4580abf3afd4974252635636e48c313be",
+        "sha256_in_prefix": "20f6e775687fa232e7be12448fb8a1c4580abf3afd4974252635636e48c313be",
+        "size_in_bytes": 244
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration-2.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d4aa3006b63d2c426adc376062570b7425552d468ddba0262c58c26e991b562f",
+        "sha256_in_prefix": "d4aa3006b63d2c426adc376062570b7425552d468ddba0262c58c26e991b562f",
+        "size_in_bytes": 3395
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration-2.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration-2.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration-2.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a891a7e115696f648414c04ca10f01862e49fb325a6d97e9ebc27622ee19f1ef",
+        "sha256_in_prefix": "a891a7e115696f648414c04ca10f01862e49fb325a6d97e9ebc27622ee19f1ef",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration-2.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b4558d5d4acc2c9111fb81216fc90257fccb31f7ac00557e394aaa5903057869",
+        "sha256_in_prefix": "b4558d5d4acc2c9111fb81216fc90257fccb31f7ac00557e394aaa5903057869",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5c00cef6b9054d7b59e9c0bee507eae808f8160b172fa5d94a3af07574d5807f",
+        "sha256_in_prefix": "5c00cef6b9054d7b59e9c0bee507eae808f8160b172fa5d94a3af07574d5807f",
+        "size_in_bytes": 272
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc74906b4ca4f1e6bbc1370af2a53f0061000694399e064d7ed9badfc5788ebb",
+        "sha256_in_prefix": "fc74906b4ca4f1e6bbc1370af2a53f0061000694399e064d7ed9badfc5788ebb",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/__pycache__/handlers.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ba49ed3fce578ae8c116d979cf642094f032a97d5fefe990e6847a9ed467dcd",
+        "sha256_in_prefix": "7ba49ed3fce578ae8c116d979cf642094f032a97d5fefe990e6847a9ed467dcd",
+        "size_in_bytes": 4283
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/client/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/client/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "faf0a4bf253e3ebcb8fdc370edeadd3b5bbe6a89d0fa2e9328b5f421ed3a58fb",
+        "sha256_in_prefix": "faf0a4bf253e3ebcb8fdc370edeadd3b5bbe6a89d0fa2e9328b5f421ed3a58fb",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/client/__pycache__/kernelspec.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "95e748ebd730b5d91f596f0d69bb8326b623e11661df5c6d94254e0ac3c20c62",
+        "sha256_in_prefix": "95e748ebd730b5d91f596f0d69bb8326b623e11661df5c6d94254e0ac3c20c62",
+        "size_in_bytes": 1552
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/client/kernelspec.py",
+        "path_type": "hardlink",
+        "sha256": "48e853e551ffb20286273565983efc85b3c4726cd3d241441f58d6e752618134",
+        "sha256_in_prefix": "48e853e551ffb20286273565983efc85b3c4726cd3d241441f58d6e752618134",
+        "size_in_bytes": 1192
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "ca1b0745acf650e316aed2454bdb5b4dcce8b210c32cf4cd58e4cda781e6e001",
+        "sha256_in_prefix": "ca1b0745acf650e316aed2454bdb5b4dcce8b210c32cf4cd58e4cda781e6e001",
+        "size_in_bytes": 5137
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d739cc773da09f490d91cd704d45624e133caf459b716b2536183206c0c504f0",
+        "sha256_in_prefix": "d739cc773da09f490d91cd704d45624e133caf459b716b2536183206c0c504f0",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/config/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/config/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "181d54ce9e6f654018e54f436a15b052b5e73d8cf6570ceab1bca66e387baffd",
+        "sha256_in_prefix": "181d54ce9e6f654018e54f436a15b052b5e73d8cf6570ceab1bca66e387baffd",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/config/__pycache__/manager.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec22f2c24bbbb58d02bedc9984f236039e127ae2bcee26d88968937fd653f212",
+        "sha256_in_prefix": "ec22f2c24bbbb58d02bedc9984f236039e127ae2bcee26d88968937fd653f212",
+        "size_in_bytes": 2646
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/config/manager.py",
+        "path_type": "hardlink",
+        "sha256": "410af9e91bddea6c850c1fca3755bfad111b3bc374f16f74eedac4a2bf6d27d2",
+        "sha256_in_prefix": "410af9e91bddea6c850c1fca3755bfad111b3bc374f16f74eedac4a2bf6d27d2",
+        "size_in_bytes": 2059
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/contents/ProCheckpoints.py",
+        "path_type": "hardlink",
+        "sha256": "ab45820bfa65ea2fe3785cba736fbb20822ca46e6f562958c7876624e5498de7",
+        "sha256_in_prefix": "ab45820bfa65ea2fe3785cba736fbb20822ca46e6f562958c7876624e5498de7",
+        "size_in_bytes": 4529
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/contents/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/contents/__pycache__/ProCheckpoints.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "02fde9e64f84a619216cb3118e22356ae74506c0fe5bdbab81b150c786deafbc",
+        "sha256_in_prefix": "02fde9e64f84a619216cb3118e22356ae74506c0fe5bdbab81b150c786deafbc",
+        "size_in_bytes": 4454
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/contents/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "da118ddc3a1e6d5b5ea914b3334ba72fba5e7386b93fdeef24999873021c0c25",
+        "sha256_in_prefix": "da118ddc3a1e6d5b5ea914b3334ba72fba5e7386b93fdeef24999873021c0c25",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/contents/__pycache__/largefilemanager.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "db0e108d236e1583d9864d263f1dabd26a8ab7254fc73419aa03c46e053dbe75",
+        "sha256_in_prefix": "db0e108d236e1583d9864d263f1dabd26a8ab7254fc73419aa03c46e053dbe75",
+        "size_in_bytes": 6892
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/contents/largefilemanager.py",
+        "path_type": "hardlink",
+        "sha256": "68fe72b3059a1b2a41ee6ad1d62f99852c9c62cdb1bd48edaa1ce28f41fcad54",
+        "sha256_in_prefix": "68fe72b3059a1b2a41ee6ad1d62f99852c9c62cdb1bd48edaa1ce28f41fcad54",
+        "size_in_bytes": 8501
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/kernels/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/kernels/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "aea0f897ad0d0613a6d4875d4088ab1f75cbdb9b6f62d531e6fe5ef2f30bfa44",
+        "sha256_in_prefix": "aea0f897ad0d0613a6d4875d4088ab1f75cbdb9b6f62d531e6fe5ef2f30bfa44",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/kernels/__pycache__/kernelmanager.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd3082224d46afa4f32994489554e3e5bcbe10ebdac271cba604fd534752b692",
+        "sha256_in_prefix": "bd3082224d46afa4f32994489554e3e5bcbe10ebdac271cba604fd534752b692",
+        "size_in_bytes": 20867
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/services/kernels/kernelmanager.py",
+        "path_type": "hardlink",
+        "sha256": "4ad1995a8f2ef2d57d5256568819cd5e31c84846b1236a4f5c442d8461ab0610",
+        "sha256_in_prefix": "4ad1995a8f2ef2d57d5256568819cd5e31c84846b1236a4f5c442d8461ab0610",
+        "size_in_bytes": 25594
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "29f6872cd9fb8d62f0153cb7c7f975e9b5c9dcb39f202b8f8b77bf1e074dbcc7",
+        "sha256_in_prefix": "29f6872cd9fb8d62f0153cb7c7f975e9b5c9dcb39f202b8f8b77bf1e074dbcc7",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/utils/__pycache__/connection.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "721b044202cb3de4ece8ac0bd5cc902ad223b7a62fe9048e4fe71c3e052035b6",
+        "sha256_in_prefix": "721b044202cb3de4ece8ac0bd5cc902ad223b7a62fe9048e4fe71c3e052035b6",
+        "size_in_bytes": 1397
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/utils/__pycache__/launcher.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "46b91d2d7a61f483cb56f334a6cf5fe5be79128fb002991ce1570390366fc705",
+        "sha256_in_prefix": "46b91d2d7a61f483cb56f334a6cf5fe5be79128fb002991ce1570390366fc705",
+        "size_in_bytes": 2626
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/utils/connection.py",
+        "path_type": "hardlink",
+        "sha256": "d903ffd237f2ed4357e3bbd165d852c7ef9ddebdfeaccc5ba9a0858754abc6dd",
+        "sha256_in_prefix": "d903ffd237f2ed4357e3bbd165d852c7ef9ddebdfeaccc5ba9a0858754abc6dd",
+        "size_in_bytes": 873
+      },
+      {
+        "_path": "Lib/site-packages/pro_notebook_integration/utils/launcher.py",
+        "path_type": "hardlink",
+        "sha256": "7c95310e31c2de36240f3b61f18b120b8e66a678f5493f5e2bfe94ad18754649",
+        "sha256_in_prefix": "7c95310e31c2de36240f3b61f18b120b8e66a678f5493f5e2bfe94ad18754649",
+        "size_in_bytes": 2541
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/dark/custom.css",
+        "path_type": "hardlink",
+        "sha256": "af42cdf3e47e3c05b27bc49d49a6506357d86eea6c0e14f1f60bfe613fe55070",
+        "sha256_in_prefix": "af42cdf3e47e3c05b27bc49d49a6506357d86eea6c0e14f1f60bfe613fe55070",
+        "size_in_bytes": 16459
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/dark/custom.js",
+        "path_type": "hardlink",
+        "sha256": "9442d45f8b8a58ab63e03aeb431679575eba16875769e5a0958fd6f71f4f1efb",
+        "sha256_in_prefix": "9442d45f8b8a58ab63e03aeb431679575eba16875769e5a0958fd6f71f4f1efb",
+        "size_in_bytes": 5763
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/dark/images/chevron-down-16-h16-dark.svg",
+        "path_type": "hardlink",
+        "sha256": "e2fc2a1d7f509659b4aa12b98140dea1dac966608a8b1fa854265526ee9a216e",
+        "sha256_in_prefix": "e2fc2a1d7f509659b4aa12b98140dea1dac966608a8b1fa854265526ee9a216e",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/dark/images/chevron-down-16-h4-dark.svg",
+        "path_type": "hardlink",
+        "sha256": "6bf122e2c4614acc1129355bc8d11ec6941e2a633857157285e93286e3330553",
+        "sha256_in_prefix": "6bf122e2c4614acc1129355bc8d11ec6941e2a633857157285e93286e3330553",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/dark/images/chevron-left-16-h16-dark.svg",
+        "path_type": "hardlink",
+        "sha256": "6d4419d46e60be738d97d882c04c111d2681aa41bd1ce70e06c61629f5a86005",
+        "sha256_in_prefix": "6d4419d46e60be738d97d882c04c111d2681aa41bd1ce70e06c61629f5a86005",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/dark/images/chevron-left-16-h4-dark.svg",
+        "path_type": "hardlink",
+        "sha256": "c802a966d2bac38d331ca660f823b414f0776e5df19213ae1e3444a37ec5dbae",
+        "sha256_in_prefix": "c802a966d2bac38d331ca660f823b414f0776e5df19213ae1e3444a37ec5dbae",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/dark/images/chevron-right-16-h16-dark.svg",
+        "path_type": "hardlink",
+        "sha256": "52283ef8ff842cd094d3228bc7b09baadf82ac8387ce6d2a18f469bd41e4903d",
+        "sha256_in_prefix": "52283ef8ff842cd094d3228bc7b09baadf82ac8387ce6d2a18f469bd41e4903d",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/dark/images/chevron-right-16-h4-dark.svg",
+        "path_type": "hardlink",
+        "sha256": "f7eb547a46a5ad8a413eb032391d7312322eb2b3fcda61948ba6b429695a52d3",
+        "sha256_in_prefix": "f7eb547a46a5ad8a413eb032391d7312322eb2b3fcda61948ba6b429695a52d3",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/dark/messages.css",
+        "path_type": "hardlink",
+        "sha256": "90114e3d3edfcd089d5de19aeef708a165de204b01f857fbbc3c642549e1c6df",
+        "sha256_in_prefix": "90114e3d3edfcd089d5de19aeef708a165de204b01f857fbbc3c642549e1c6df",
+        "size_in_bytes": 7452
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/dark/messages.js",
+        "path_type": "hardlink",
+        "sha256": "7069a58894ca821153f9d3e5e98e8e4cf2214bd73dbd2a4c3432adabde350bcb",
+        "sha256_in_prefix": "7069a58894ca821153f9d3e5e98e8e4cf2214bd73dbd2a4c3432adabde350bcb",
+        "size_in_bytes": 12596
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/default/custom.css",
+        "path_type": "hardlink",
+        "sha256": "61104c1986f24d0d12290e0fc9f8d0998730e61a80ab1b07f2c683b1fb0a29c5",
+        "sha256_in_prefix": "61104c1986f24d0d12290e0fc9f8d0998730e61a80ab1b07f2c683b1fb0a29c5",
+        "size_in_bytes": 5105
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/default/custom.js",
+        "path_type": "hardlink",
+        "sha256": "9442d45f8b8a58ab63e03aeb431679575eba16875769e5a0958fd6f71f4f1efb",
+        "sha256_in_prefix": "9442d45f8b8a58ab63e03aeb431679575eba16875769e5a0958fd6f71f4f1efb",
+        "size_in_bytes": 5763
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/default/images/chevron-down-16-h16.svg",
+        "path_type": "hardlink",
+        "sha256": "45e88a81553cf9c672ec496e39836deee3b23faadbaba70bee173a4daa35f330",
+        "sha256_in_prefix": "45e88a81553cf9c672ec496e39836deee3b23faadbaba70bee173a4daa35f330",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/default/images/chevron-down-16-h4.svg",
+        "path_type": "hardlink",
+        "sha256": "9b6fbc1e746fa2aaefff24063dd950d81a1f4e810c3dd96d8b80d885281b9d65",
+        "sha256_in_prefix": "9b6fbc1e746fa2aaefff24063dd950d81a1f4e810c3dd96d8b80d885281b9d65",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/default/images/chevron-left-16-h16.svg",
+        "path_type": "hardlink",
+        "sha256": "fae02a4b0b80f09b350aa7e86e6ac2b9a1ecca0d4818a2fafa73b72a47d82c98",
+        "sha256_in_prefix": "fae02a4b0b80f09b350aa7e86e6ac2b9a1ecca0d4818a2fafa73b72a47d82c98",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/default/images/chevron-left-16-h4.svg",
+        "path_type": "hardlink",
+        "sha256": "e7ca2cb8069a70a7b254d226802c2ccaf2888ad5f468929091cab926a2bb8e27",
+        "sha256_in_prefix": "e7ca2cb8069a70a7b254d226802c2ccaf2888ad5f468929091cab926a2bb8e27",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/default/images/chevron-right-16-h16.svg",
+        "path_type": "hardlink",
+        "sha256": "0ec1ee241592ac046c536340001ad79a78e4fb99f72fdb05d58ecee5363e9bc6",
+        "sha256_in_prefix": "0ec1ee241592ac046c536340001ad79a78e4fb99f72fdb05d58ecee5363e9bc6",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/default/images/chevron-right-16-h4.svg",
+        "path_type": "hardlink",
+        "sha256": "83a1740aff8e75c8024622ca7a89ec2af6e836907000f57997a7fde569d4b724",
+        "sha256_in_prefix": "83a1740aff8e75c8024622ca7a89ec2af6e836907000f57997a7fde569d4b724",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/default/messages.css",
+        "path_type": "hardlink",
+        "sha256": "ee532d1d2fa174f5c255d2f0ba875e3710538de97efb5f135ac76ba7e196585f",
+        "sha256_in_prefix": "ee532d1d2fa174f5c255d2f0ba875e3710538de97efb5f135ac76ba7e196585f",
+        "size_in_bytes": 7317
+      },
+      {
+        "_path": "share/jupyter/kernels/ArcGISPro/default/messages.js",
+        "path_type": "hardlink",
+        "sha256": "7069a58894ca821153f9d3e5e98e8e4cf2214bd73dbd2a4c3432adabde350bcb",
+        "sha256_in_prefix": "7069a58894ca821153f9d3e5e98e8e4cf2214bd73dbd2a4c3432adabde350bcb",
+        "size_in_bytes": 12596
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::pro_notebook_integration==3.0=py39_1",
+  "sha256": "3734073a33c1f4a952ed6b116740913741d5c3e7aa00b68a88c108ff71845366",
+  "size": 51829,
+  "subdir": "win-64",
+  "timestamp": 1649344567081,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/pro_notebook_integration-3.0-py39_1.tar.bz2",
+  "version": "3.0"
+}

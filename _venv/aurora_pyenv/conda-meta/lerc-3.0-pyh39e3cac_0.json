@@ -1,0 +1,153 @@
+{
+  "build": "pyh39e3cac_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/esri/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "python"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\lerc-3.0-pyh39e3cac_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/lerc-3.0.dist-info/INSTALLER",
+    "Lib/site-packages/lerc-3.0.dist-info/METADATA",
+    "Lib/site-packages/lerc-3.0.dist-info/RECORD",
+    "Lib/site-packages/lerc-3.0.dist-info/REQUESTED",
+    "Lib/site-packages/lerc-3.0.dist-info/WHEEL",
+    "Lib/site-packages/lerc-3.0.dist-info/direct_url.json",
+    "Lib/site-packages/lerc-3.0.dist-info/top_level.txt",
+    "Lib/site-packages/lerc/Lerc.dll",
+    "Lib/site-packages/lerc/Lerc.dylib",
+    "Lib/site-packages/lerc/Lerc.lib",
+    "Lib/site-packages/lerc/Lerc.so",
+    "Lib/site-packages/lerc/__init__.py",
+    "Lib/site-packages/lerc/_lerc.py",
+    ".nonadmin",
+    "Lib/site-packages/lerc/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/lerc/__pycache__/_lerc.cpython-39.pyc"
+  ],
+  "fn": "lerc-3.0-pyh39e3cac_0.tar.bz2",
+  "license": "Apache 2.0",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\lerc-3.0-pyh39e3cac_0",
+    "type": 1
+  },
+  "md5": "c5c26009bbb50136d07c8a2354057098",
+  "name": "lerc",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\lerc-3.0-pyh39e3cac_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/lerc-3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/lerc-3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c91a527c13bca892ae690053ad9ea2ae051adb2cf3a7606041aa1bfc9a6dffb3",
+        "sha256_in_prefix": "c91a527c13bca892ae690053ad9ea2ae051adb2cf3a7606041aa1bfc9a6dffb3",
+        "size_in_bytes": 399
+      },
+      {
+        "_path": "site-packages/lerc-3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3115a07d0a0f907c8075715843f0bc9b4ae0b005798fc7d1a2ab16e19721be71",
+        "sha256_in_prefix": "3115a07d0a0f907c8075715843f0bc9b4ae0b005798fc7d1a2ab16e19721be71",
+        "size_in_bytes": 1057
+      },
+      {
+        "_path": "site-packages/lerc-3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/lerc-3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/lerc-3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "68c095f71e321f16e5b1ea5eeecde08bd28c1938bdc746f44db5c18e27cfaaa9",
+        "sha256_in_prefix": "68c095f71e321f16e5b1ea5eeecde08bd28c1938bdc746f44db5c18e27cfaaa9",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/lerc-3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c61d2cbbcbf71b7d2abbfc78a8262c062755d81e160577815919ab51f66bbb0f",
+        "sha256_in_prefix": "c61d2cbbcbf71b7d2abbfc78a8262c062755d81e160577815919ab51f66bbb0f",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/lerc/Lerc.dll",
+        "path_type": "hardlink",
+        "sha256": "65a49637422873fe7deb7149b914f783b3ef5e99e0d725b92766b076c1a3a08e",
+        "sha256_in_prefix": "65a49637422873fe7deb7149b914f783b3ef5e99e0d725b92766b076c1a3a08e",
+        "size_in_bytes": 400896
+      },
+      {
+        "_path": "site-packages/lerc/Lerc.dylib",
+        "path_type": "hardlink",
+        "sha256": "ac2ce0bab4328eb752fcaa239775da23a709ceb1d7485dd30f6a221e8a35da45",
+        "sha256_in_prefix": "ac2ce0bab4328eb752fcaa239775da23a709ceb1d7485dd30f6a221e8a35da45",
+        "size_in_bytes": 751056
+      },
+      {
+        "_path": "site-packages/lerc/Lerc.lib",
+        "path_type": "hardlink",
+        "sha256": "808c0bf274d2395c08c3977e791325f558ebd55e6c170acf30c2057b12f28a3f",
+        "sha256_in_prefix": "808c0bf274d2395c08c3977e791325f558ebd55e6c170acf30c2057b12f28a3f",
+        "size_in_bytes": 3062
+      },
+      {
+        "_path": "site-packages/lerc/Lerc.so",
+        "path_type": "hardlink",
+        "sha256": "ef2fbdbd3b91774ccb667c0afd4cc4235e1d999da13a4ae1681ea2d730a17f4b",
+        "sha256_in_prefix": "ef2fbdbd3b91774ccb667c0afd4cc4235e1d999da13a4ae1681ea2d730a17f4b",
+        "size_in_bytes": 467392
+      },
+      {
+        "_path": "site-packages/lerc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d759a18512bf75a1a640ee138ced262bf3764c90498dbafa8d254d6f624b5bb6",
+        "sha256_in_prefix": "d759a18512bf75a1a640ee138ced262bf3764c90498dbafa8d254d6f624b5bb6",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "site-packages/lerc/_lerc.py",
+        "path_type": "hardlink",
+        "sha256": "dd13efe63b1a1eda88512d9e0ca3089ed4e57dce4841248c467233e09c5145a4",
+        "sha256_in_prefix": "dd13efe63b1a1eda88512d9e0ca3089ed4e57dce4841248c467233e09c5145a4",
+        "size_in_bytes": 17697
+      },
+      {
+        "_path": "Lib/site-packages/lerc/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lerc/__pycache__/_lerc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "esri/noarch::lerc==3.0=pyh39e3cac_0",
+  "sha256": "5c983986b38a144fe8663da4db0f468b1730caf367b00d3812b5bf40b762456e",
+  "size": 502554,
+  "subdir": "noarch",
+  "timestamp": 1627896503573,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/noarch/lerc-3.0-pyh39e3cac_0.tar.bz2",
+  "version": "3.0"
+}

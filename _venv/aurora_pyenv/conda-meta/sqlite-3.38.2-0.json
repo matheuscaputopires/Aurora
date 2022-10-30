@@ -1,0 +1,79 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\sqlite-3.38.2-0",
+  "features": "",
+  "files": [
+    "Library/bin/sqlite3.dll",
+    "Library/bin/sqlite3.exe",
+    "Library/include/sqlite3.h",
+    "Library/include/sqlite3ext.h",
+    "Library/lib/sqlite3.lib",
+    ".nonadmin"
+  ],
+  "fn": "sqlite-3.38.2-0.tar.bz2",
+  "license": "Public-Domain (http://www.sqlite.org/copyright.html)",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\sqlite-3.38.2-0",
+    "type": 1
+  },
+  "md5": "1dbd5b2ae2697a32da74ef8d6c298aca",
+  "name": "sqlite",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\sqlite-3.38.2-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/sqlite3.dll",
+        "path_type": "hardlink",
+        "sha256": "7e659e84f4ba9d9b3558536a65c706893b13fc11a34bb0990e5fb956fc697708",
+        "sha256_in_prefix": "7e659e84f4ba9d9b3558536a65c706893b13fc11a34bb0990e5fb956fc697708",
+        "size_in_bytes": 1180376
+      },
+      {
+        "_path": "Library/bin/sqlite3.exe",
+        "path_type": "hardlink",
+        "sha256": "469302a58fadbbf59e3229de294ab96eac1c03a2f4bcadc35007feede6fd419a",
+        "sha256_in_prefix": "469302a58fadbbf59e3229de294ab96eac1c03a2f4bcadc35007feede6fd419a",
+        "size_in_bytes": 1402584
+      },
+      {
+        "_path": "Library/include/sqlite3.h",
+        "path_type": "hardlink",
+        "sha256": "6e3f28d054251d186fce2f3355f3f8a3c5e96ea0d3e584a3cec602add2643cc1",
+        "sha256_in_prefix": "6e3f28d054251d186fce2f3355f3f8a3c5e96ea0d3e584a3cec602add2643cc1",
+        "size_in_bytes": 611932
+      },
+      {
+        "_path": "Library/include/sqlite3ext.h",
+        "path_type": "hardlink",
+        "sha256": "03420f3be605407d2e1b0bde81aa4822597f3394f0fdeb8225e57526b0eece22",
+        "sha256_in_prefix": "03420f3be605407d2e1b0bde81aa4822597f3394f0fdeb8225e57526b0eece22",
+        "size_in_bytes": 36750
+      },
+      {
+        "_path": "Library/lib/sqlite3.lib",
+        "path_type": "hardlink",
+        "sha256": "182538240d23d403da3a6f00a88a75d7e05bc5b8794bb9d4c8e11f71d9fc8b85",
+        "sha256_in_prefix": "182538240d23d403da3a6f00a88a75d7e05bc5b8794bb9d4c8e11f71d9fc8b85",
+        "size_in_bytes": 66322
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::sqlite==3.38.2=0",
+  "sha256": "9a1325b7585b60cf5c06addd1b6e67b3f03bf41efed267620279c036c8a1b393",
+  "size": 1231146,
+  "subdir": "win-64",
+  "timestamp": 1651186885643,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/sqlite-3.38.2-0.tar.bz2",
+  "version": "3.38.2"
+}

@@ -1,0 +1,1785 @@
+{
+  "arch": "x86_64",
+  "build": "arcgispro_py39_17119",
+  "build_number": 17119,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [
+    "arcgispro",
+    "numpy",
+    "python 3.9.*",
+    "vc"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\gdal-3.4.0-arcgispro_py39_17119",
+  "features": "arcgispro",
+  "files": [
+    "LICENSE.TXT",
+    "Lib/site-packages/osgeo/__init__.py",
+    "Lib/site-packages/osgeo/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/_gdal.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/_gdal_array.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/_gdalconst.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/_ogr.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/_osr.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/gdal.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/gdal_array.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/gdalconst.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/gdalnumeric.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/gnm.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/ogr.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/osr.cpython-39.pyc",
+    "Lib/site-packages/osgeo/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/osgeo/_gdal.cp39-win_amd64.pyd",
+    "Lib/site-packages/osgeo/_gdal.py",
+    "Lib/site-packages/osgeo/_gdal_array.cp39-win_amd64.pyd",
+    "Lib/site-packages/osgeo/_gdal_array.py",
+    "Lib/site-packages/osgeo/_gdalconst.cp39-win_amd64.pyd",
+    "Lib/site-packages/osgeo/_gdalconst.py",
+    "Lib/site-packages/osgeo/_ogr.cp39-win_amd64.pyd",
+    "Lib/site-packages/osgeo/_ogr.py",
+    "Lib/site-packages/osgeo/_osr.cp39-win_amd64.pyd",
+    "Lib/site-packages/osgeo/_osr.py",
+    "Lib/site-packages/osgeo/gdal.py",
+    "Lib/site-packages/osgeo/gdal_array.py",
+    "Lib/site-packages/osgeo/gdalconst.py",
+    "Lib/site-packages/osgeo/gdalnumeric.py",
+    "Lib/site-packages/osgeo/gnm.py",
+    "Lib/site-packages/osgeo/ogr.py",
+    "Lib/site-packages/osgeo/osr.py",
+    "Lib/site-packages/osgeo/utils.py",
+    "Lib/site-packages/osgeo_utils/__init__.py",
+    "Lib/site-packages/osgeo_utils/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdal2tiles.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdal2xyz.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdal_calc.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdal_edit.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdal_fillnodata.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdal_merge.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdal_pansharpen.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdal_polygonize.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdal_proximity.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdal_retile.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdal_sieve.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdalattachpct.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdalcompare.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/gdalmove.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/ogrmerge.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/pct2rgb.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/__pycache__/rgb2pct.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__init__.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/array_util.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/batch_creator.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/color_palette.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/color_table.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/extent_util.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/gdal_argparse.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/numpy_util.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/osr_util.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/progress.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/raster_creation.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/rectangle.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/util.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/auxiliary/array_util.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/base.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/batch_creator.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/color_palette.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/color_table.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/extent_util.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/gdal_argparse.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/numpy_util.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/osr_util.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/progress.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/raster_creation.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/rectangle.py",
+    "Lib/site-packages/osgeo_utils/auxiliary/util.py",
+    "Lib/site-packages/osgeo_utils/gdal2tiles.py",
+    "Lib/site-packages/osgeo_utils/gdal2xyz.py",
+    "Lib/site-packages/osgeo_utils/gdal_calc.py",
+    "Lib/site-packages/osgeo_utils/gdal_edit.py",
+    "Lib/site-packages/osgeo_utils/gdal_fillnodata.py",
+    "Lib/site-packages/osgeo_utils/gdal_merge.py",
+    "Lib/site-packages/osgeo_utils/gdal_pansharpen.py",
+    "Lib/site-packages/osgeo_utils/gdal_polygonize.py",
+    "Lib/site-packages/osgeo_utils/gdal_proximity.py",
+    "Lib/site-packages/osgeo_utils/gdal_retile.py",
+    "Lib/site-packages/osgeo_utils/gdal_sieve.py",
+    "Lib/site-packages/osgeo_utils/gdalattachpct.py",
+    "Lib/site-packages/osgeo_utils/gdalcompare.py",
+    "Lib/site-packages/osgeo_utils/gdalmove.py",
+    "Lib/site-packages/osgeo_utils/ogrmerge.py",
+    "Lib/site-packages/osgeo_utils/pct2rgb.py",
+    "Lib/site-packages/osgeo_utils/rgb2pct.py",
+    "Lib/site-packages/osgeo_utils/samples/__init__.py",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/assemblepoly.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/build_jp2_from_xml.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/classify.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/crs2crs2grid.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/densify.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/dump_jp2.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/epsg_tr.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/esri2wkt.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/fft.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/fix_gpkg.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gcps2ogr.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gcps2vec.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gcps2wld.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal2grd.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_auth.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_cp.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_create_pdf.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_ls.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_lut.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_mkdir.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_remove_towgs84.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_rm.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_rmdir.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_vrtmerge.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_zip.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalchksum.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalcopyproj.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalfilter.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalident.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalimport.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalinfo.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/gdallocationinfo.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/get_soundg.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/histrep.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/hsv_merge.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/jpeg_in_tiff_extract.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/load2odbc.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/loslas2ntv2.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/magphase.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/make_fuzzer_friendly_archive.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/mkgraticule.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/ogr2ogr.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/ogr2vrt.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/ogr_build_junction_table.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/ogr_dispatch.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/ogr_layer_algebra.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/ogrinfo.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/ogrupdate.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/rel.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/tigerpoly.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/tile_extent_from_raster.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/tolatlong.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/val_repl.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/validate_cloud_optimized_geotiff.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/validate_gpkg.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/validate_jp2.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/vec_tr.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/vec_tr_spat.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/__pycache__/wcs_virtds_params.cpython-39.pyc",
+    "Lib/site-packages/osgeo_utils/samples/assemblepoly.py",
+    "Lib/site-packages/osgeo_utils/samples/build_jp2_from_xml.py",
+    "Lib/site-packages/osgeo_utils/samples/classify.py",
+    "Lib/site-packages/osgeo_utils/samples/crs2crs2grid.py",
+    "Lib/site-packages/osgeo_utils/samples/densify.py",
+    "Lib/site-packages/osgeo_utils/samples/dump_jp2.py",
+    "Lib/site-packages/osgeo_utils/samples/epsg_tr.py",
+    "Lib/site-packages/osgeo_utils/samples/esri2wkt.py",
+    "Lib/site-packages/osgeo_utils/samples/fft.py",
+    "Lib/site-packages/osgeo_utils/samples/fix_gpkg.py",
+    "Lib/site-packages/osgeo_utils/samples/gcps2ogr.py",
+    "Lib/site-packages/osgeo_utils/samples/gcps2vec.py",
+    "Lib/site-packages/osgeo_utils/samples/gcps2wld.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal2grd.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal_auth.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal_cp.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal_create_pdf.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal_ls.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal_lut.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal_mkdir.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal_remove_towgs84.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal_rm.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal_rmdir.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal_vrtmerge.py",
+    "Lib/site-packages/osgeo_utils/samples/gdal_zip.py",
+    "Lib/site-packages/osgeo_utils/samples/gdalchksum.py",
+    "Lib/site-packages/osgeo_utils/samples/gdalcopyproj.py",
+    "Lib/site-packages/osgeo_utils/samples/gdalfilter.py",
+    "Lib/site-packages/osgeo_utils/samples/gdalident.py",
+    "Lib/site-packages/osgeo_utils/samples/gdalimport.py",
+    "Lib/site-packages/osgeo_utils/samples/gdalinfo.py",
+    "Lib/site-packages/osgeo_utils/samples/gdallocationinfo.py",
+    "Lib/site-packages/osgeo_utils/samples/get_soundg.py",
+    "Lib/site-packages/osgeo_utils/samples/histrep.py",
+    "Lib/site-packages/osgeo_utils/samples/hsv_merge.py",
+    "Lib/site-packages/osgeo_utils/samples/jpeg_in_tiff_extract.py",
+    "Lib/site-packages/osgeo_utils/samples/load2odbc.py",
+    "Lib/site-packages/osgeo_utils/samples/loslas2ntv2.py",
+    "Lib/site-packages/osgeo_utils/samples/magphase.py",
+    "Lib/site-packages/osgeo_utils/samples/make_fuzzer_friendly_archive.py",
+    "Lib/site-packages/osgeo_utils/samples/mkgraticule.py",
+    "Lib/site-packages/osgeo_utils/samples/ogr2ogr.py",
+    "Lib/site-packages/osgeo_utils/samples/ogr2vrt.py",
+    "Lib/site-packages/osgeo_utils/samples/ogr_build_junction_table.py",
+    "Lib/site-packages/osgeo_utils/samples/ogr_dispatch.py",
+    "Lib/site-packages/osgeo_utils/samples/ogr_layer_algebra.py",
+    "Lib/site-packages/osgeo_utils/samples/ogrinfo.py",
+    "Lib/site-packages/osgeo_utils/samples/ogrupdate.py",
+    "Lib/site-packages/osgeo_utils/samples/rel.py",
+    "Lib/site-packages/osgeo_utils/samples/tigerpoly.py",
+    "Lib/site-packages/osgeo_utils/samples/tile_extent_from_raster.py",
+    "Lib/site-packages/osgeo_utils/samples/tolatlong.py",
+    "Lib/site-packages/osgeo_utils/samples/val_repl.py",
+    "Lib/site-packages/osgeo_utils/samples/validate_cloud_optimized_geotiff.py",
+    "Lib/site-packages/osgeo_utils/samples/validate_gpkg.py",
+    "Lib/site-packages/osgeo_utils/samples/validate_jp2.py",
+    "Lib/site-packages/osgeo_utils/samples/vec_tr.py",
+    "Lib/site-packages/osgeo_utils/samples/vec_tr_spat.py",
+    "Lib/site-packages/osgeo_utils/samples/wcs_virtds_params.py",
+    ".nonadmin"
+  ],
+  "fn": "gdal-3.4.0-arcgispro_py39_17119.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\gdal-3.4.0-arcgispro_py39_17119",
+    "type": 1
+  },
+  "md5": "21bbfaa8f40cbbed8bab0f29ea8fe721",
+  "name": "gdal",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\gdal-3.4.0-arcgispro_py39_17119.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "LICENSE.TXT",
+        "path_type": "hardlink",
+        "sha256": "d8ef5081a3f9e1ff92e8c0532aa4afe1c433a0d11392c2fd73996179c157a942",
+        "sha256_in_prefix": "d8ef5081a3f9e1ff92e8c0532aa4afe1c433a0d11392c2fd73996179c157a942",
+        "size_in_bytes": 18543
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3ad08e6cbec80dcc431dda51abe4853329e6a90455aecab4954dd1d8352c67a",
+        "sha256_in_prefix": "b3ad08e6cbec80dcc431dda51abe4853329e6a90455aecab4954dd1d8352c67a",
+        "size_in_bytes": 7512
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "87f6501a70bd4f8aeb80405200c4b16ff91fa3a63599126ef84bb690525f6801",
+        "sha256_in_prefix": "87f6501a70bd4f8aeb80405200c4b16ff91fa3a63599126ef84bb690525f6801",
+        "size_in_bytes": 4708
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/_gdal.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9a59346127008a5a2fde90f743046e93f252c238d187bcd83faea3b8bde8df9",
+        "sha256_in_prefix": "d9a59346127008a5a2fde90f743046e93f252c238d187bcd83faea3b8bde8df9",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/_gdal_array.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "04c9a48512ef2a8038ad80523c25ba911f0e0c01dcb72a61c4dadc65143d6b00",
+        "sha256_in_prefix": "04c9a48512ef2a8038ad80523c25ba911f0e0c01dcb72a61c4dadc65143d6b00",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/_gdalconst.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f53a9f01bf8c8a98dee19df20e430c49144055980dccb4f991a2c0da9c1e71e",
+        "sha256_in_prefix": "1f53a9f01bf8c8a98dee19df20e430c49144055980dccb4f991a2c0da9c1e71e",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/_ogr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c3397c857b871a7bd179550915cf3ea2ebbb99bed06536d70a25b0ccdb37239",
+        "sha256_in_prefix": "9c3397c857b871a7bd179550915cf3ea2ebbb99bed06536d70a25b0ccdb37239",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/_osr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c687ee4bf6ec3d8bb9f170f6bdcee2e7193f5f1c9b651c3cfe71c86d426bd4fb",
+        "sha256_in_prefix": "c687ee4bf6ec3d8bb9f170f6bdcee2e7193f5f1c9b651c3cfe71c86d426bd4fb",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/gdal.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd3fe398092f9908cfff0ae3ca6e33526f1314d26f940a018e99096e461c7994",
+        "sha256_in_prefix": "dd3fe398092f9908cfff0ae3ca6e33526f1314d26f940a018e99096e461c7994",
+        "size_in_bytes": 189783
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/gdal_array.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "883ed2a28b5e4ec75ded9efb2d2d2e91dbdf8ed63aefed162fcc6564749ceda0",
+        "sha256_in_prefix": "883ed2a28b5e4ec75ded9efb2d2d2e91dbdf8ed63aefed162fcc6564749ceda0",
+        "size_in_bytes": 19567
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/gdalconst.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "53beca72591ccee7a13a13522861409c2b5161335493474d412a8247e93d0067",
+        "sha256_in_prefix": "53beca72591ccee7a13a13522861409c2b5161335493474d412a8247e93d0067",
+        "size_in_bytes": 7643
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/gdalnumeric.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "826ad2ace505380c92f907370a0395a4ec1250726c01917a12dcefe3007e22f9",
+        "sha256_in_prefix": "826ad2ace505380c92f907370a0395a4ec1250726c01917a12dcefe3007e22f9",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/gnm.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d0e55cc50ad41f10ebdccbe6022d71bbfc5ebdb43a9a77981586e3e8ae53e90",
+        "sha256_in_prefix": "0d0e55cc50ad41f10ebdccbe6022d71bbfc5ebdb43a9a77981586e3e8ae53e90",
+        "size_in_bytes": 13034
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/ogr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fccda5682bb4b479861aa4a64ec1b5cd1623cb4c2c574427deae972d4d250d9b",
+        "sha256_in_prefix": "fccda5682bb4b479861aa4a64ec1b5cd1623cb4c2c574427deae972d4d250d9b",
+        "size_in_bytes": 278029
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/osr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "46096e653ede7b1f441098706baaa42715c257ea110d56267e9d0e1cc7d702c4",
+        "sha256_in_prefix": "46096e653ede7b1f441098706baaa42715c257ea110d56267e9d0e1cc7d702c4",
+        "size_in_bytes": 59833
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bcb5173188be5bdd33238d259efa1eccdd1cb4c6284d0bd6df6a4b4539750004",
+        "sha256_in_prefix": "bcb5173188be5bdd33238d259efa1eccdd1cb4c6284d0bd6df6a4b4539750004",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/_gdal.cp39-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "a59be3b9d7c30dfec4ec22e4730bf35ccabe0a6542e09fcce74a67aba1435a6f",
+        "sha256_in_prefix": "a59be3b9d7c30dfec4ec22e4730bf35ccabe0a6542e09fcce74a67aba1435a6f",
+        "size_in_bytes": 804560
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/_gdal.py",
+        "path_type": "hardlink",
+        "sha256": "a4e2a09a609f91eff594e568938855fe47805c1536990007d3c487dcdb3e19a9",
+        "sha256_in_prefix": "a4e2a09a609f91eff594e568938855fe47805c1536990007d3c487dcdb3e19a9",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/_gdal_array.cp39-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "49c03ae3e261e9eeefa8b0221f1a3e5e4225ac86407fbe87928a25766c806095",
+        "sha256_in_prefix": "49c03ae3e261e9eeefa8b0221f1a3e5e4225ac86407fbe87928a25766c806095",
+        "size_in_bytes": 202960
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/_gdal_array.py",
+        "path_type": "hardlink",
+        "sha256": "2ce3a5b0bf5e0c17427932ed6df1de43ae9944c693fb4cd30837b5f01c80f787",
+        "sha256_in_prefix": "2ce3a5b0bf5e0c17427932ed6df1de43ae9944c693fb4cd30837b5f01c80f787",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/_gdalconst.cp39-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "7e4d85169c490e3d5b41ab61a64d15262b23117da74c5787eeeb503c52fc5944",
+        "sha256_in_prefix": "7e4d85169c490e3d5b41ab61a64d15262b23117da74c5787eeeb503c52fc5944",
+        "size_in_bytes": 53464
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/_gdalconst.py",
+        "path_type": "hardlink",
+        "sha256": "f42e6c24a93afc54ba6b0cf567496807386569a460139c2343531a656013ce24",
+        "sha256_in_prefix": "f42e6c24a93afc54ba6b0cf567496807386569a460139c2343531a656013ce24",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/_ogr.cp39-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "888351e9e21bf70849c36aa317ebf229531e66361ab9d25c0d8588b90dc794c1",
+        "sha256_in_prefix": "888351e9e21bf70849c36aa317ebf229531e66361ab9d25c0d8588b90dc794c1",
+        "size_in_bytes": 744664
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/_ogr.py",
+        "path_type": "hardlink",
+        "sha256": "6a2101d85947fd90bdebaa398000abb97b7af162d488a6fc3990ab2d3fdce96e",
+        "sha256_in_prefix": "6a2101d85947fd90bdebaa398000abb97b7af162d488a6fc3990ab2d3fdce96e",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/_osr.cp39-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "d29606bca6700dc5f1c7c1cf4f2aaba90aee0abaed4644150e4c4884094ba880",
+        "sha256_in_prefix": "d29606bca6700dc5f1c7c1cf4f2aaba90aee0abaed4644150e4c4884094ba880",
+        "size_in_bytes": 380632
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/_osr.py",
+        "path_type": "hardlink",
+        "sha256": "6e23ec926a12db77b4e51272a948e99f3a001a5a07c7d44b5d626b2068fb8649",
+        "sha256_in_prefix": "6e23ec926a12db77b4e51272a948e99f3a001a5a07c7d44b5d626b2068fb8649",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/gdal.py",
+        "path_type": "hardlink",
+        "sha256": "58f2b95075ece4b0aa16e335dbacb1410a5fe985f6367e0b0a0df4a2fe5b882e",
+        "sha256_in_prefix": "58f2b95075ece4b0aa16e335dbacb1410a5fe985f6367e0b0a0df4a2fe5b882e",
+        "size_in_bytes": 197607
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/gdal_array.py",
+        "path_type": "hardlink",
+        "sha256": "3d00ee7491b48b702f48c581a16a089a7134d66f56562fa9b34a69e0b5aa99fa",
+        "sha256_in_prefix": "3d00ee7491b48b702f48c581a16a089a7134d66f56562fa9b34a69e0b5aa99fa",
+        "size_in_bytes": 28151
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/gdalconst.py",
+        "path_type": "hardlink",
+        "sha256": "3761d195f11377e41ee6f154ae09624ef0cd8e45450b82d731871a37643ca52f",
+        "sha256_in_prefix": "3761d195f11377e41ee6f154ae09624ef0cd8e45450b82d731871a37643ca52f",
+        "size_in_bytes": 11071
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/gdalnumeric.py",
+        "path_type": "hardlink",
+        "sha256": "36f9d9b84f474b1b54969f8c93381eff3367446fd846cfaa859aeba20e3ae632",
+        "sha256_in_prefix": "36f9d9b84f474b1b54969f8c93381eff3367446fd846cfaa859aeba20e3ae632",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/gnm.py",
+        "path_type": "hardlink",
+        "sha256": "1326bf4d0310f656eb4688e3ea5c4bba4b643204b183d1765fe39680de6e7a0f",
+        "sha256_in_prefix": "1326bf4d0310f656eb4688e3ea5c4bba4b643204b183d1765fe39680de6e7a0f",
+        "size_in_bytes": 10597
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/ogr.py",
+        "path_type": "hardlink",
+        "sha256": "f01c02a5404255bba260e87b794125cc1983cb747287ef00f8008e5cc6d31c5d",
+        "sha256_in_prefix": "f01c02a5404255bba260e87b794125cc1983cb747287ef00f8008e5cc6d31c5d",
+        "size_in_bytes": 268840
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/osr.py",
+        "path_type": "hardlink",
+        "sha256": "b796eec201c3e44c3c6085b4105f0e7d0645b2065667f48d470e3d8555b27d84",
+        "sha256_in_prefix": "b796eec201c3e44c3c6085b4105f0e7d0645b2065667f48d470e3d8555b27d84",
+        "size_in_bytes": 54466
+      },
+      {
+        "_path": "Lib/site-packages/osgeo/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e4df5ce5f364239ffa9aa126077098b4dc94607ac9eb96a4a78d6683531a9ceb",
+        "sha256_in_prefix": "e4df5ce5f364239ffa9aa126077098b4dc94607ac9eb96a4a78d6683531a9ceb",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "26b75d8905e5a389b45f0423ee094b8dcaf1088e30a20537b9693d9d620e9527",
+        "sha256_in_prefix": "26b75d8905e5a389b45f0423ee094b8dcaf1088e30a20537b9693d9d620e9527",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e91c1671de7446e28bf77843f8208d182faca57444d8acee9ea6e9c58f4ae0f",
+        "sha256_in_prefix": "2e91c1671de7446e28bf77843f8208d182faca57444d8acee9ea6e9c58f4ae0f",
+        "size_in_bytes": 701
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdal2tiles.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1017034ae84563714469079c48a937878f1e849644e32e279c6f6134024a9ac6",
+        "sha256_in_prefix": "1017034ae84563714469079c48a937878f1e849644e32e279c6f6134024a9ac6",
+        "size_in_bytes": 95478
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdal2xyz.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e011a14ec4866af12994cc11a38f11781e0670807ef5634e60c91f6fdd1d5047",
+        "sha256_in_prefix": "e011a14ec4866af12994cc11a38f11781e0670807ef5634e60c91f6fdd1d5047",
+        "size_in_bytes": 8684
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdal_calc.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "60152825cdf131b7e50987f984e876669251e51b79cc418d4dcbfcaea32dfbc0",
+        "sha256_in_prefix": "60152825cdf131b7e50987f984e876669251e51b79cc418d4dcbfcaea32dfbc0",
+        "size_in_bytes": 14819
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdal_edit.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "14fa11ff80a6c43cf23c4ce044e682d1b7c9bca0f3d68216ae897ae725ba39db",
+        "sha256_in_prefix": "14fa11ff80a6c43cf23c4ce044e682d1b7c9bca0f3d68216ae897ae725ba39db",
+        "size_in_bytes": 8332
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdal_fillnodata.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "89ac6b6d7ace40df1f15fb1a90198540dab177d7a2e320ea37325381969c225e",
+        "sha256_in_prefix": "89ac6b6d7ace40df1f15fb1a90198540dab177d7a2e320ea37325381969c225e",
+        "size_in_bytes": 4977
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdal_merge.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b61518a6df6bd05d1a6d3eb85d61985a7d5f13aad06f0668eea726c7d2b94a56",
+        "sha256_in_prefix": "b61518a6df6bd05d1a6d3eb85d61985a7d5f13aad06f0668eea726c7d2b94a56",
+        "size_in_bytes": 10477
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdal_pansharpen.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f300382c5e64702cf1fe762b38d25eb0292d85c4db2715b320303e777ac5997",
+        "sha256_in_prefix": "3f300382c5e64702cf1fe762b38d25eb0292d85c4db2715b320303e777ac5997",
+        "size_in_bytes": 6763
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdal_polygonize.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd446e8ad17f3502020d09438bb2b85c3a62581d0b30d4ffd6671c189a3e7a6b",
+        "sha256_in_prefix": "dd446e8ad17f3502020d09438bb2b85c3a62581d0b30d4ffd6671c189a3e7a6b",
+        "size_in_bytes": 5738
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdal_proximity.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "df4afe35e1b759088c1465d47b31ddd8b58ec67eff5e608c65db2073eb0aac59",
+        "sha256_in_prefix": "df4afe35e1b759088c1465d47b31ddd8b58ec67eff5e608c65db2073eb0aac59",
+        "size_in_bytes": 3089
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdal_retile.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e819bf0cc87457c0ca98a8a539a18e070c140f7e483845e9d0d4fdadd12fd09f",
+        "sha256_in_prefix": "e819bf0cc87457c0ca98a8a539a18e070c140f7e483845e9d0d4fdadd12fd09f",
+        "size_in_bytes": 21586
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdal_sieve.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "82b39118f5443300e3d8317ae38b938d2483cb30ce859c912f78c93a1f9d6a15",
+        "sha256_in_prefix": "82b39118f5443300e3d8317ae38b938d2483cb30ce859c912f78c93a1f9d6a15",
+        "size_in_bytes": 2777
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdalattachpct.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "35817800e0d78621cad12f93b69851077d21a97730f9f5f6ca61532e62d90e9f",
+        "sha256_in_prefix": "35817800e0d78621cad12f93b69851077d21a97730f9f5f6ca61532e62d90e9f",
+        "size_in_bytes": 1899
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdalcompare.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "89ed398b7a5e54f9a2b2da43a160e577723bcb8e7e1560d2bf518c94086f6593",
+        "sha256_in_prefix": "89ed398b7a5e54f9a2b2da43a160e577723bcb8e7e1560d2bf518c94086f6593",
+        "size_in_bytes": 6082
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/gdalmove.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c3b37e0ac7bc63175a1f10cced62d7268d0a778cd66787d8093e04821973554",
+        "sha256_in_prefix": "2c3b37e0ac7bc63175a1f10cced62d7268d0a778cd66787d8093e04821973554",
+        "size_in_bytes": 3947
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/ogrmerge.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "53b8d30c1a9d72d74e05b8b5e4d7c838095b50bbd8bcfd6391255c94f5964e4a",
+        "sha256_in_prefix": "53b8d30c1a9d72d74e05b8b5e4d7c838095b50bbd8bcfd6391255c94f5964e4a",
+        "size_in_bytes": 11343
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/pct2rgb.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e37b1ce311f336cd51181804bad8f8bc10707bf52d4db51505024c6a93826afc",
+        "sha256_in_prefix": "e37b1ce311f336cd51181804bad8f8bc10707bf52d4db51505024c6a93826afc",
+        "size_in_bytes": 4516
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/__pycache__/rgb2pct.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd4392d26ded046c1416c121c29bf1c0122474adc3211efcbe4198585a787e8c",
+        "sha256_in_prefix": "bd4392d26ded046c1416c121c29bf1c0122474adc3211efcbe4198585a787e8c",
+        "size_in_bytes": 4456
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8822148474cc75a88286f49a7d66d7d1af351da0f14e9bda4268f2a0e258449c",
+        "sha256_in_prefix": "8822148474cc75a88286f49a7d66d7d1af351da0f14e9bda4268f2a0e258449c",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/array_util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2aad632ea94ba01fd0b651de37fef7c9c963ef8082eae45128b3ad7bf2be0b7d",
+        "sha256_in_prefix": "2aad632ea94ba01fd0b651de37fef7c9c963ef8082eae45128b3ad7bf2be0b7d",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/base.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a539844f6af84bc1215ca83eda6ed28ce01f90d39cddc7d62391a4ac1c78ca11",
+        "sha256_in_prefix": "a539844f6af84bc1215ca83eda6ed28ce01f90d39cddc7d62391a4ac1c78ca11",
+        "size_in_bytes": 2988
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/batch_creator.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a1105d691dd2360db4199bd21d866f21bc2412767f838ff787cc0c93c37f32c3",
+        "sha256_in_prefix": "a1105d691dd2360db4199bd21d866f21bc2412767f838ff787cc0c93c37f32c3",
+        "size_in_bytes": 2258
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/color_palette.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7a0d1d533347e7f295590e07b49f582e57b7a68ada05ff18b685f1caa66f00c",
+        "sha256_in_prefix": "f7a0d1d533347e7f295590e07b49f582e57b7a68ada05ff18b685f1caa66f00c",
+        "size_in_bytes": 11952
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/color_table.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4481871752d5b236bdf789578517cae1551387500d27efe63dbc469405b7fc52",
+        "sha256_in_prefix": "4481871752d5b236bdf789578517cae1551387500d27efe63dbc469405b7fc52",
+        "size_in_bytes": 3445
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/extent_util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e1edd9814be95af9fc11dc11e03f674dd15e9a7394b78e94fdf51f3acab14b8",
+        "sha256_in_prefix": "7e1edd9814be95af9fc11dc11e03f674dd15e9a7394b78e94fdf51f3acab14b8",
+        "size_in_bytes": 3241
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/gdal_argparse.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3e3c197a1a60f93def83d9bc8c27c8b6974de0e9c3e87bdb7e28a3c63c62969",
+        "sha256_in_prefix": "e3e3c197a1a60f93def83d9bc8c27c8b6974de0e9c3e87bdb7e28a3c63c62969",
+        "size_in_bytes": 4847
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/numpy_util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "57478d91e02cb702ad8ef1d44244c89491476f4806a0f698f7dc505b656e6a4d",
+        "sha256_in_prefix": "57478d91e02cb702ad8ef1d44244c89491476f4806a0f698f7dc505b656e6a4d",
+        "size_in_bytes": 1288
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/osr_util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3817d10fecf45cd712e2cc9ba61d1af454c43ed4f640a1ac24fe430236982e42",
+        "sha256_in_prefix": "3817d10fecf45cd712e2cc9ba61d1af454c43ed4f640a1ac24fe430236982e42",
+        "size_in_bytes": 3454
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/progress.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b50414e2b44849ad2aa24d05bbea43320c99bd5b296e5ae34170e32af76910c6",
+        "sha256_in_prefix": "b50414e2b44849ad2aa24d05bbea43320c99bd5b296e5ae34170e32af76910c6",
+        "size_in_bytes": 1968
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/raster_creation.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "493929022fb5f0742cf850f5b5c5a9495fcf182518e6d0cf4cc1b48e87922729",
+        "sha256_in_prefix": "493929022fb5f0742cf850f5b5c5a9495fcf182518e6d0cf4cc1b48e87922729",
+        "size_in_bytes": 3444
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/rectangle.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f91adc46990977a2c9af8d418925da673e39ff272c0846307ecf0df8fa778614",
+        "sha256_in_prefix": "f91adc46990977a2c9af8d418925da673e39ff272c0846307ecf0df8fa778614",
+        "size_in_bytes": 9561
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/__pycache__/util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3747c30cbcb0fda93687b01747d63175c4270491c7e81d62c6bbe1352749cff3",
+        "sha256_in_prefix": "3747c30cbcb0fda93687b01747d63175c4270491c7e81d62c6bbe1352749cff3",
+        "size_in_bytes": 14781
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/array_util.py",
+        "path_type": "hardlink",
+        "sha256": "5ee37162279874a332933be92a3eea4cfe3fcbda92f2124836d88211920296f6",
+        "sha256_in_prefix": "5ee37162279874a332933be92a3eea4cfe3fcbda92f2124836d88211920296f6",
+        "size_in_bytes": 2641
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/base.py",
+        "path_type": "hardlink",
+        "sha256": "e75b70fae55a4236d21bc2792c9c23b73092d13350f15124aa81370d776b1561",
+        "sha256_in_prefix": "e75b70fae55a4236d21bc2792c9c23b73092d13350f15124aa81370d776b1561",
+        "size_in_bytes": 4178
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/batch_creator.py",
+        "path_type": "hardlink",
+        "sha256": "9c691815ffdac898d82b9a92e9c8b7ba37cce0af337d1b3bfb033521b0483b15",
+        "sha256_in_prefix": "9c691815ffdac898d82b9a92e9c8b7ba37cce0af337d1b3bfb033521b0483b15",
+        "size_in_bytes": 3506
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/color_palette.py",
+        "path_type": "hardlink",
+        "sha256": "9d030eaf6dfcf1b3720b2d4903333a4fa6bd7dbc149df091646b91298c20e181",
+        "sha256_in_prefix": "9d030eaf6dfcf1b3720b2d4903333a4fa6bd7dbc149df091646b91298c20e181",
+        "size_in_bytes": 15293
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/color_table.py",
+        "path_type": "hardlink",
+        "sha256": "f86566ddf57552cd32f00eea3da593e804caa784c99d67f62f5623e418630f39",
+        "sha256_in_prefix": "f86566ddf57552cd32f00eea3da593e804caa784c99d67f62f5623e418630f39",
+        "size_in_bytes": 5664
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/extent_util.py",
+        "path_type": "hardlink",
+        "sha256": "1b6161402b51afb7b841a8f582bce66c5f53183fa05be631f18e30b9565be29a",
+        "sha256_in_prefix": "1b6161402b51afb7b841a8f582bce66c5f53183fa05be631f18e30b9565be29a",
+        "size_in_bytes": 5290
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/gdal_argparse.py",
+        "path_type": "hardlink",
+        "sha256": "8e7058366f146f6ea9a224467365a22afd29bd9b2b55fe54ac291f868216c8f1",
+        "sha256_in_prefix": "8e7058366f146f6ea9a224467365a22afd29bd9b2b55fe54ac291f868216c8f1",
+        "size_in_bytes": 6353
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/numpy_util.py",
+        "path_type": "hardlink",
+        "sha256": "2bf7e8765c41037e935a00d161823c1c356c3883a6f8788ff9496766c75b1537",
+        "sha256_in_prefix": "2bf7e8765c41037e935a00d161823c1c356c3883a6f8788ff9496766c75b1537",
+        "size_in_bytes": 2735
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/osr_util.py",
+        "path_type": "hardlink",
+        "sha256": "17debac3156cf1fc557b1892544b9a5be590c0add547c02643bb6a7ecf1ec1d8",
+        "sha256_in_prefix": "17debac3156cf1fc557b1892544b9a5be590c0add547c02643bb6a7ecf1ec1d8",
+        "size_in_bytes": 5546
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/progress.py",
+        "path_type": "hardlink",
+        "sha256": "8e131ca331dd46f649ff83ee6548048043bd0990ef1cb1649d9a33ffaa57e24c",
+        "sha256_in_prefix": "8e131ca331dd46f649ff83ee6548048043bd0990ef1cb1649d9a33ffaa57e24c",
+        "size_in_bytes": 3406
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/raster_creation.py",
+        "path_type": "hardlink",
+        "sha256": "58be81230b122eb341c41517f1bf13b1fdcb92671806ac16f0fa3d81b171ebdf",
+        "sha256_in_prefix": "58be81230b122eb341c41517f1bf13b1fdcb92671806ac16f0fa3d81b171ebdf",
+        "size_in_bytes": 6625
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/rectangle.py",
+        "path_type": "hardlink",
+        "sha256": "d77e748781d33ee296341dfdfdd62e21a4975139ae5814131e00f02f9e2eb569",
+        "sha256_in_prefix": "d77e748781d33ee296341dfdfdd62e21a4975139ae5814131e00f02f9e2eb569",
+        "size_in_bytes": 9031
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/auxiliary/util.py",
+        "path_type": "hardlink",
+        "sha256": "bf6a6489586f392ebf972bb7c623eb5e03bf02da1c227c491b4a933e121670cd",
+        "sha256_in_prefix": "bf6a6489586f392ebf972bb7c623eb5e03bf02da1c227c491b4a933e121670cd",
+        "size_in_bytes": 16604
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdal2tiles.py",
+        "path_type": "hardlink",
+        "sha256": "0134d2b7ea9eb24b4fb8446ce1e0fd7e62472fe67e6ab7cc9fd694860fb6311d",
+        "sha256_in_prefix": "0134d2b7ea9eb24b4fb8446ce1e0fd7e62472fe67e6ab7cc9fd694860fb6311d",
+        "size_in_bytes": 139745
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdal2xyz.py",
+        "path_type": "hardlink",
+        "sha256": "5c27e35c014c1adc97392a9e5810884b587da33c2920a9f137c60cdae43cf8de",
+        "sha256_in_prefix": "5c27e35c014c1adc97392a9e5810884b587da33c2920a9f137c60cdae43cf8de",
+        "size_in_bytes": 13336
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdal_calc.py",
+        "path_type": "hardlink",
+        "sha256": "b2ad6f8ffe604e5ace2e6fb03854f9b39c6ff0ebc75dfad0c5b397c1cb1af3af",
+        "sha256_in_prefix": "b2ad6f8ffe604e5ace2e6fb03854f9b39c6ff0ebc75dfad0c5b397c1cb1af3af",
+        "size_in_bytes": 31238
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdal_edit.py",
+        "path_type": "hardlink",
+        "sha256": "37999c0503de82c3f95c66eb408416e55e14a318d4935905334b7d3205960d1c",
+        "sha256_in_prefix": "37999c0503de82c3f95c66eb408416e55e14a318d4935905334b7d3205960d1c",
+        "size_in_bytes": 14871
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdal_fillnodata.py",
+        "path_type": "hardlink",
+        "sha256": "9e478f75ec9e2cd518a302bf627461e4fd6f0f6e1ebb1723fbbf71619f1bf6c2",
+        "sha256_in_prefix": "9e478f75ec9e2cd518a302bf627461e4fd6f0f6e1ebb1723fbbf71619f1bf6c2",
+        "size_in_bytes": 8730
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdal_merge.py",
+        "path_type": "hardlink",
+        "sha256": "5e5194bb43911baef409bd779db5ba4e78eab9256afc79708a6b7453e2f425fe",
+        "sha256_in_prefix": "5e5194bb43911baef409bd779db5ba4e78eab9256afc79708a6b7453e2f425fe",
+        "size_in_bytes": 18367
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdal_pansharpen.py",
+        "path_type": "hardlink",
+        "sha256": "13a68b78aae4c87865ca779efcdb958a156b694e0d95393e50f800d32a147748",
+        "sha256_in_prefix": "13a68b78aae4c87865ca779efcdb958a156b694e0d95393e50f800d32a147748",
+        "size_in_bytes": 12097
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdal_polygonize.py",
+        "path_type": "hardlink",
+        "sha256": "2f963844172ad925454b87be69f888ffcdd9bbc5dfd390a18e70330b6d33938a",
+        "sha256_in_prefix": "2f963844172ad925454b87be69f888ffcdd9bbc5dfd390a18e70330b6d33938a",
+        "size_in_bytes": 10540
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdal_proximity.py",
+        "path_type": "hardlink",
+        "sha256": "48b54b5304ac0d75a22dc66f21fb85d24afce65e8b18c24f77149c740d95ffe2",
+        "sha256_in_prefix": "48b54b5304ac0d75a22dc66f21fb85d24afce65e8b18c24f77149c740d95ffe2",
+        "size_in_bytes": 7221
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdal_retile.py",
+        "path_type": "hardlink",
+        "sha256": "8ba1de94f5e8ce246bf73cba4a8edbddb0cc1d55a16141950d9d1d91bfd6680c",
+        "sha256_in_prefix": "8ba1de94f5e8ce246bf73cba4a8edbddb0cc1d55a16141950d9d1d91bfd6680c",
+        "size_in_bytes": 34597
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdal_sieve.py",
+        "path_type": "hardlink",
+        "sha256": "470627975baac83ff45bf8bb978055a4cb7b88bc5003f0d3dcc2931fffcfe856",
+        "sha256_in_prefix": "470627975baac83ff45bf8bb978055a4cb7b88bc5003f0d3dcc2931fffcfe856",
+        "size_in_bytes": 6576
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdalattachpct.py",
+        "path_type": "hardlink",
+        "sha256": "7c8c9e74617a0da22710698708b49fbaab9bb911f825795ece22115e97abdc04",
+        "sha256_in_prefix": "7c8c9e74617a0da22710698708b49fbaab9bb911f825795ece22115e97abdc04",
+        "size_in_bytes": 4897
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdalcompare.py",
+        "path_type": "hardlink",
+        "sha256": "84150818d8a0a46cac252fc5d7220a4ee82f2d9446dd8347eacd711a2254c4a3",
+        "sha256_in_prefix": "84150818d8a0a46cac252fc5d7220a4ee82f2d9446dd8347eacd711a2254c4a3",
+        "size_in_bytes": 11862
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/gdalmove.py",
+        "path_type": "hardlink",
+        "sha256": "5e089e5e07aad3f8d15047ae010e04dbd9046cdff10221c07256e7facaab7dfd",
+        "sha256_in_prefix": "5e089e5e07aad3f8d15047ae010e04dbd9046cdff10221c07256e7facaab7dfd",
+        "size_in_bytes": 9754
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/ogrmerge.py",
+        "path_type": "hardlink",
+        "sha256": "1acb7c24286eed7de9635e214a1b5f059bba27b98360f62546be8032617afb30",
+        "sha256_in_prefix": "1acb7c24286eed7de9635e214a1b5f059bba27b98360f62546be8032617afb30",
+        "size_in_bytes": 23359
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/pct2rgb.py",
+        "path_type": "hardlink",
+        "sha256": "8cd3d4fc1fcee874829c0d191abbf8e1917ef061ef22baca17e276a15d356165",
+        "sha256_in_prefix": "8cd3d4fc1fcee874829c0d191abbf8e1917ef061ef22baca17e276a15d356165",
+        "size_in_bytes": 7674
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/rgb2pct.py",
+        "path_type": "hardlink",
+        "sha256": "c6f9f7d009560a7377daa733d92d79c7b6a380e41514a469a8c717abc3362602",
+        "sha256_in_prefix": "c6f9f7d009560a7377daa733d92d79c7b6a380e41514a469a8c717abc3362602",
+        "size_in_bytes": 7413
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "76c8278561f4f76c198158724120a8efbf486f45f3d46d09957a851099c1b040",
+        "sha256_in_prefix": "76c8278561f4f76c198158724120a8efbf486f45f3d46d09957a851099c1b040",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/assemblepoly.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b0a432d7d9fc1c3135ebeb92f61afad9773077e76645ec68799188ec3e89e70",
+        "sha256_in_prefix": "6b0a432d7d9fc1c3135ebeb92f61afad9773077e76645ec68799188ec3e89e70",
+        "size_in_bytes": 1640
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/build_jp2_from_xml.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6b3f84bc938cc3a8b74bf9dade0fb5425338e3689714603f6f199e452ae8444",
+        "sha256_in_prefix": "f6b3f84bc938cc3a8b74bf9dade0fb5425338e3689714603f6f199e452ae8444",
+        "size_in_bytes": 10149
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/classify.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0586c0468c4e7252d3c9bf3c29664a69595fc43737eee3f21a6584a726813b6",
+        "sha256_in_prefix": "c0586c0468c4e7252d3c9bf3c29664a69595fc43737eee3f21a6584a726813b6",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/crs2crs2grid.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "667fa59dba5fd3c62dd4e7eb33b42665d02e044ff974c4f0193e285aacb6006d",
+        "sha256_in_prefix": "667fa59dba5fd3c62dd4e7eb33b42665d02e044ff974c4f0193e285aacb6006d",
+        "size_in_bytes": 7081
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/densify.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c804adf63c7e61d8cad666180d56113a4ba279623809c8f5fd420335e3f7b7b",
+        "sha256_in_prefix": "1c804adf63c7e61d8cad666180d56113a4ba279623809c8f5fd420335e3f7b7b",
+        "size_in_bytes": 9847
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/dump_jp2.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "27326fb6efc33b8e5c10a704aaf232067aa479fdc7ffaf41d1b921e6334556b4",
+        "sha256_in_prefix": "27326fb6efc33b8e5c10a704aaf232067aa479fdc7ffaf41d1b921e6334556b4",
+        "size_in_bytes": 4159
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/epsg_tr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "264733a11ed5715f8092d91c75601b33244f8dff2d80e81d3baa30c2bd45338e",
+        "sha256_in_prefix": "264733a11ed5715f8092d91c75601b33244f8dff2d80e81d3baa30c2bd45338e",
+        "size_in_bytes": 4884
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/esri2wkt.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "365605e856886b92e9fe8fc7e58075af7fa0aea0f0cfd30a22498441e2d707dc",
+        "sha256_in_prefix": "365605e856886b92e9fe8fc7e58075af7fa0aea0f0cfd30a22498441e2d707dc",
+        "size_in_bytes": 2009
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/fft.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "52749be1648492d038584e79f7656138c2cc832e06e5d69c494866a9dae22ef8",
+        "sha256_in_prefix": "52749be1648492d038584e79f7656138c2cc832e06e5d69c494866a9dae22ef8",
+        "size_in_bytes": 1910
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/fix_gpkg.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5735d9b21306ab9e8b700af5d8d0f3870ae7b31d2d8a759963330f705695be96",
+        "sha256_in_prefix": "5735d9b21306ab9e8b700af5d8d0f3870ae7b31d2d8a759963330f705695be96",
+        "size_in_bytes": 1366
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gcps2ogr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2583fd88388c733460285792dcd8f331b352bde9330c72b0b1b976cb5fa0887d",
+        "sha256_in_prefix": "2583fd88388c733460285792dcd8f331b352bde9330c72b0b1b976cb5fa0887d",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gcps2vec.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "673f2c89ca58b4bb403624ef442dacb6e5cc0f13ba0c0e5be3c11730dac1baeb",
+        "sha256_in_prefix": "673f2c89ca58b4bb403624ef442dacb6e5cc0f13ba0c0e5be3c11730dac1baeb",
+        "size_in_bytes": 2390
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gcps2wld.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4a3d33c04f97ed6cfa416474cc9108d0533e191f726a4651f25fb200e9e610a",
+        "sha256_in_prefix": "c4a3d33c04f97ed6cfa416474cc9108d0533e191f726a4651f25fb200e9e610a",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal2grd.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "760bf0d4467eb400ae56d3ef490b3345677f5535faded4cd80ebcd8d3f9c1b11",
+        "sha256_in_prefix": "760bf0d4467eb400ae56d3ef490b3345677f5535faded4cd80ebcd8d3f9c1b11",
+        "size_in_bytes": 2466
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_auth.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "099e924b005e41b4971e5c9f60010c73eaf43cce3e6aed67b130d21d548766ba",
+        "sha256_in_prefix": "099e924b005e41b4971e5c9f60010c73eaf43cce3e6aed67b130d21d548766ba",
+        "size_in_bytes": 2342
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_cp.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba470eba98541afefe24e682b94ba324a64fdf02f9ac9606130de4e5737a1b4e",
+        "sha256_in_prefix": "ba470eba98541afefe24e682b94ba324a64fdf02f9ac9606130de4e5737a1b4e",
+        "size_in_bytes": 6387
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_create_pdf.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a0450fab9d9a80f8384140d5ec66a38b79cec91cd86aba619421801e60612298",
+        "sha256_in_prefix": "a0450fab9d9a80f8384140d5ec66a38b79cec91cd86aba619421801e60612298",
+        "size_in_bytes": 1138
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_ls.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ff2a35fc8cc61259e822de1c3a2efc9faa0c92f10b3bf18bae58dbe87244d8c",
+        "sha256_in_prefix": "1ff2a35fc8cc61259e822de1c3a2efc9faa0c92f10b3bf18bae58dbe87244d8c",
+        "size_in_bytes": 4479
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_lut.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ce242eb5b6c1a40fabbfcbfc06df855c54ce79cbf36658240f8953aec0f904a",
+        "sha256_in_prefix": "1ce242eb5b6c1a40fabbfcbfc06df855c54ce79cbf36658240f8953aec0f904a",
+        "size_in_bytes": 3080
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_mkdir.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f095d0d08c9a7a18b09182c8196ed584b8eed1586d8148abed9ca41ff18072a3",
+        "sha256_in_prefix": "f095d0d08c9a7a18b09182c8196ed584b8eed1586d8148abed9ca41ff18072a3",
+        "size_in_bytes": 998
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_remove_towgs84.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "42b5d6312a9b27b04903912a9ce4ae9e16313ba0fb881a80d3b90ea33369f6de",
+        "sha256_in_prefix": "42b5d6312a9b27b04903912a9ce4ae9e16313ba0fb881a80d3b90ea33369f6de",
+        "size_in_bytes": 2263
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_rm.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0082d20c3f2456c1faf3dcc98926610aa6ca8af04f1cd847a84e7a65dbf13362",
+        "sha256_in_prefix": "0082d20c3f2456c1faf3dcc98926610aa6ca8af04f1cd847a84e7a65dbf13362",
+        "size_in_bytes": 1806
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_rmdir.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "132e8fb028492d0a5ccf0eb0b901a33aef63c540041628b7aa63852808f4e79a",
+        "sha256_in_prefix": "132e8fb028492d0a5ccf0eb0b901a33aef63c540041628b7aa63852808f4e79a",
+        "size_in_bytes": 1052
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_vrtmerge.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "324c81165fef5054ac47465d5a347503c8691675cdafc4e6eed7232806e5d900",
+        "sha256_in_prefix": "324c81165fef5054ac47465d5a347503c8691675cdafc4e6eed7232806e5d900",
+        "size_in_bytes": 7044
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdal_zip.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f75f226fd9ef5136af0b2406d28fd4371b71228a19b7b44a28554c1e6b20ef4",
+        "sha256_in_prefix": "4f75f226fd9ef5136af0b2406d28fd4371b71228a19b7b44a28554c1e6b20ef4",
+        "size_in_bytes": 1964
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalchksum.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "65899f0fc83bc84d320608ab1dcc1282fdc0f0bd617ad385e227a6d124e05bba",
+        "sha256_in_prefix": "65899f0fc83bc84d320608ab1dcc1282fdc0f0bd617ad385e227a6d124e05bba",
+        "size_in_bytes": 1247
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalcopyproj.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5bf4f59b7c5cfb73325607acccab744d454d0332d6eece4ef6112b38b115d89d",
+        "sha256_in_prefix": "5bf4f59b7c5cfb73325607acccab744d454d0332d6eece4ef6112b38b115d89d",
+        "size_in_bytes": 1079
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalfilter.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e7fcf708e2310d06a3d250bf3baf9421d3c2f9ab83ab3b24aa13ecc6a98d38b",
+        "sha256_in_prefix": "7e7fcf708e2310d06a3d250bf3baf9421d3c2f9ab83ab3b24aa13ecc6a98d38b",
+        "size_in_bytes": 2289
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalident.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce997d4799b1f54bb68af62103f2a7f560d5db20fffd38ee425c98c99856a9cd",
+        "sha256_in_prefix": "ce997d4799b1f54bb68af62103f2a7f560d5db20fffd38ee425c98c99856a9cd",
+        "size_in_bytes": 1366
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalimport.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "833d4fd33a351522856ef4437a62b0840945608399dfb79f56c15be5abfaeaea",
+        "sha256_in_prefix": "833d4fd33a351522856ef4437a62b0840945608399dfb79f56c15be5abfaeaea",
+        "size_in_bytes": 1393
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdalinfo.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5cb456b3b35e11743fad4486da7492b763420bc2a775325340e24b7f3b79a7af",
+        "sha256_in_prefix": "5cb456b3b35e11743fad4486da7492b763420bc2a775325340e24b7f3b79a7af",
+        "size_in_bytes": 8843
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/gdallocationinfo.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c55567dfec9e17ce9098edd48067f41a77e82ab8324fe56abd016e4f0a47b00",
+        "sha256_in_prefix": "9c55567dfec9e17ce9098edd48067f41a77e82ab8324fe56abd016e4f0a47b00",
+        "size_in_bytes": 11840
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/get_soundg.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3afdf617f5df57e352a4302219f86f3dc8ed28eb8d3179c5bf999c62a40f533e",
+        "sha256_in_prefix": "3afdf617f5df57e352a4302219f86f3dc8ed28eb8d3179c5bf999c62a40f533e",
+        "size_in_bytes": 1750
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/histrep.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9e017b0688cdb7866fd6e7dde2faa92b306676f4573290980662a417cbe833e",
+        "sha256_in_prefix": "c9e017b0688cdb7866fd6e7dde2faa92b306676f4573290980662a417cbe833e",
+        "size_in_bytes": 1443
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/hsv_merge.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5deb81e9241bf22dec6713e58a0283709996bd4e1b847c0f8d796976d0f7da18",
+        "sha256_in_prefix": "5deb81e9241bf22dec6713e58a0283709996bd4e1b847c0f8d796976d0f7da18",
+        "size_in_bytes": 3733
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/jpeg_in_tiff_extract.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e18bf84e3958841f9fbbff68d6a1e6f36babfc6477f3df98bc93986db1c12f76",
+        "sha256_in_prefix": "e18bf84e3958841f9fbbff68d6a1e6f36babfc6477f3df98bc93986db1c12f76",
+        "size_in_bytes": 5243
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/load2odbc.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6479ddac35bed59b5650872be83b39851cd87fcf68292a971648f03d82ff8b9",
+        "sha256_in_prefix": "b6479ddac35bed59b5650872be83b39851cd87fcf68292a971648f03d82ff8b9",
+        "size_in_bytes": 2628
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/loslas2ntv2.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c824f6c911a052b9f6fca34b8567fd19bdacec835474dfc5b3b8613cdda93ea8",
+        "sha256_in_prefix": "c824f6c911a052b9f6fca34b8567fd19bdacec835474dfc5b3b8613cdda93ea8",
+        "size_in_bytes": 4991
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/magphase.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0e77e0dbced8ffbb1938811dc200d67bc57941b1472a1f6d76f427fd5eaf5ca",
+        "sha256_in_prefix": "e0e77e0dbced8ffbb1938811dc200d67bc57941b1472a1f6d76f427fd5eaf5ca",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/make_fuzzer_friendly_archive.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "87dba5cdb33e089be0fdb1b9379fa49fd325985c8fb4d4eed8be4d1477a20d99",
+        "sha256_in_prefix": "87dba5cdb33e089be0fdb1b9379fa49fd325985c8fb4d4eed8be4d1477a20d99",
+        "size_in_bytes": 610
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/mkgraticule.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "83887de1e3db021ad245d45dee7e0f78a17bbbea4d57b13662be9291a6bcb846",
+        "sha256_in_prefix": "83887de1e3db021ad245d45dee7e0f78a17bbbea4d57b13662be9291a6bcb846",
+        "size_in_bytes": 3037
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/ogr2ogr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1063688d31643854784151caf0e027d1b965f9d2ef93313a613c80e419b3fa38",
+        "sha256_in_prefix": "1063688d31643854784151caf0e027d1b965f9d2ef93313a613c80e419b3fa38",
+        "size_in_bytes": 27056
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/ogr2vrt.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "835de1a1ddaabe098e375a0c580197221fbd268d60f44001f1e9b7b630d773db",
+        "sha256_in_prefix": "835de1a1ddaabe098e375a0c580197221fbd268d60f44001f1e9b7b630d773db",
+        "size_in_bytes": 6710
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/ogr_build_junction_table.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0493bc7e7a0ac40382b9272e8ed953a89dd8727a157f659452a828e48fe43971",
+        "sha256_in_prefix": "0493bc7e7a0ac40382b9272e8ed953a89dd8727a157f659452a828e48fe43971",
+        "size_in_bytes": 3746
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/ogr_dispatch.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd026b117900afe5cbf9d153552ae3e88b685f243b039259f8421b9776b8e9d3",
+        "sha256_in_prefix": "dd026b117900afe5cbf9d153552ae3e88b685f243b039259f8421b9776b8e9d3",
+        "size_in_bytes": 8651
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/ogr_layer_algebra.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b0c9d41b3c50a8a4d7e231fd1e462132f72fcf485dc947662abb9b68b03c8f81",
+        "sha256_in_prefix": "b0c9d41b3c50a8a4d7e231fd1e462132f72fcf485dc947662abb9b68b03c8f81",
+        "size_in_bytes": 8507
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/ogrinfo.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f9fffa54de30fb6026d566efebf32ee9a8befe5362f349c1d2e360b8db94362",
+        "sha256_in_prefix": "6f9fffa54de30fb6026d566efebf32ee9a8befe5362f349c1d2e360b8db94362",
+        "size_in_bytes": 9200
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/ogrupdate.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "54d05981f867d8b9e41be76abb313950dc04f1329419183e1f5b2aaa25aa4506",
+        "sha256_in_prefix": "54d05981f867d8b9e41be76abb313950dc04f1329419183e1f5b2aaa25aa4506",
+        "size_in_bytes": 9057
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/rel.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5b535ecefbf82175597862ba33752d731437ae3b7ce4d88dcc749897b8c5f7d",
+        "sha256_in_prefix": "b5b535ecefbf82175597862ba33752d731437ae3b7ce4d88dcc749897b8c5f7d",
+        "size_in_bytes": 4578
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/tigerpoly.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2f17323a7de2da683b77f69626db1eb75d703ac5c3ed9609abfa250e2276c57",
+        "sha256_in_prefix": "d2f17323a7de2da683b77f69626db1eb75d703ac5c3ed9609abfa250e2276c57",
+        "size_in_bytes": 3511
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/tile_extent_from_raster.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb4fab0695d46fc9432101704334e93cc1c5194b3ab953ce875ed5b5213a1d30",
+        "sha256_in_prefix": "eb4fab0695d46fc9432101704334e93cc1c5194b3ab953ce875ed5b5213a1d30",
+        "size_in_bytes": 2072
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/tolatlong.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "066aca01c9dda4afcdbf706997c8ebbe4755a8a9a07be87cae468d00ddfd844d",
+        "sha256_in_prefix": "066aca01c9dda4afcdbf706997c8ebbe4755a8a9a07be87cae468d00ddfd844d",
+        "size_in_bytes": 1689
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/val_repl.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a0e8e50220cc8e58290966e721e0d23edf594af61a8282975447152d1df6f81e",
+        "sha256_in_prefix": "a0e8e50220cc8e58290966e721e0d23edf594af61a8282975447152d1df6f81e",
+        "size_in_bytes": 1992
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/validate_cloud_optimized_geotiff.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f0e09dd7b85cab33f073c7744011c964241bf23b5ea0ed3f9cddc7c74fccc8b",
+        "sha256_in_prefix": "4f0e09dd7b85cab33f073c7744011c964241bf23b5ea0ed3f9cddc7c74fccc8b",
+        "size_in_bytes": 9461
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/validate_gpkg.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "00e2d7ad3adfda056312532bf260be38ffa4b322cd9c37147bb93ea0a70fffad",
+        "sha256_in_prefix": "00e2d7ad3adfda056312532bf260be38ffa4b322cd9c37147bb93ea0a70fffad",
+        "size_in_bytes": 51540
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/validate_jp2.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ccbbcf2175feec82c2d31657994f1cf720f63b4f51a29de75d8c58fe8650dcb",
+        "sha256_in_prefix": "1ccbbcf2175feec82c2d31657994f1cf720f63b4f51a29de75d8c58fe8650dcb",
+        "size_in_bytes": 30628
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/vec_tr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d0774277449e953565997614afa567fbc60089786fb6250e7b85bc2a58972db",
+        "sha256_in_prefix": "5d0774277449e953565997614afa567fbc60089786fb6250e7b85bc2a58972db",
+        "size_in_bytes": 2244
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/vec_tr_spat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7304d746b3e1e58a76d3ef5e700b46600a97f29829f377d556d829f4923978f1",
+        "sha256_in_prefix": "7304d746b3e1e58a76d3ef5e700b46600a97f29829f377d556d829f4923978f1",
+        "size_in_bytes": 2064
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/__pycache__/wcs_virtds_params.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2016d9ca6ad53c29668450409851641574496644e62320475edd424ff38be95",
+        "sha256_in_prefix": "c2016d9ca6ad53c29668450409851641574496644e62320475edd424ff38be95",
+        "size_in_bytes": 3782
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/assemblepoly.py",
+        "path_type": "hardlink",
+        "sha256": "d719d41e8e7d9ae724186abd0f7ef529b2471de5edbba94f138bd5a83ead2d87",
+        "sha256_in_prefix": "d719d41e8e7d9ae724186abd0f7ef529b2471de5edbba94f138bd5a83ead2d87",
+        "size_in_bytes": 4497
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/build_jp2_from_xml.py",
+        "path_type": "hardlink",
+        "sha256": "09be39082c85079470c9d737198b1d7b8740726220cd697ec37766ff5bb9ceb0",
+        "sha256_in_prefix": "09be39082c85079470c9d737198b1d7b8740726220cd697ec37766ff5bb9ceb0",
+        "size_in_bytes": 17321
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/classify.py",
+        "path_type": "hardlink",
+        "sha256": "bbaa8fd62e82b2ad3579f764660b44f4ef7fa324553222b7622e42771854e503",
+        "sha256_in_prefix": "bbaa8fd62e82b2ad3579f764660b44f4ef7fa324553222b7622e42771854e503",
+        "size_in_bytes": 2729
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/crs2crs2grid.py",
+        "path_type": "hardlink",
+        "sha256": "f0c91b34c981da1a1d5f013618f8d2ac7fa69a2088fcedfe756379ba71ce2430",
+        "sha256_in_prefix": "f0c91b34c981da1a1d5f013618f8d2ac7fa69a2088fcedfe756379ba71ce2430",
+        "size_in_bytes": 12654
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/densify.py",
+        "path_type": "hardlink",
+        "sha256": "bc6aedc74038446913cae3933244ad803abf652abf02d17d604aa73614789178",
+        "sha256_in_prefix": "bc6aedc74038446913cae3933244ad803abf652abf02d17d604aa73614789178",
+        "size_in_bytes": 15596
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/dump_jp2.py",
+        "path_type": "hardlink",
+        "sha256": "0d2f1e77546f94623895a0c7b5d03bfd6d909531347515ba9c3a160f547011a5",
+        "sha256_in_prefix": "0d2f1e77546f94623895a0c7b5d03bfd6d909531347515ba9c3a160f547011a5",
+        "size_in_bytes": 8083
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/epsg_tr.py",
+        "path_type": "hardlink",
+        "sha256": "493207c1f6fe0aabe7598faabe07ae7250f3a49162e2cd597a752477d1409807",
+        "sha256_in_prefix": "493207c1f6fe0aabe7598faabe07ae7250f3a49162e2cd597a752477d1409807",
+        "size_in_bytes": 9210
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/esri2wkt.py",
+        "path_type": "hardlink",
+        "sha256": "b759a54050c88ad2eb54ca0233e089f878639b47261fc3f378c26108b58cd6ad",
+        "sha256_in_prefix": "b759a54050c88ad2eb54ca0233e089f878639b47261fc3f378c26108b58cd6ad",
+        "size_in_bytes": 3115
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/fft.py",
+        "path_type": "hardlink",
+        "sha256": "7e10c9832859c83249882f23171ae8c667db4e2a57f4df9788cf2e66cb28bf7b",
+        "sha256_in_prefix": "7e10c9832859c83249882f23171ae8c667db4e2a57f4df9788cf2e66cb28bf7b",
+        "size_in_bytes": 4251
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/fix_gpkg.py",
+        "path_type": "hardlink",
+        "sha256": "020c58f01a5ed462fc9a4e0d04758553b5dc99abb9842a60bd3320d632bceffc",
+        "sha256_in_prefix": "020c58f01a5ed462fc9a4e0d04758553b5dc99abb9842a60bd3320d632bceffc",
+        "size_in_bytes": 3102
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gcps2ogr.py",
+        "path_type": "hardlink",
+        "sha256": "d7e87a94ab4203a7a27b0e669181677be3d83cb3b8b423f4007a6e4dc17d7ac3",
+        "sha256_in_prefix": "d7e87a94ab4203a7a27b0e669181677be3d83cb3b8b423f4007a6e4dc17d7ac3",
+        "size_in_bytes": 3308
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gcps2vec.py",
+        "path_type": "hardlink",
+        "sha256": "1987ca0ee2d51ad02991d7207bb03804eaea2e5e0c98e9c25ab49923adca486f",
+        "sha256_in_prefix": "1987ca0ee2d51ad02991d7207bb03804eaea2e5e0c98e9c25ab49923adca486f",
+        "size_in_bytes": 5577
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gcps2wld.py",
+        "path_type": "hardlink",
+        "sha256": "8bb7c9b4ea1bc7f5f77d31b27654df56b1d4f554a2a14b41a99cde968629d8d2",
+        "sha256_in_prefix": "8bb7c9b4ea1bc7f5f77d31b27654df56b1d4f554a2a14b41a99cde968629d8d2",
+        "size_in_bytes": 2642
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal2grd.py",
+        "path_type": "hardlink",
+        "sha256": "a3faf856c70e0019e6b13a75af0f39780069cc467514d6952816be70b6af5c9c",
+        "sha256_in_prefix": "a3faf856c70e0019e6b13a75af0f39780069cc467514d6952816be70b6af5c9c",
+        "size_in_bytes": 5137
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal_auth.py",
+        "path_type": "hardlink",
+        "sha256": "4c6c780a54d4213ac024c2810575eacffa9fff78da5e25fe9597d27d398b2544",
+        "sha256_in_prefix": "4c6c780a54d4213ac024c2810575eacffa9fff78da5e25fe9597d27d398b2544",
+        "size_in_bytes": 4579
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal_cp.py",
+        "path_type": "hardlink",
+        "sha256": "3d9dbdfec70d3caba7a2fc38c64f09bf8d6db0d4b66ff44123c2495c88f53f11",
+        "sha256_in_prefix": "3d9dbdfec70d3caba7a2fc38c64f09bf8d6db0d4b66ff44123c2495c88f53f11",
+        "size_in_bytes": 11367
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal_create_pdf.py",
+        "path_type": "hardlink",
+        "sha256": "0977695a1948ac20102e3b539427db9cbf1da7d713ab18ce8b8f85f35c8796b1",
+        "sha256_in_prefix": "0977695a1948ac20102e3b539427db9cbf1da7d713ab18ce8b8f85f35c8796b1",
+        "size_in_bytes": 2626
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal_ls.py",
+        "path_type": "hardlink",
+        "sha256": "7a94d65f7152fb8b58f2c7dfeb7511ae0d74f92e1acc6d03fa2fba10e4b91d7f",
+        "sha256_in_prefix": "7a94d65f7152fb8b58f2c7dfeb7511ae0d74f92e1acc6d03fa2fba10e4b91d7f",
+        "size_in_bytes": 8304
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal_lut.py",
+        "path_type": "hardlink",
+        "sha256": "61785534297e7ef19e542e98001ad97f129ad0df28cd3453480ae103aaa0a1cc",
+        "sha256_in_prefix": "61785534297e7ef19e542e98001ad97f129ad0df28cd3453480ae103aaa0a1cc",
+        "size_in_bytes": 6856
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal_mkdir.py",
+        "path_type": "hardlink",
+        "sha256": "9f5426027d749415e16d1a897262a8ea28e79ff1b9bb07d395bc284ebb8ca21e",
+        "sha256_in_prefix": "9f5426027d749415e16d1a897262a8ea28e79ff1b9bb07d395bc284ebb8ca21e",
+        "size_in_bytes": 2468
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal_remove_towgs84.py",
+        "path_type": "hardlink",
+        "sha256": "364f458a976ecf8afccf39a683c68149b1bc277f93d96489642f53271c6cd944",
+        "sha256_in_prefix": "364f458a976ecf8afccf39a683c68149b1bc277f93d96489642f53271c6cd944",
+        "size_in_bytes": 4450
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal_rm.py",
+        "path_type": "hardlink",
+        "sha256": "53da8e99485f2fafb8bb21697edd7de1300cf8823ef82721e41ed83d6515ee4a",
+        "sha256_in_prefix": "53da8e99485f2fafb8bb21697edd7de1300cf8823ef82721e41ed83d6515ee4a",
+        "size_in_bytes": 4157
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal_rmdir.py",
+        "path_type": "hardlink",
+        "sha256": "c16d78c4f60f77735a0139f41eef0d556a6978e047edb94420e009b57c9ebd3b",
+        "sha256_in_prefix": "c16d78c4f60f77735a0139f41eef0d556a6978e047edb94420e009b57c9ebd3b",
+        "size_in_bytes": 2609
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal_vrtmerge.py",
+        "path_type": "hardlink",
+        "sha256": "e68e23f745563d1cc42a950709a7054ac6644dfccdc4d513c72f2e54b2e8a1c1",
+        "sha256_in_prefix": "e68e23f745563d1cc42a950709a7054ac6644dfccdc4d513c72f2e54b2e8a1c1",
+        "size_in_bytes": 12148
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdal_zip.py",
+        "path_type": "hardlink",
+        "sha256": "9e897fc0eda5cd1706e8c916f24635033b59c5cd017b5877643cd962e2128231",
+        "sha256_in_prefix": "9e897fc0eda5cd1706e8c916f24635033b59c5cd017b5877643cd962e2128231",
+        "size_in_bytes": 4133
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdalchksum.py",
+        "path_type": "hardlink",
+        "sha256": "a49d45672b3546eb0d45a81e4e07399b05f9452e9b4508070cc496486841e083",
+        "sha256_in_prefix": "a49d45672b3546eb0d45a81e4e07399b05f9452e9b4508070cc496486841e083",
+        "size_in_bytes": 3042
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdalcopyproj.py",
+        "path_type": "hardlink",
+        "sha256": "43358c9c5cb80c8cce4f7028c7859fa2625270667cfe98eb0b7a32c5fc771d5d",
+        "sha256_in_prefix": "43358c9c5cb80c8cce4f7028c7859fa2625270667cfe98eb0b7a32c5fc771d5d",
+        "size_in_bytes": 3079
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdalfilter.py",
+        "path_type": "hardlink",
+        "sha256": "5f7363c27995449d406f8e15b2c31fd554966865ee3649650f2e8d5bdbbc8550",
+        "sha256_in_prefix": "5f7363c27995449d406f8e15b2c31fd554966865ee3649650f2e8d5bdbbc8550",
+        "size_in_bytes": 6153
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdalident.py",
+        "path_type": "hardlink",
+        "sha256": "a719eaa72cc6646af063bb39d1a4305b4e6b099cbcb879231f45114d36d58859",
+        "sha256_in_prefix": "a719eaa72cc6646af063bb39d1a4305b4e6b099cbcb879231f45114d36d58859",
+        "size_in_bytes": 3113
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdalimport.py",
+        "path_type": "hardlink",
+        "sha256": "70d42a556be56ad569cdb756f25b00d45cbee5c39634da004ef85579a1de7d02",
+        "sha256_in_prefix": "70d42a556be56ad569cdb756f25b00d45cbee5c39634da004ef85579a1de7d02",
+        "size_in_bytes": 3167
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdalinfo.py",
+        "path_type": "hardlink",
+        "sha256": "5ca7f80dd7db38f10a63bbe62f014b2113d6f82e9fc7f5ef0fc5c13ae79d0db5",
+        "sha256_in_prefix": "5ca7f80dd7db38f10a63bbe62f014b2113d6f82e9fc7f5ef0fc5c13ae79d0db5",
+        "size_in_bytes": 22592
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/gdallocationinfo.py",
+        "path_type": "hardlink",
+        "sha256": "2cef27b0faa64751f60e18a50e5bdede86358b0a8d5573dcb3c8d496d213a087",
+        "sha256_in_prefix": "2cef27b0faa64751f60e18a50e5bdede86358b0a8d5573dcb3c8d496d213a087",
+        "size_in_bytes": 19706
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/get_soundg.py",
+        "path_type": "hardlink",
+        "sha256": "46cc9708316c0c1ee1f9542023860f660eaa69373ffb6ab8fb9c6457b519942e",
+        "sha256_in_prefix": "46cc9708316c0c1ee1f9542023860f660eaa69373ffb6ab8fb9c6457b519942e",
+        "size_in_bytes": 4214
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/histrep.py",
+        "path_type": "hardlink",
+        "sha256": "8fc56023323a616b2fbdcf561f4fdb75439cd17a572e759705390546cabc9c73",
+        "sha256_in_prefix": "8fc56023323a616b2fbdcf561f4fdb75439cd17a572e759705390546cabc9c73",
+        "size_in_bytes": 3515
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/hsv_merge.py",
+        "path_type": "hardlink",
+        "sha256": "514e11711ac3d4e326b607830df97ea1aaa80c41fce012a17f34b062810d2813",
+        "sha256_in_prefix": "514e11711ac3d4e326b607830df97ea1aaa80c41fce012a17f34b062810d2813",
+        "size_in_bytes": 8346
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/jpeg_in_tiff_extract.py",
+        "path_type": "hardlink",
+        "sha256": "7e6c66ead111be65ebeb1c96c3eb28805394d37a4b51038d84b9d1402a5c77ee",
+        "sha256_in_prefix": "7e6c66ead111be65ebeb1c96c3eb28805394d37a4b51038d84b9d1402a5c77ee",
+        "size_in_bytes": 9809
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/load2odbc.py",
+        "path_type": "hardlink",
+        "sha256": "fc21a9e082ed1615758d34752e25eee6fefe7f6c6f24ce53147bee50dc0518a1",
+        "sha256_in_prefix": "fc21a9e082ed1615758d34752e25eee6fefe7f6c6f24ce53147bee50dc0518a1",
+        "size_in_bytes": 6619
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/loslas2ntv2.py",
+        "path_type": "hardlink",
+        "sha256": "5b617ff000771c44429e69cbe687acf50473ceefd2576b25e88b5d5490cea8f2",
+        "sha256_in_prefix": "5b617ff000771c44429e69cbe687acf50473ceefd2576b25e88b5d5490cea8f2",
+        "size_in_bytes": 9106
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/magphase.py",
+        "path_type": "hardlink",
+        "sha256": "5a6a362596e2d8a24efe3efab919847d12578ab39fec70be6ce80c0006182025",
+        "sha256_in_prefix": "5a6a362596e2d8a24efe3efab919847d12578ab39fec70be6ce80c0006182025",
+        "size_in_bytes": 2613
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/make_fuzzer_friendly_archive.py",
+        "path_type": "hardlink",
+        "sha256": "5633d2372dfd4d6929e6ebcb4fd834cd285c3581c78a2848204e98afd448949a",
+        "sha256_in_prefix": "5633d2372dfd4d6929e6ebcb4fd834cd285c3581c78a2848204e98afd448949a",
+        "size_in_bytes": 2022
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/mkgraticule.py",
+        "path_type": "hardlink",
+        "sha256": "3691ae34b5329f76402da4987089b358452b8a148aafc4d5a1f7d139d481fc7f",
+        "sha256_in_prefix": "3691ae34b5329f76402da4987089b358452b8a148aafc4d5a1f7d139d481fc7f",
+        "size_in_bytes": 7653
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/ogr2ogr.py",
+        "path_type": "hardlink",
+        "sha256": "372a9cd5c1c3e1594a90e31513cb86ae02f4ded2992c5875917505ecacc66ca2",
+        "sha256_in_prefix": "372a9cd5c1c3e1594a90e31513cb86ae02f4ded2992c5875917505ecacc66ca2",
+        "size_in_bytes": 70093
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/ogr2vrt.py",
+        "path_type": "hardlink",
+        "sha256": "09845fc9485c8a425ebea3a12e9fef54015847d655db4eb29a918ab9b2acc2e4",
+        "sha256_in_prefix": "09845fc9485c8a425ebea3a12e9fef54015847d655db4eb29a918ab9b2acc2e4",
+        "size_in_bytes": 12827
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/ogr_build_junction_table.py",
+        "path_type": "hardlink",
+        "sha256": "e9fc00d1262f4b0838cb24526bede41034569cf2b4e344507807548f8d729355",
+        "sha256_in_prefix": "e9fc00d1262f4b0838cb24526bede41034569cf2b4e344507807548f8d729355",
+        "size_in_bytes": 7435
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/ogr_dispatch.py",
+        "path_type": "hardlink",
+        "sha256": "ba960702c169abfdda24bc6dc80c84602c3c8a1517ab8f008e7f285d52d7c7a1",
+        "sha256_in_prefix": "ba960702c169abfdda24bc6dc80c84602c3c8a1517ab8f008e7f285d52d7c7a1",
+        "size_in_bytes": 14713
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/ogr_layer_algebra.py",
+        "path_type": "hardlink",
+        "sha256": "53bf87f8ba8919064a5a302458e646c57c708e9d6426e77c4a48aa9061f1591b",
+        "sha256_in_prefix": "53bf87f8ba8919064a5a302458e646c57c708e9d6426e77c4a48aa9061f1591b",
+        "size_in_bytes": 17072
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/ogrinfo.py",
+        "path_type": "hardlink",
+        "sha256": "33ca17ff77a27b228e4a8b44729fd5865993d9d64ee1158b3036f3ab37b4f9f4",
+        "sha256_in_prefix": "33ca17ff77a27b228e4a8b44729fd5865993d9d64ee1158b3036f3ab37b4f9f4",
+        "size_in_bytes": 21061
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/ogrupdate.py",
+        "path_type": "hardlink",
+        "sha256": "fd83e0fb43d053dc051d4fd1be63617ecb099ddf78a0c5f90d7abed445f78b1b",
+        "sha256_in_prefix": "fd83e0fb43d053dc051d4fd1be63617ecb099ddf78a0c5f90d7abed445f78b1b",
+        "size_in_bytes": 19124
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/rel.py",
+        "path_type": "hardlink",
+        "sha256": "0d378d6592a29f3f1a6e3c3e5bd5cc52c7bcf36a813781eb796eb32403ee6e4b",
+        "sha256_in_prefix": "0d378d6592a29f3f1a6e3c3e5bd5cc52c7bcf36a813781eb796eb32403ee6e4b",
+        "size_in_bytes": 7853
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/tigerpoly.py",
+        "path_type": "hardlink",
+        "sha256": "cbde97ad4f1c216e686d9699ec21ba393741c4c2a97643c9f1564a4a3b1e9bed",
+        "sha256_in_prefix": "cbde97ad4f1c216e686d9699ec21ba393741c4c2a97643c9f1564a4a3b1e9bed",
+        "size_in_bytes": 7867
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/tile_extent_from_raster.py",
+        "path_type": "hardlink",
+        "sha256": "9752be4d41cb2e9db36ec71449eeff1a45c4b92246920336a7ac38566cfdc0d4",
+        "sha256_in_prefix": "9752be4d41cb2e9db36ec71449eeff1a45c4b92246920336a7ac38566cfdc0d4",
+        "size_in_bytes": 4635
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/tolatlong.py",
+        "path_type": "hardlink",
+        "sha256": "3067b994dbb2e4c305de02b76d147d03496e91edacb3be246a214ded4249b093",
+        "sha256_in_prefix": "3067b994dbb2e4c305de02b76d147d03496e91edacb3be246a214ded4249b093",
+        "size_in_bytes": 4161
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/val_repl.py",
+        "path_type": "hardlink",
+        "sha256": "4f04932bf86ab1323c17eac1705f5a34d8c6b9b5df1cbd93afb668c96376ce34",
+        "sha256_in_prefix": "4f04932bf86ab1323c17eac1705f5a34d8c6b9b5df1cbd93afb668c96376ce34",
+        "size_in_bytes": 4461
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/validate_cloud_optimized_geotiff.py",
+        "path_type": "hardlink",
+        "sha256": "1af5cf87d298d41cb2f33e7dbdcb6adf41c9b9901987882ffa1499689fb22627",
+        "sha256_in_prefix": "1af5cf87d298d41cb2f33e7dbdcb6adf41c9b9901987882ffa1499689fb22627",
+        "size_in_bytes": 17981
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/validate_gpkg.py",
+        "path_type": "hardlink",
+        "sha256": "e20f634e6f949e2e4d87cf8c7751c1cfeec21c2532faad30e5cb8e4f377bae85",
+        "sha256_in_prefix": "e20f634e6f949e2e4d87cf8c7751c1cfeec21c2532faad30e5cb8e4f377bae85",
+        "size_in_bytes": 96858
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/validate_jp2.py",
+        "path_type": "hardlink",
+        "sha256": "9fb5647db4bf31f1bce80ab366221788c2129c770fd758d741116c9140f75cd5",
+        "sha256_in_prefix": "9fb5647db4bf31f1bce80ab366221788c2129c770fd758d741116c9140f75cd5",
+        "size_in_bytes": 60725
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/vec_tr.py",
+        "path_type": "hardlink",
+        "sha256": "daba83ee5a2f6569fa79b2d3029b179b2c5c05fb2d0a7335e1d2fa97cfa332bf",
+        "sha256_in_prefix": "daba83ee5a2f6569fa79b2d3029b179b2c5c05fb2d0a7335e1d2fa97cfa332bf",
+        "size_in_bytes": 4977
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/vec_tr_spat.py",
+        "path_type": "hardlink",
+        "sha256": "2109dc40b60d2954b9147a8f1682d8f986b8fc74d1a881253da1c17cb8dfe432",
+        "sha256_in_prefix": "2109dc40b60d2954b9147a8f1682d8f986b8fc74d1a881253da1c17cb8dfe432",
+        "size_in_bytes": 5033
+      },
+      {
+        "_path": "Lib/site-packages/osgeo_utils/samples/wcs_virtds_params.py",
+        "path_type": "hardlink",
+        "sha256": "b9d2e3f6d3056e4b47ae274bd41dcf8888bf4ea9821b737c6ac73a128b8a5450",
+        "sha256_in_prefix": "b9d2e3f6d3056e4b47ae274bd41dcf8888bf4ea9821b737c6ac73a128b8a5450",
+        "size_in_bytes": 7032
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::gdal==3.4.0=arcgispro_py39_17119",
+  "sha256": "36197b8cd1ac0044e72b9aeee09de6ead8a15c0e6b3e97c059868eb3ec8d6ec1",
+  "size": 1201474,
+  "subdir": "win-64",
+  "timestamp": 1654081969529,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/gdal-3.4.0-arcgispro_py39_17119.tar.bz2",
+  "version": "3.4.0"
+}

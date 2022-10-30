@@ -1,0 +1,6 @@
+#python -m pip install [lib_name]
+-r base.txt
+coverage==5.5
+mock==4.0.3
+freezegun==1.1.0
+pytest-cov==2.11.1

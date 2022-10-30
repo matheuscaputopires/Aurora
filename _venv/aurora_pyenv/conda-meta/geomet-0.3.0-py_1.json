@@ -1,0 +1,205 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/esri/noarch",
+  "constrains": [],
+  "depends": [
+    "click",
+    "python >=3.6",
+    "six"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\geomet-0.3.0-py_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/geomet-0.3.0.dist-info/INSTALLER",
+    "Lib/site-packages/geomet-0.3.0.dist-info/METADATA",
+    "Lib/site-packages/geomet-0.3.0.dist-info/RECORD",
+    "Lib/site-packages/geomet-0.3.0.dist-info/REQUESTED",
+    "Lib/site-packages/geomet-0.3.0.dist-info/WHEEL",
+    "Lib/site-packages/geomet-0.3.0.dist-info/direct_url.json",
+    "Lib/site-packages/geomet-0.3.0.dist-info/entry_points.txt",
+    "Lib/site-packages/geomet-0.3.0.dist-info/top_level.txt",
+    "Lib/site-packages/geomet/__init__.py",
+    "Lib/site-packages/geomet/esri.py",
+    "Lib/site-packages/geomet/geopackage.py",
+    "Lib/site-packages/geomet/tool.py",
+    "Lib/site-packages/geomet/util.py",
+    "Lib/site-packages/geomet/wkb.py",
+    "Lib/site-packages/geomet/wkt.py",
+    ".nonadmin",
+    "Lib/site-packages/geomet/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/geomet/__pycache__/esri.cpython-39.pyc",
+    "Lib/site-packages/geomet/__pycache__/geopackage.cpython-39.pyc",
+    "Lib/site-packages/geomet/__pycache__/tool.cpython-39.pyc",
+    "Lib/site-packages/geomet/__pycache__/util.cpython-39.pyc",
+    "Lib/site-packages/geomet/__pycache__/wkb.cpython-39.pyc",
+    "Lib/site-packages/geomet/__pycache__/wkt.cpython-39.pyc",
+    "Scripts/geomet-script.py",
+    "Scripts/geomet.exe"
+  ],
+  "fn": "geomet-0.3.0-py_1.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\geomet-0.3.0-py_1",
+    "type": 1
+  },
+  "md5": "240060e491a14bb8c40ffe209332965e",
+  "name": "geomet",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\geomet-0.3.0-py_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/geomet-0.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/geomet-0.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6b0c46a8dbf83635a04c24939436dc8dd6156838e0d2284b5b1308a445f75e60",
+        "sha256_in_prefix": "6b0c46a8dbf83635a04c24939436dc8dd6156838e0d2284b5b1308a445f75e60",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "site-packages/geomet-0.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ebcf3fd6a41b64abf6a98704db4ceb0d236ae42bd6e2c065b62309e8c4ce5a7e",
+        "sha256_in_prefix": "ebcf3fd6a41b64abf6a98704db4ceb0d236ae42bd6e2c065b62309e8c4ce5a7e",
+        "size_in_bytes": 1560
+      },
+      {
+        "_path": "site-packages/geomet-0.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/geomet-0.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/geomet-0.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ab233b02ccb0f0b3338434348416015b2bcd3aa1d436c41a3ce1fdf5338e83be",
+        "sha256_in_prefix": "ab233b02ccb0f0b3338434348416015b2bcd3aa1d436c41a3ce1fdf5338e83be",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "site-packages/geomet-0.3.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "4a0f67086f40de9d5851c50533c039963bfb9b94bbc6353a711cb122ca40d01d",
+        "sha256_in_prefix": "4a0f67086f40de9d5851c50533c039963bfb9b94bbc6353a711cb122ca40d01d",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/geomet-0.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "54b1a1127c8a1676b49098b781b3babd00a18014d42ba5180d764003c5a2f3a0",
+        "sha256_in_prefix": "54b1a1127c8a1676b49098b781b3babd00a18014d42ba5180d764003c5a2f3a0",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/geomet/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "02c424ca41974f786766f34348b7107c8b7720c76820f7d4dc09f3d12dd5e72e",
+        "sha256_in_prefix": "02c424ca41974f786766f34348b7107c8b7720c76820f7d4dc09f3d12dd5e72e",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "site-packages/geomet/esri.py",
+        "path_type": "hardlink",
+        "sha256": "5bbd5897d21da3945a4c5ab0b5e02c4829ef4b42dbfdd3cc71b0a31f10b189b0",
+        "sha256_in_prefix": "5bbd5897d21da3945a4c5ab0b5e02c4829ef4b42dbfdd3cc71b0a31f10b189b0",
+        "size_in_bytes": 7069
+      },
+      {
+        "_path": "site-packages/geomet/geopackage.py",
+        "path_type": "hardlink",
+        "sha256": "2363c9323fa83e21144fc05e900738dae76da5fcc5df83f64928a32e1e8743a1",
+        "sha256_in_prefix": "2363c9323fa83e21144fc05e900738dae76da5fcc5df83f64928a32e1e8743a1",
+        "size_in_bytes": 12094
+      },
+      {
+        "_path": "site-packages/geomet/tool.py",
+        "path_type": "hardlink",
+        "sha256": "3f6b5ea2fcd2011d57bcff61be52799c0228f276de4f550128a6492809051ca6",
+        "sha256_in_prefix": "3f6b5ea2fcd2011d57bcff61be52799c0228f276de4f550128a6492809051ca6",
+        "size_in_bytes": 3796
+      },
+      {
+        "_path": "site-packages/geomet/util.py",
+        "path_type": "hardlink",
+        "sha256": "4bf326b7cc43690c038264176596582a2d4dbcfa2680077b1a56846dcd486ed6",
+        "sha256_in_prefix": "4bf326b7cc43690c038264176596582a2d4dbcfa2680077b1a56846dcd486ed6",
+        "size_in_bytes": 4207
+      },
+      {
+        "_path": "site-packages/geomet/wkb.py",
+        "path_type": "hardlink",
+        "sha256": "09b4643de6ef5b3919240a5a63f3681c8628c8a8cc661a7670d45d13d2339c66",
+        "sha256_in_prefix": "09b4643de6ef5b3919240a5a63f3681c8628c8a8cc661a7670d45d13d2339c66",
+        "size_in_bytes": 30731
+      },
+      {
+        "_path": "site-packages/geomet/wkt.py",
+        "path_type": "hardlink",
+        "sha256": "2174fe43d80eaf125b96aa9234e48e5fdbed02bf64057bba31d4b77268a1e5ef",
+        "sha256_in_prefix": "2174fe43d80eaf125b96aa9234e48e5fdbed02bf64057bba31d4b77268a1e5ef",
+        "size_in_bytes": 19274
+      },
+      {
+        "_path": "Lib/site-packages/geomet/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geomet/__pycache__/esri.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geomet/__pycache__/geopackage.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geomet/__pycache__/tool.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geomet/__pycache__/util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geomet/__pycache__/wkb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/geomet/__pycache__/wkt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/geomet-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/geomet.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "esri/noarch::geomet==0.3.0=py_1",
+  "sha256": "829a9c2f2e08a37ea606fe80f0fb1a388cd20912a8b338b04ec64c42cf0f57df",
+  "size": 26523,
+  "subdir": "noarch",
+  "timestamp": 1629756323060,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/noarch/geomet-0.3.0-py_1.tar.bz2",
+  "version": "0.3.0"
+}

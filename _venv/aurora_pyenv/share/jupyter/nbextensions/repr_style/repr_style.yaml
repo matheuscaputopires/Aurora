@@ -1,0 +1,6 @@
+Type: IPython Notebook Extension
+Name: repr_style
+Link: README.md
+Description: An extension that allows you to load scripts required for arcgis repr.
+Main: main.js
+Compatibility: 4.x, 5.x

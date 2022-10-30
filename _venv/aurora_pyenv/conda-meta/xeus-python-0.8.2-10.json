@@ -1,0 +1,172 @@
+{
+  "arch": "x86_64",
+  "build": "10",
+  "build_number": 10,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\xeus-python-0.8.2-10",
+  "features": "",
+  "files": [
+    "Library/bin/libxeus-python.dll",
+    "Library/bin/xpython.exe",
+    "Library/include/xeus-python/xdebugger.hpp",
+    "Library/include/xeus-python/xeus_python_config.hpp",
+    "Library/include/xeus-python/xinterpreter.hpp",
+    "Library/lib/cmake/xeus-python/xeus-pythonConfig.cmake",
+    "Library/lib/cmake/xeus-python/xeus-pythonConfigVersion.cmake",
+    "Library/lib/cmake/xeus-python/xeus-pythonTargets-relwithdebinfo.cmake",
+    "Library/lib/cmake/xeus-python/xeus-pythonTargets.cmake",
+    "Library/lib/libxeus-python-static.lib",
+    "Library/lib/libxeus-python.lib",
+    "Library/share/jupyter/kernels/xpython/kernel.json",
+    "Library/share/jupyter/kernels/xpython/logo-32x32.png",
+    "Library/share/jupyter/kernels/xpython/logo-64x64.png",
+    "share/jupyter/kernels/xpython/kernel.json",
+    "share/jupyter/kernels/xpython/logo-32x32.png",
+    "share/jupyter/kernels/xpython/logo-64x64.png",
+    ".nonadmin"
+  ],
+  "fn": "xeus-python-0.8.2-10.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\xeus-python-0.8.2-10",
+    "type": 1
+  },
+  "md5": "9ed3c1c69558c0267e93c04a3a930dce",
+  "name": "xeus-python",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\xeus-python-0.8.2-10.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libxeus-python.dll",
+        "path_type": "hardlink",
+        "sha256": "af6234bb6cd909cc72dde9172f0639f2422d5ef7a8d28678222c5f1eb2ef8130",
+        "sha256_in_prefix": "af6234bb6cd909cc72dde9172f0639f2422d5ef7a8d28678222c5f1eb2ef8130",
+        "size_in_bytes": 1027792
+      },
+      {
+        "_path": "Library/bin/xpython.exe",
+        "path_type": "hardlink",
+        "sha256": "c74589617b306a6a04ef01b37bdfe4ca4914f64f4b126ab98e3a9f7cfba127df",
+        "sha256_in_prefix": "c74589617b306a6a04ef01b37bdfe4ca4914f64f4b126ab98e3a9f7cfba127df",
+        "size_in_bytes": 226520
+      },
+      {
+        "_path": "Library/include/xeus-python/xdebugger.hpp",
+        "path_type": "hardlink",
+        "sha256": "d80f43f58896bc5b1e2fcf743b518fd586d7952d9b15bfe75611baa2fa22e88f",
+        "sha256_in_prefix": "d80f43f58896bc5b1e2fcf743b518fd586d7952d9b15bfe75611baa2fa22e88f",
+        "size_in_bytes": 2918
+      },
+      {
+        "_path": "Library/include/xeus-python/xeus_python_config.hpp",
+        "path_type": "hardlink",
+        "sha256": "c0e3af476ee0498fb9161eb8bddd91cd535c9e0cd079e2c5e121699d16f247dc",
+        "sha256_in_prefix": "c0e3af476ee0498fb9161eb8bddd91cd535c9e0cd079e2c5e121699d16f247dc",
+        "size_in_bytes": 1550
+      },
+      {
+        "_path": "Library/include/xeus-python/xinterpreter.hpp",
+        "path_type": "hardlink",
+        "sha256": "1d983fb031a7dacda4d63035b89ecdf966c2443e5988f37a151e5710ffa1560a",
+        "sha256_in_prefix": "1d983fb031a7dacda4d63035b89ecdf966c2443e5988f37a151e5710ffa1560a",
+        "size_in_bytes": 3415
+      },
+      {
+        "_path": "Library/lib/cmake/xeus-python/xeus-pythonConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "a4db3ba867f29bddefa0672d3d10fa6a1b0c6e4941e6e7e2ffdb8dead0cbadf2",
+        "sha256_in_prefix": "a4db3ba867f29bddefa0672d3d10fa6a1b0c6e4941e6e7e2ffdb8dead0cbadf2",
+        "size_in_bytes": 2507
+      },
+      {
+        "_path": "Library/lib/cmake/xeus-python/xeus-pythonConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "ee949d530450821762d16825510c675a518153e86749e7a6bc13b53edd8c6803",
+        "sha256_in_prefix": "ee949d530450821762d16825510c675a518153e86749e7a6bc13b53edd8c6803",
+        "size_in_bytes": 2025
+      },
+      {
+        "_path": "Library/lib/cmake/xeus-python/xeus-pythonTargets-relwithdebinfo.cmake",
+        "path_type": "hardlink",
+        "sha256": "fac7ee333e3d5404074ec0c7535786276cdc0cf46d9368f53402f99a556a0b76",
+        "sha256_in_prefix": "fac7ee333e3d5404074ec0c7535786276cdc0cf46d9368f53402f99a556a0b76",
+        "size_in_bytes": 1488
+      },
+      {
+        "_path": "Library/lib/cmake/xeus-python/xeus-pythonTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "585fdc89309d622100e8b08e7955ebfcd187ae3c7f31086edf2d68f59987d11f",
+        "sha256_in_prefix": "585fdc89309d622100e8b08e7955ebfcd187ae3c7f31086edf2d68f59987d11f",
+        "size_in_bytes": 4421
+      },
+      {
+        "_path": "Library/lib/libxeus-python-static.lib",
+        "path_type": "hardlink",
+        "sha256": "6d09829b63e122254f3e5e7cd1fcf637ded64d7ece496a9636cdb13b419e9946",
+        "sha256_in_prefix": "6d09829b63e122254f3e5e7cd1fcf637ded64d7ece496a9636cdb13b419e9946",
+        "size_in_bytes": 34424534
+      },
+      {
+        "_path": "Library/lib/libxeus-python.lib",
+        "path_type": "hardlink",
+        "sha256": "8687daaef3009be693a6978b3be93fd1c8ba53aa14b1a9f7527ed0eaa6cce240",
+        "sha256_in_prefix": "8687daaef3009be693a6978b3be93fd1c8ba53aa14b1a9f7527ed0eaa6cce240",
+        "size_in_bytes": 68776
+      },
+      {
+        "_path": "Library/share/jupyter/kernels/xpython/kernel.json",
+        "path_type": "hardlink",
+        "sha256": "281b0c2d2669e3798f727b27e00da308a6d99f495f7877809ab7e49d8ece6bbf",
+        "sha256_in_prefix": "281b0c2d2669e3798f727b27e00da308a6d99f495f7877809ab7e49d8ece6bbf",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "Library/share/jupyter/kernels/xpython/logo-32x32.png",
+        "path_type": "hardlink",
+        "sha256": "8db135576cfe13ea25dcdcd963f8d82a7672852ad8f906fc59980ed6d8fd2299",
+        "sha256_in_prefix": "8db135576cfe13ea25dcdcd963f8d82a7672852ad8f906fc59980ed6d8fd2299",
+        "size_in_bytes": 1379
+      },
+      {
+        "_path": "Library/share/jupyter/kernels/xpython/logo-64x64.png",
+        "path_type": "hardlink",
+        "sha256": "2f659ddb61d85fb5fb772ccbbdf7fb9ce6798320b68783af9d589608df94202d",
+        "sha256_in_prefix": "2f659ddb61d85fb5fb772ccbbdf7fb9ce6798320b68783af9d589608df94202d",
+        "size_in_bytes": 3131
+      },
+      {
+        "_path": "share/jupyter/kernels/xpython/kernel.json",
+        "path_type": "hardlink",
+        "sha256": "281b0c2d2669e3798f727b27e00da308a6d99f495f7877809ab7e49d8ece6bbf",
+        "sha256_in_prefix": "281b0c2d2669e3798f727b27e00da308a6d99f495f7877809ab7e49d8ece6bbf",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "share/jupyter/kernels/xpython/logo-32x32.png",
+        "path_type": "hardlink",
+        "sha256": "8db135576cfe13ea25dcdcd963f8d82a7672852ad8f906fc59980ed6d8fd2299",
+        "sha256_in_prefix": "8db135576cfe13ea25dcdcd963f8d82a7672852ad8f906fc59980ed6d8fd2299",
+        "size_in_bytes": 1379
+      },
+      {
+        "_path": "share/jupyter/kernels/xpython/logo-64x64.png",
+        "path_type": "hardlink",
+        "sha256": "2f659ddb61d85fb5fb772ccbbdf7fb9ce6798320b68783af9d589608df94202d",
+        "sha256_in_prefix": "2f659ddb61d85fb5fb772ccbbdf7fb9ce6798320b68783af9d589608df94202d",
+        "size_in_bytes": 3131
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::xeus-python==0.8.2=10",
+  "sha256": "4a055a9c36104c089cb6e53e74b696c244fb273d80bd8944f335a4dd28a185d5",
+  "size": 6625147,
+  "subdir": "win-64",
+  "timestamp": 1652130099024,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/xeus-python-0.8.2-10.tar.bz2",
+  "version": "0.8.2"
+}

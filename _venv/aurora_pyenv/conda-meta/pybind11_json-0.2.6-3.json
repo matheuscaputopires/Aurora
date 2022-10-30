@@ -1,0 +1,68 @@
+{
+  "arch": "x86_64",
+  "build": "3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\pybind11_json-0.2.6-3",
+  "features": "",
+  "files": [
+    "Library/include/pybind11_json/pybind11_json.hpp",
+    "Library/lib/cmake/pybind11_json/pybind11_jsonConfig.cmake",
+    "Library/lib/cmake/pybind11_json/pybind11_jsonConfigVersion.cmake",
+    "Library/lib/cmake/pybind11_json/pybind11_jsonTargets.cmake",
+    ".nonadmin"
+  ],
+  "fn": "pybind11_json-0.2.6-3.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\pybind11_json-0.2.6-3",
+    "type": 1
+  },
+  "md5": "995da12e7596b5586c8fc83713306f48",
+  "name": "pybind11_json",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\pybind11_json-0.2.6-3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/include/pybind11_json/pybind11_json.hpp",
+        "path_type": "hardlink",
+        "sha256": "02baab4ab58c0d03ff76aaa8e67fe2da441f4a6096169796226d9b69ebdf8933",
+        "sha256_in_prefix": "02baab4ab58c0d03ff76aaa8e67fe2da441f4a6096169796226d9b69ebdf8933",
+        "size_in_bytes": 6141
+      },
+      {
+        "_path": "Library/lib/cmake/pybind11_json/pybind11_jsonConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "7644247e361bb7092e730f209b3b7dfacf7bee205c5d4913e706c6f5c4a1b559",
+        "sha256_in_prefix": "7644247e361bb7092e730f209b3b7dfacf7bee205c5d4913e706c6f5c4a1b559",
+        "size_in_bytes": 2058
+      },
+      {
+        "_path": "Library/lib/cmake/pybind11_json/pybind11_jsonConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "ddda4af1a37c616b385d00c4218ad688b0b206a7616791b49b9737ada3a8df82",
+        "sha256_in_prefix": "ddda4af1a37c616b385d00c4218ad688b0b206a7616791b49b9737ada3a8df82",
+        "size_in_bytes": 1419
+      },
+      {
+        "_path": "Library/lib/cmake/pybind11_json/pybind11_jsonTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "a58e39c2e2fe2d91053b168588f0dc7d7318678a55ab2fd370083c017aa00bc1",
+        "sha256_in_prefix": "a58e39c2e2fe2d91053b168588f0dc7d7318678a55ab2fd370083c017aa00bc1",
+        "size_in_bytes": 3586
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::pybind11_json==0.2.6=3",
+  "sha256": "593b4cc33958364ca93e6c48ead1d5845ad20d6734ddaa8faa779f74dccfc7d7",
+  "size": 6294,
+  "subdir": "win-64",
+  "timestamp": 1647919561006,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/pybind11_json-0.2.6-3.tar.bz2",
+  "version": "0.2.6"
+}

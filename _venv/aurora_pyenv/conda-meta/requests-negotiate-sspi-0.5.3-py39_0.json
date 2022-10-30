@@ -1,0 +1,137 @@
+{
+  "arch": "x86_64",
+  "build": "py39_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "pywin32-security",
+    "requests >=2.0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\requests-negotiate-sspi-0.5.3-py39_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/INSTALLER",
+    "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/LICENSE.txt",
+    "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/METADATA",
+    "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/RECORD",
+    "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/REQUESTED",
+    "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/WHEEL",
+    "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/direct_url.json",
+    "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/top_level.txt",
+    "Lib/site-packages/requests_negotiate_sspi/__init__.py",
+    "Lib/site-packages/requests_negotiate_sspi/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/requests_negotiate_sspi/__pycache__/requests_negotiate_sspi.cpython-39.pyc",
+    "Lib/site-packages/requests_negotiate_sspi/requests_negotiate_sspi.py",
+    ".nonadmin"
+  ],
+  "fn": "requests-negotiate-sspi-0.5.3-py39_0.tar.bz2",
+  "license": "APACHE-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\requests-negotiate-sspi-0.5.3-py39_0",
+    "type": 1
+  },
+  "md5": "9623bb9f57b786fceb0ece603245b8e2",
+  "name": "requests-negotiate-sspi",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\requests-negotiate-sspi-0.5.3-py39_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "770af8291f708538d8ff885a0bbc4e045cd700531741c4f99528d435c14d7f55",
+        "sha256_in_prefix": "770af8291f708538d8ff885a0bbc4e045cd700531741c4f99528d435c14d7f55",
+        "size_in_bytes": 11751
+      },
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "20d872540546fd062ea97efc264693b05175e2d3c5dca2fe3b6437c74d333e3a",
+        "sha256_in_prefix": "20d872540546fd062ea97efc264693b05175e2d3c5dca2fe3b6437c74d333e3a",
+        "size_in_bytes": 1661
+      },
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c2abab75d257da986b035eca15fe1316121b4d2eebe15437b3b954f04bbdaf48",
+        "sha256_in_prefix": "c2abab75d257da986b035eca15fe1316121b4d2eebe15437b3b954f04bbdaf48",
+        "size_in_bytes": 1137
+      },
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "458b38028ec9aca360fed033cd83f76d95ab7fefe38458a497217587977448f2",
+        "sha256_in_prefix": "458b38028ec9aca360fed033cd83f76d95ab7fefe38458a497217587977448f2",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi-0.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4be8936fc560affcc9e98906152008d524e270534df1a86fb9c25a4d31904168",
+        "sha256_in_prefix": "4be8936fc560affcc9e98906152008d524e270534df1a86fb9c25a4d31904168",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "09b9dc0785ee2bb8383ae57f2df57b25fb367e4ac403da6061914d45c91f5ce4",
+        "sha256_in_prefix": "09b9dc0785ee2bb8383ae57f2df57b25fb367e4ac403da6061914d45c91f5ce4",
+        "size_in_bytes": 1009
+      },
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "56a5fabdf9b7209e46102ee2800fa38202465c2d4793cac8696a22c97c6c5711",
+        "sha256_in_prefix": "56a5fabdf9b7209e46102ee2800fa38202465c2d4793cac8696a22c97c6c5711",
+        "size_in_bytes": 973
+      },
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi/__pycache__/requests_negotiate_sspi.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "22f68c6f84449502c141cc987c289868b7ffb6800171bb87f9df25a259f44940",
+        "sha256_in_prefix": "22f68c6f84449502c141cc987c289868b7ffb6800171bb87f9df25a259f44940",
+        "size_in_bytes": 5569
+      },
+      {
+        "_path": "Lib/site-packages/requests_negotiate_sspi/requests_negotiate_sspi.py",
+        "path_type": "hardlink",
+        "sha256": "4a7b741d5e7fe31fb58f380a6f2b37a92dbbbd0a9039ddc383e9045cb62e529d",
+        "sha256_in_prefix": "4a7b741d5e7fe31fb58f380a6f2b37a92dbbbd0a9039ddc383e9045cb62e529d",
+        "size_in_bytes": 8902
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::requests-negotiate-sspi==0.5.3=py39_0",
+  "sha256": "4519879af0d81d6f126433c63a0ab848336be058b3b07b7cf2758e37be55e388",
+  "size": 16178,
+  "subdir": "win-64",
+  "timestamp": 1637357285675,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/requests-negotiate-sspi-0.5.3-py39_0.tar.bz2",
+  "version": "0.5.3"
+}

@@ -1,0 +1,280 @@
+{
+  "arch": "x86_64",
+  "build": "8",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [
+    "xtl >=0.6.15,<0.7.0a0",
+    "cppzmq >=4.4.1,<4.5.0a0",
+    "nlohmann_json >=3.7.0,<3.8.0a0"
+  ],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\xeus-0.24.1-8",
+  "features": "",
+  "files": [
+    "Library/bin/libxeus.dll",
+    "Library/include/xeus/xauthentication.hpp",
+    "Library/include/xeus/xcomm.hpp",
+    "Library/include/xeus/xcontrol_messenger.hpp",
+    "Library/include/xeus/xdebugger.hpp",
+    "Library/include/xeus/xeus.hpp",
+    "Library/include/xeus/xguid.hpp",
+    "Library/include/xeus/xhistory_manager.hpp",
+    "Library/include/xeus/xinput.hpp",
+    "Library/include/xeus/xinterpreter.hpp",
+    "Library/include/xeus/xjson.hpp",
+    "Library/include/xeus/xkernel.hpp",
+    "Library/include/xeus/xkernel_configuration.hpp",
+    "Library/include/xeus/xlogger.hpp",
+    "Library/include/xeus/xmessage.hpp",
+    "Library/include/xeus/xmiddleware.hpp",
+    "Library/include/xeus/xserver.hpp",
+    "Library/include/xeus/xserver_control_main.hpp",
+    "Library/include/xeus/xserver_shell_main.hpp",
+    "Library/include/xeus/xserver_zmq.hpp",
+    "Library/include/xeus/xserver_zmq_split.hpp",
+    "Library/include/xeus/xsystem.hpp",
+    "Library/lib/cmake/xeus/FindLibUUID.cmake",
+    "Library/lib/cmake/xeus/xeusConfig.cmake",
+    "Library/lib/cmake/xeus/xeusConfigVersion.cmake",
+    "Library/lib/cmake/xeus/xeusTargets-relwithdebinfo.cmake",
+    "Library/lib/cmake/xeus/xeusTargets.cmake",
+    "Library/lib/libxeus-static.lib",
+    "Library/lib/libxeus.lib",
+    "Library/lib/libxeus.pdb",
+    ".nonadmin"
+  ],
+  "fn": "xeus-0.24.1-8.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\xeus-0.24.1-8",
+    "type": 1
+  },
+  "md5": "dec53d7976dc2aacad075eb14ef89108",
+  "name": "xeus",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\xeus-0.24.1-8.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libxeus.dll",
+        "path_type": "hardlink",
+        "sha256": "ef8db0ce8ec8c998c2204a7ef00169e92fc1f6172a38ed521dfc0f17b63235c7",
+        "sha256_in_prefix": "ef8db0ce8ec8c998c2204a7ef00169e92fc1f6172a38ed521dfc0f17b63235c7",
+        "size_in_bytes": 629456
+      },
+      {
+        "_path": "Library/include/xeus/xauthentication.hpp",
+        "path_type": "hardlink",
+        "sha256": "0e924f4407dcea3699e3c1c4c9c1b470e313c801a1e06cf27e7790c040c6c582",
+        "sha256_in_prefix": "0e924f4407dcea3699e3c1c4c9c1b470e313c801a1e06cf27e7790c040c6c582",
+        "size_in_bytes": 2566
+      },
+      {
+        "_path": "Library/include/xeus/xcomm.hpp",
+        "path_type": "hardlink",
+        "sha256": "a3072fe863de48b7ce6d727ab4317035eed0e2ef5377d400d4ee899a5454ead8",
+        "sha256_in_prefix": "a3072fe863de48b7ce6d727ab4317035eed0e2ef5377d400d4ee899a5454ead8",
+        "size_in_bytes": 11630
+      },
+      {
+        "_path": "Library/include/xeus/xcontrol_messenger.hpp",
+        "path_type": "hardlink",
+        "sha256": "649c704e2e72a29917b7b8d40b5750e964800344abaeedcef034aa9059263501",
+        "sha256_in_prefix": "649c704e2e72a29917b7b8d40b5750e964800344abaeedcef034aa9059263501",
+        "size_in_bytes": 1421
+      },
+      {
+        "_path": "Library/include/xeus/xdebugger.hpp",
+        "path_type": "hardlink",
+        "sha256": "0bdb7149342bb14b732ac78c0878f52ec7684853aaa1aefd0c9a815674221cb2",
+        "sha256_in_prefix": "0bdb7149342bb14b732ac78c0878f52ec7684853aaa1aefd0c9a815674221cb2",
+        "size_in_bytes": 1992
+      },
+      {
+        "_path": "Library/include/xeus/xeus.hpp",
+        "path_type": "hardlink",
+        "sha256": "9e822bc3715ea604737acb38ef25996f5fd39dee8e273be0ec6dd02f8400d22a",
+        "sha256_in_prefix": "9e822bc3715ea604737acb38ef25996f5fd39dee8e273be0ec6dd02f8400d22a",
+        "size_in_bytes": 1756
+      },
+      {
+        "_path": "Library/include/xeus/xguid.hpp",
+        "path_type": "hardlink",
+        "sha256": "5ab1ce2a9c95b091cdae69f7c1e0efd7818578a6db39e27321a87f61d49ba833",
+        "sha256_in_prefix": "5ab1ce2a9c95b091cdae69f7c1e0efd7818578a6db39e27321a87f61d49ba833",
+        "size_in_bytes": 1367
+      },
+      {
+        "_path": "Library/include/xeus/xhistory_manager.hpp",
+        "path_type": "hardlink",
+        "sha256": "9f446eab5d0a0c0f022442cbe0867d4c8faf0f470c3190478debf0cb7826fbbd",
+        "sha256_in_prefix": "9f446eab5d0a0c0f022442cbe0867d4c8faf0f470c3190478debf0cb7826fbbd",
+        "size_in_bytes": 2450
+      },
+      {
+        "_path": "Library/include/xeus/xinput.hpp",
+        "path_type": "hardlink",
+        "sha256": "f207c5b893e25e47f8fb26de83b294b833edc7c1305a9c84b01fa6ee93b72ea5",
+        "sha256_in_prefix": "f207c5b893e25e47f8fb26de83b294b833edc7c1305a9c84b01fa6ee93b72ea5",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "Library/include/xeus/xinterpreter.hpp",
+        "path_type": "hardlink",
+        "sha256": "5133b0bd8444177609b15310723beef3d607a7bcdfe4ee0a8f8caf7fcb99e83d",
+        "sha256_in_prefix": "5133b0bd8444177609b15310723beef3d607a7bcdfe4ee0a8f8caf7fcb99e83d",
+        "size_in_bytes": 5786
+      },
+      {
+        "_path": "Library/include/xeus/xjson.hpp",
+        "path_type": "hardlink",
+        "sha256": "b1409f7300627f92dfa735825d01887991ec6c00b8b2ff67360577bbe6e47080",
+        "sha256_in_prefix": "b1409f7300627f92dfa735825d01887991ec6c00b8b2ff67360577bbe6e47080",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "Library/include/xeus/xkernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "890d1de7dcfa0aa52cc912b7015b02ad833bfd8bd60e33e5560f4ef4c5e433dd",
+        "sha256_in_prefix": "890d1de7dcfa0aa52cc912b7015b02ad833bfd8bd60e33e5560f4ef4c5e433dd",
+        "size_in_bytes": 3205
+      },
+      {
+        "_path": "Library/include/xeus/xkernel_configuration.hpp",
+        "path_type": "hardlink",
+        "sha256": "5263f1444fcb62f7268741fa070fc855fe110059a77e6b84e4dcdea787404324",
+        "sha256_in_prefix": "5263f1444fcb62f7268741fa070fc855fe110059a77e6b84e4dcdea787404324",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "Library/include/xeus/xlogger.hpp",
+        "path_type": "hardlink",
+        "sha256": "dedf5d0bce7e45e14b8a6095ae05355fd1b3783849438646685a4fd42841ffb6",
+        "sha256_in_prefix": "dedf5d0bce7e45e14b8a6095ae05355fd1b3783849438646685a4fd42841ffb6",
+        "size_in_bytes": 2976
+      },
+      {
+        "_path": "Library/include/xeus/xmessage.hpp",
+        "path_type": "hardlink",
+        "sha256": "d82e4ff96d90ff00053fb69b95a05f98df64ef9d722d470ff73a9e0dc6cf8990",
+        "sha256_in_prefix": "d82e4ff96d90ff00053fb69b95a05f98df64ef9d722d470ff73a9e0dc6cf8990",
+        "size_in_bytes": 4295
+      },
+      {
+        "_path": "Library/include/xeus/xmiddleware.hpp",
+        "path_type": "hardlink",
+        "sha256": "4f1b5e678d1a02593d30c9887542721b39fc64cbc8fa43ee5c4f4343b97cbe03",
+        "sha256_in_prefix": "4f1b5e678d1a02593d30c9887542721b39fc64cbc8fa43ee5c4f4343b97cbe03",
+        "size_in_bytes": 1607
+      },
+      {
+        "_path": "Library/include/xeus/xserver.hpp",
+        "path_type": "hardlink",
+        "sha256": "b63399f82879f7ab89cbd971c25c253488a5cd4f8c62682364bc4649350e7dad",
+        "sha256_in_prefix": "b63399f82879f7ab89cbd971c25c253488a5cd4f8c62682364bc4649350e7dad",
+        "size_in_bytes": 3542
+      },
+      {
+        "_path": "Library/include/xeus/xserver_control_main.hpp",
+        "path_type": "hardlink",
+        "sha256": "b4abdec4219df19c012ee895c5359c73bf59fd65387a22f82f0b0d2b950d299c",
+        "sha256_in_prefix": "b4abdec4219df19c012ee895c5359c73bf59fd65387a22f82f0b0d2b950d299c",
+        "size_in_bytes": 1163
+      },
+      {
+        "_path": "Library/include/xeus/xserver_shell_main.hpp",
+        "path_type": "hardlink",
+        "sha256": "ab618099ae84696d3663a7b232008ac58e36a9e1b15fcea32f45e0ba0cb4a186",
+        "sha256_in_prefix": "ab618099ae84696d3663a7b232008ac58e36a9e1b15fcea32f45e0ba0cb4a186",
+        "size_in_bytes": 1114
+      },
+      {
+        "_path": "Library/include/xeus/xserver_zmq.hpp",
+        "path_type": "hardlink",
+        "sha256": "592852ef505845ed9c7540a2048bfd4496d95538098e7053dd9efd95ed8ce13a",
+        "sha256_in_prefix": "592852ef505845ed9c7540a2048bfd4496d95538098e7053dd9efd95ed8ce13a",
+        "size_in_bytes": 2429
+      },
+      {
+        "_path": "Library/include/xeus/xserver_zmq_split.hpp",
+        "path_type": "hardlink",
+        "sha256": "005b3dab11cfb76d78370a985bb613083263b01a7d017967887ea3ba13c0bbfb",
+        "sha256_in_prefix": "005b3dab11cfb76d78370a985bb613083263b01a7d017967887ea3ba13c0bbfb",
+        "size_in_bytes": 2656
+      },
+      {
+        "_path": "Library/include/xeus/xsystem.hpp",
+        "path_type": "hardlink",
+        "sha256": "2269a6958cfe601229c8e12fdfdec3e6a717464890a48942a60455461d239604",
+        "sha256_in_prefix": "2269a6958cfe601229c8e12fdfdec3e6a717464890a48942a60455461d239604",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "Library/lib/cmake/xeus/FindLibUUID.cmake",
+        "path_type": "hardlink",
+        "sha256": "4cc854c948654a2dbee992fd4ddbbc5624537174bce59b0f709d0760c684bfb1",
+        "sha256_in_prefix": "4cc854c948654a2dbee992fd4ddbbc5624537174bce59b0f709d0760c684bfb1",
+        "size_in_bytes": 2657
+      },
+      {
+        "_path": "Library/lib/cmake/xeus/xeusConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "d674204f54b7bd396aa7426b58583faec90fd08b9f20deec54ce38f10222d3af",
+        "sha256_in_prefix": "d674204f54b7bd396aa7426b58583faec90fd08b9f20deec54ce38f10222d3af",
+        "size_in_bytes": 3323
+      },
+      {
+        "_path": "Library/lib/cmake/xeus/xeusConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "c0d31b67e7d54e7035b748dad4d0c52bfed81f6006166120ea372983b8391da7",
+        "sha256_in_prefix": "c0d31b67e7d54e7035b748dad4d0c52bfed81f6006166120ea372983b8391da7",
+        "size_in_bytes": 2026
+      },
+      {
+        "_path": "Library/lib/cmake/xeus/xeusTargets-relwithdebinfo.cmake",
+        "path_type": "hardlink",
+        "sha256": "ff4236a15a4c00aa9c1e403c0a58109b8b11d0303597fc1ada7d0175467e0b7a",
+        "sha256_in_prefix": "ff4236a15a4c00aa9c1e403c0a58109b8b11d0303597fc1ada7d0175467e0b7a",
+        "size_in_bytes": 1376
+      },
+      {
+        "_path": "Library/lib/cmake/xeus/xeusTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "052d64072cef47bb110e8f12b3ddc8ac08aea925fe1569ea10ca33af76686a35",
+        "sha256_in_prefix": "052d64072cef47bb110e8f12b3ddc8ac08aea925fe1569ea10ca33af76686a35",
+        "size_in_bytes": 4077
+      },
+      {
+        "_path": "Library/lib/libxeus-static.lib",
+        "path_type": "hardlink",
+        "sha256": "6c3882c1aa0c4ba9cf91bcfc82edd5ad96526fefd622441dad9022871ef45cb8",
+        "sha256_in_prefix": "6c3882c1aa0c4ba9cf91bcfc82edd5ad96526fefd622441dad9022871ef45cb8",
+        "size_in_bytes": 17539650
+      },
+      {
+        "_path": "Library/lib/libxeus.lib",
+        "path_type": "hardlink",
+        "sha256": "c6d039c617095e17ceaa072dbce8f7d5a684729f26a71a4f7b8efd2aea83db55",
+        "sha256_in_prefix": "c6d039c617095e17ceaa072dbce8f7d5a684729f26a71a4f7b8efd2aea83db55",
+        "size_in_bytes": 168946
+      },
+      {
+        "_path": "Library/lib/libxeus.pdb",
+        "path_type": "hardlink",
+        "sha256": "2e4b75a805007915cdb04d6b5f15d4f135816727144a54d3732bb55d71d64406",
+        "sha256_in_prefix": "2e4b75a805007915cdb04d6b5f15d4f135816727144a54d3732bb55d71d64406",
+        "size_in_bytes": 7548928
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::xeus==0.24.1=8",
+  "sha256": "1bc0fe895e6731bea2d194744b0f0cdd0c08ae899a88b2666d1e0a856549abc7",
+  "size": 4436026,
+  "subdir": "win-64",
+  "timestamp": 1652126399807,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/xeus-0.24.1-8.tar.bz2",
+  "version": "0.24.1"
+}

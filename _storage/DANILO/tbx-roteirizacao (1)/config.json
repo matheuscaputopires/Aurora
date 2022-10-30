@@ -1,0 +1,32 @@
+{
+    "production": {
+        "url_base": "",
+        "portal_url": "",
+        "ags_url": "",
+        "generate_token_url": "",
+        "feature_url": "",
+        "work_areas_url": "",
+        "user_hierarchies": "",
+        "executive_url": ""
+    },
+    "staging": {
+        "url_base": "",
+        "portal_url": "",
+        "ags_url": "",
+        "generate_token_url": "",
+        "feature_url": "",
+        "work_areas_url": "",
+        "user_hierarchies": "",
+        "executive_url": ""
+    },
+    "develop": {
+        "url_base": "",
+        "portal_url": "",
+        "ags_url": "",
+        "generate_token_url": "",
+        "feature_url": "",
+        "work_areas_url": "",
+        "user_hierarchies": "",
+        "executive_url": ""
+    }
+}

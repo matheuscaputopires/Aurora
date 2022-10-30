@@ -1,0 +1,130 @@
+{
+  "arch": "x86_64",
+  "build": "py39_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.16.6,<2.0a0",
+    "python >=3.9,<3.10.0a0",
+    "vc 14.*",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\cftime-1.5.0-py39_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/cftime-1.5.0.dist-info/INSTALLER",
+    "Lib/site-packages/cftime-1.5.0.dist-info/LICENSE",
+    "Lib/site-packages/cftime-1.5.0.dist-info/METADATA",
+    "Lib/site-packages/cftime-1.5.0.dist-info/RECORD",
+    "Lib/site-packages/cftime-1.5.0.dist-info/REQUESTED",
+    "Lib/site-packages/cftime-1.5.0.dist-info/WHEEL",
+    "Lib/site-packages/cftime-1.5.0.dist-info/direct_url.json",
+    "Lib/site-packages/cftime-1.5.0.dist-info/top_level.txt",
+    "Lib/site-packages/cftime/__init__.py",
+    "Lib/site-packages/cftime/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/cftime/_cftime.cp39-win_amd64.pyd",
+    ".nonadmin"
+  ],
+  "fn": "cftime-1.5.0-py39_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\cftime-1.5.0-py39_1",
+    "type": 1
+  },
+  "md5": "f5c64222bf28e93683cc4751086ed96d",
+  "name": "cftime",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\cftime-1.5.0-py39_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/cftime-1.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/cftime-1.5.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7fdd0c2647de9ed5aa549c21c46778374867793c2f874497b5480df22c7778ff",
+        "sha256_in_prefix": "7fdd0c2647de9ed5aa549c21c46778374867793c2f874497b5480df22c7778ff",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "Lib/site-packages/cftime-1.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f0a61ee6841b38b2118a816b5905835b932cd77afb56a446ecfe2f5e60023e77",
+        "sha256_in_prefix": "f0a61ee6841b38b2118a816b5905835b932cd77afb56a446ecfe2f5e60023e77",
+        "size_in_bytes": 7223
+      },
+      {
+        "_path": "Lib/site-packages/cftime-1.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a1840456cadc8b5e8b9e6a1809638b04ffab1fe8c365f2f746e98824ef50e2de",
+        "sha256_in_prefix": "a1840456cadc8b5e8b9e6a1809638b04ffab1fe8c365f2f746e98824ef50e2de",
+        "size_in_bytes": 868
+      },
+      {
+        "_path": "Lib/site-packages/cftime-1.5.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/cftime-1.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8ebeee6d8d0b933ff25c7f457c57bd3d3b4b8463ac7fad9d66436f4d8ac920d1",
+        "sha256_in_prefix": "8ebeee6d8d0b933ff25c7f457c57bd3d3b4b8463ac7fad9d66436f4d8ac920d1",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "Lib/site-packages/cftime-1.5.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "83bef1821b6fe4f6f5aafab68f025f438a102665ea0b5c4608bcdc06f878e1a0",
+        "sha256_in_prefix": "83bef1821b6fe4f6f5aafab68f025f438a102665ea0b5c4608bcdc06f878e1a0",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "Lib/site-packages/cftime-1.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d3f3d00ed5a5680772176fb4acaf76aa4568988d33e201d2e420f746688da897",
+        "sha256_in_prefix": "d3f3d00ed5a5680772176fb4acaf76aa4568988d33e201d2e420f746688da897",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/cftime/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "252837303659ded93b8ec5bd4f5cec3edebd42bc2ad895924f1be147776b20bc",
+        "sha256_in_prefix": "252837303659ded93b8ec5bd4f5cec3edebd42bc2ad895924f1be147776b20bc",
+        "size_in_bytes": 627
+      },
+      {
+        "_path": "Lib/site-packages/cftime/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b60736d1fbf8bc348b6ec0c0b4ed888666556aad241789f5887601a478a1748",
+        "sha256_in_prefix": "1b60736d1fbf8bc348b6ec0c0b4ed888666556aad241789f5887601a478a1748",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "Lib/site-packages/cftime/_cftime.cp39-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "56a95114ca73c88ceaa07b611762bdefeb71d51de4fe91e266bfabab18b70bd6",
+        "sha256_in_prefix": "56a95114ca73c88ceaa07b611762bdefeb71d51de4fe91e266bfabab18b70bd6",
+        "size_in_bytes": 329216
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::cftime==1.5.0=py39_1",
+  "sha256": "57035f53b0c71c097e4129ef3d0ce76ed75ad85df3c2b2088cfbf9bbfa95a474",
+  "size": 143704,
+  "subdir": "win-64",
+  "timestamp": 1628801403490,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/cftime-1.5.0-py39_1.tar.bz2",
+  "version": "1.5.0"
+}

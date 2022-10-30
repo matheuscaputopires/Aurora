@@ -1,0 +1,12 @@
+prefix=P:/zeromq/installed/x64/RelWithDebInfo
+exec_prefix=P:/zeromq/installed/x64/RelWithDebInfo
+libdir=P:/zeromq/installed/x64/RelWithDebInfo/lib
+includedir=P:/zeromq/installed/x64/RelWithDebInfo/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 

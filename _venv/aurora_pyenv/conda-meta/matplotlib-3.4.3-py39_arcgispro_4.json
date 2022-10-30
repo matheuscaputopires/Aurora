@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "build": "py39_arcgispro_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.4.3,<3.4.4.0a0",
+    "python >=3.9,<3.10.0a0",
+    "tornado"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\matplotlib-3.4.3-py39_arcgispro_4",
+  "features": "arcgispro",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "matplotlib-3.4.3-py39_arcgispro_4.tar.bz2",
+  "license": "PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\matplotlib-3.4.3-py39_arcgispro_4",
+    "type": 1
+  },
+  "md5": "9f537547c4852c86f6dc1c36c863e8a6",
+  "name": "matplotlib",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\matplotlib-3.4.3-py39_arcgispro_4.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::matplotlib==3.4.3=py39_arcgispro_4",
+  "sha256": "3a2d34904a20cdd67d872f7743170231bd923f0cf0f3a17d50bb2164650bcebe",
+  "size": 7628,
+  "subdir": "win-64",
+  "timestamp": 1653500701557,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/matplotlib-3.4.3-py39_arcgispro_4.tar.bz2",
+  "version": "3.4.3"
+}

@@ -1,0 +1,10 @@
+{
+    "scripts": {
+      "pip-install": "python -m pip install --upgrade --target=./vrp-cielo/python_modules -r ./vrp-cielo/requirements.txt",
+      "pip-install-tests": "python -m pip install --upgrade --target=./vrp-cielo/python_module -r requirements/tests.txt",
+      "pip-install-ci-tests": "python -m pip install --upgrade -r ./vrp-cielo/requirements/tests.txt",
+      "run-unit-tests": "python -m unittest discover -s ./vrp-cielo/ -p *_test.py",
+      "coverage": "python -m pytest --cov=./vrp-cielo/ --ignore=python_modules",
+      "coverage-report-xml": "python -m pytest --cov-report xml --cov=./vrp-cielo/ --ignore=python_modules"
+    }
+  }

@@ -1,0 +1,76 @@
+{
+  "arch": "x86_64",
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\nlohmann_json-3.7.0-2",
+  "features": "",
+  "files": [
+    "Library/include/nlohmann/json.hpp",
+    "Library/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake",
+    "Library/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake",
+    "Library/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake",
+    "Library/nlohmann_json.natvis",
+    ".nonadmin"
+  ],
+  "fn": "nlohmann_json-3.7.0-2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\nlohmann_json-3.7.0-2",
+    "type": 1
+  },
+  "md5": "194f067ab15b036dad8af4ecf2abc87c",
+  "name": "nlohmann_json",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\nlohmann_json-3.7.0-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/include/nlohmann/json.hpp",
+        "path_type": "hardlink",
+        "sha256": "be7bbfbc7c62c35aa6f27dfbdd950384f247dd9f2281b5930bdaa3a6ab95eef7",
+        "sha256_in_prefix": "be7bbfbc7c62c35aa6f27dfbdd950384f247dd9f2281b5930bdaa3a6ab95eef7",
+        "size_in_bytes": 876262
+      },
+      {
+        "_path": "Library/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "a879dc2b648e17ac32836ef9013b5a6cf1234a74b9a60962cc081c3776c9f13f",
+        "sha256_in_prefix": "a879dc2b648e17ac32836ef9013b5a6cf1234a74b9a60962cc081c3776c9f13f",
+        "size_in_bytes": 635
+      },
+      {
+        "_path": "Library/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "037462252287db7f452440c7fb89e7e420c38c9a6e7ab38c4cb538f3614b4dd3",
+        "sha256_in_prefix": "037462252287db7f452440c7fb89e7e420c38c9a6e7ab38c4cb538f3614b4dd3",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "Library/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "470e12f411a086b94960743a5b43e05378dd84e75f5c39883c55d497701cc5b1",
+        "sha256_in_prefix": "470e12f411a086b94960743a5b43e05378dd84e75f5c39883c55d497701cc5b1",
+        "size_in_bytes": 3684
+      },
+      {
+        "_path": "Library/nlohmann_json.natvis",
+        "path_type": "hardlink",
+        "sha256": "208e916615dbdacd38edf56f80885df97e0d0b9bb58651348574c8a84648b4b1",
+        "sha256_in_prefix": "208e916615dbdacd38edf56f80885df97e0d0b9bb58651348574c8a84648b4b1",
+        "size_in_bytes": 2004
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::nlohmann_json==3.7.0=2",
+  "sha256": "0bea3e0652a697b94ce50a9ba4c45d01deeca56dfe116f22e19a535506bcbce5",
+  "size": 115648,
+  "subdir": "win-64",
+  "timestamp": 1640972180754,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/nlohmann_json-3.7.0-2.tar.bz2",
+  "version": "3.7.0"
+}

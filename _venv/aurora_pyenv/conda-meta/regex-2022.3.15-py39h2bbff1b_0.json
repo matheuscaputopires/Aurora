@@ -1,0 +1,177 @@
+{
+  "arch": "x86_64",
+  "build": "py39h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\regex-2022.3.15-py39h2bbff1b_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/regex-2022.3.15.dist-info/INSTALLER",
+    "Lib/site-packages/regex-2022.3.15.dist-info/LICENSE.txt",
+    "Lib/site-packages/regex-2022.3.15.dist-info/METADATA",
+    "Lib/site-packages/regex-2022.3.15.dist-info/RECORD",
+    "Lib/site-packages/regex-2022.3.15.dist-info/REQUESTED",
+    "Lib/site-packages/regex-2022.3.15.dist-info/WHEEL",
+    "Lib/site-packages/regex-2022.3.15.dist-info/direct_url.json",
+    "Lib/site-packages/regex-2022.3.15.dist-info/top_level.txt",
+    "Lib/site-packages/regex/__init__.py",
+    "Lib/site-packages/regex/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/regex/__pycache__/_regex_core.cpython-39.pyc",
+    "Lib/site-packages/regex/__pycache__/regex.cpython-39.pyc",
+    "Lib/site-packages/regex/__pycache__/test_regex.cpython-39.pyc",
+    "Lib/site-packages/regex/_regex.cp39-win_amd64.pyd",
+    "Lib/site-packages/regex/_regex_core.py",
+    "Lib/site-packages/regex/regex.py",
+    "Lib/site-packages/regex/test_regex.py",
+    ".nonadmin"
+  ],
+  "fn": "regex-2022.3.15-py39h2bbff1b_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\regex-2022.3.15-py39h2bbff1b_0",
+    "type": 1
+  },
+  "md5": "39ddb8d0905e4d153efa599089fc2a2d",
+  "name": "regex",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\regex-2022.3.15-py39h2bbff1b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/regex-2022.3.15.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/regex-2022.3.15.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "bff55ef4cdcc8c14ce259f8e8ab60e264418440d6335f4dc138273fbd506144d",
+        "sha256_in_prefix": "bff55ef4cdcc8c14ce259f8e8ab60e264418440d6335f4dc138273fbd506144d",
+        "size_in_bytes": 11584
+      },
+      {
+        "_path": "Lib/site-packages/regex-2022.3.15.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "75d4770e459f170bd6694b70b285a2c6c8df2515c1b6644170ad47693f386961",
+        "sha256_in_prefix": "75d4770e459f170bd6694b70b285a2c6c8df2515c1b6644170ad47693f386961",
+        "size_in_bytes": 39229
+      },
+      {
+        "_path": "Lib/site-packages/regex-2022.3.15.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f155a3088975fa9fb88dcdf27ca65441a93448c1b19326b7ee1ee494751cab0a",
+        "sha256_in_prefix": "f155a3088975fa9fb88dcdf27ca65441a93448c1b19326b7ee1ee494751cab0a",
+        "size_in_bytes": 1262
+      },
+      {
+        "_path": "Lib/site-packages/regex-2022.3.15.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/regex-2022.3.15.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7d571594bce2f021a2fd497cbe331d9fc804476e5d9f918183d13a93dcf8d7e6",
+        "sha256_in_prefix": "7d571594bce2f021a2fd497cbe331d9fc804476e5d9f918183d13a93dcf8d7e6",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "Lib/site-packages/regex-2022.3.15.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3fffd26a3c1c740b0c595fd8dfc3730ea6bfff056340834981e303361eb4bcdb",
+        "sha256_in_prefix": "3fffd26a3c1c740b0c595fd8dfc3730ea6bfff056340834981e303361eb4bcdb",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "Lib/site-packages/regex-2022.3.15.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6909a20cc84d4c5dba7022b8ffb0fea9a56f85bc42946d30c824e7121933601b",
+        "sha256_in_prefix": "6909a20cc84d4c5dba7022b8ffb0fea9a56f85bc42946d30c824e7121933601b",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "Lib/site-packages/regex/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f6c94d4046f848267d2e770dcdc42faa6932c5795c38017b4300308a0c568ecc",
+        "sha256_in_prefix": "f6c94d4046f848267d2e770dcdc42faa6932c5795c38017b4300308a0c568ecc",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "Lib/site-packages/regex/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "12077c2476b46491e5251c4508a926d2f8f357c4b4d0e20801e96c9ad07c0388",
+        "sha256_in_prefix": "12077c2476b46491e5251c4508a926d2f8f357c4b4d0e20801e96c9ad07c0388",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "Lib/site-packages/regex/__pycache__/_regex_core.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "49ad19727151db42b9f9ad93f127d168727848d2e73bd03e7a06a19a730e2c0c",
+        "sha256_in_prefix": "49ad19727151db42b9f9ad93f127d168727848d2e73bd03e7a06a19a730e2c0c",
+        "size_in_bytes": 112698
+      },
+      {
+        "_path": "Lib/site-packages/regex/__pycache__/regex.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "212cb3b5500139050912efaaaf80808b4589e8be9499e53869ed0855da4876a0",
+        "sha256_in_prefix": "212cb3b5500139050912efaaaf80808b4589e8be9499e53869ed0855da4876a0",
+        "size_in_bytes": 25403
+      },
+      {
+        "_path": "Lib/site-packages/regex/__pycache__/test_regex.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7a72b37e0ceadc0610a71a52974f4770b464f6bed7070de9c1312f1239bb659",
+        "sha256_in_prefix": "c7a72b37e0ceadc0610a71a52974f4770b464f6bed7070de9c1312f1239bb659",
+        "size_in_bytes": 135906
+      },
+      {
+        "_path": "Lib/site-packages/regex/_regex.cp39-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "fae1f16f0064e4a767009db999e1cf2a5fc1e253338d8ce278c7a93b1a264ad8",
+        "sha256_in_prefix": "fae1f16f0064e4a767009db999e1cf2a5fc1e253338d8ce278c7a93b1a264ad8",
+        "size_in_bytes": 681984
+      },
+      {
+        "_path": "Lib/site-packages/regex/_regex_core.py",
+        "path_type": "hardlink",
+        "sha256": "f02fd463c718bdf0d28235dc2063c990c27ec9bc974f325d5d497dcf50a669e4",
+        "sha256_in_prefix": "f02fd463c718bdf0d28235dc2063c990c27ec9bc974f325d5d497dcf50a669e4",
+        "size_in_bytes": 141146
+      },
+      {
+        "_path": "Lib/site-packages/regex/regex.py",
+        "path_type": "hardlink",
+        "sha256": "69c8f5eb9ba58f86f473103f9e503bb655e49f4fc74b5957d067d3359e7c9fcf",
+        "sha256_in_prefix": "69c8f5eb9ba58f86f473103f9e503bb655e49f4fc74b5957d067d3359e7c9fcf",
+        "size_in_bytes": 32557
+      },
+      {
+        "_path": "Lib/site-packages/regex/test_regex.py",
+        "path_type": "hardlink",
+        "sha256": "df6ca7c6708c58dabdc2a8205108b0e149ecd966af7670dc9e5ce6e9ef29d96e",
+        "sha256_in_prefix": "df6ca7c6708c58dabdc2a8205108b0e149ecd966af7670dc9e5ce6e9ef29d96e",
+        "size_in_bytes": 217963
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "defaults/win-64::regex==2022.3.15=py39h2bbff1b_0",
+  "sha256": "fc52458c021b3acaa001cb7eec794653e5cf62efe43f94447739567863bde06b",
+  "size": 323758,
+  "subdir": "win-64",
+  "timestamp": 1648447969745,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/regex-2022.3.15-py39h2bbff1b_0.conda",
+  "version": "2022.3.15"
+}

@@ -1,0 +1,137 @@
+{
+  "arch": "x86_64",
+  "build": "py39_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [
+    "pip",
+    "python >=3.9,<3.10.0a0",
+    "setuptools",
+    "x86cpu"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\despatch-0.2.0-py39_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/despatch-0.2.0.dist-info/INSTALLER",
+    "Lib/site-packages/despatch-0.2.0.dist-info/LICENSE",
+    "Lib/site-packages/despatch-0.2.0.dist-info/METADATA",
+    "Lib/site-packages/despatch-0.2.0.dist-info/RECORD",
+    "Lib/site-packages/despatch-0.2.0.dist-info/REQUESTED",
+    "Lib/site-packages/despatch-0.2.0.dist-info/WHEEL",
+    "Lib/site-packages/despatch-0.2.0.dist-info/direct_url.json",
+    "Lib/site-packages/despatch-0.2.0.dist-info/top_level.txt",
+    "Lib/site-packages/despatch/__init__.py",
+    "Lib/site-packages/despatch/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/despatch/__pycache__/despatch.cpython-39.pyc",
+    "Lib/site-packages/despatch/despatch.py",
+    ".nonadmin"
+  ],
+  "fn": "despatch-0.2.0-py39_0.tar.bz2",
+  "license": "BSD 2-clause",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\despatch-0.2.0-py39_0",
+    "type": 1
+  },
+  "md5": "e6aeb7090b43edf06e238c0c80a35845",
+  "name": "despatch",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\despatch-0.2.0-py39_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/despatch-0.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/despatch-0.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e7b0eae3a68158bbae1dbe0864aeb74ad5847bf517d917c9d0f8bc155bd99bb3",
+        "sha256_in_prefix": "e7b0eae3a68158bbae1dbe0864aeb74ad5847bf517d917c9d0f8bc155bd99bb3",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "Lib/site-packages/despatch-0.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a14444b15a208a42a2aa689b7fa170183733c63660c70a7276a61da4c25e2748",
+        "sha256_in_prefix": "a14444b15a208a42a2aa689b7fa170183733c63660c70a7276a61da4c25e2748",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "Lib/site-packages/despatch-0.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2d3e288e3073e726dca92d0b5d3aceb3b3b6f89cc402e1ce1b2aa479db958df5",
+        "sha256_in_prefix": "2d3e288e3073e726dca92d0b5d3aceb3b3b6f89cc402e1ce1b2aa479db958df5",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "Lib/site-packages/despatch-0.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/despatch-0.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "Lib/site-packages/despatch-0.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "22e65826c7161ca48982f6ead43d57a68266a8c1c046e5547da60d90b11361e4",
+        "sha256_in_prefix": "22e65826c7161ca48982f6ead43d57a68266a8c1c046e5547da60d90b11361e4",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "Lib/site-packages/despatch-0.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a5982d40b88944b486c949866df1b094c353d839110beaf93c6d2c9dc2fc8c56",
+        "sha256_in_prefix": "a5982d40b88944b486c949866df1b094c353d839110beaf93c6d2c9dc2fc8c56",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "Lib/site-packages/despatch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7524fc00b9d2a0adef6c95cbc90898f20227193b4d5fb707cfb5a475f2e107d4",
+        "sha256_in_prefix": "7524fc00b9d2a0adef6c95cbc90898f20227193b4d5fb707cfb5a475f2e107d4",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "Lib/site-packages/despatch/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a000854d412443c951104db3e7ebd2e6c890ea6a0c74c373da03ecb6b9e3d8c1",
+        "sha256_in_prefix": "a000854d412443c951104db3e7ebd2e6c890ea6a0c74c373da03ecb6b9e3d8c1",
+        "size_in_bytes": 270
+      },
+      {
+        "_path": "Lib/site-packages/despatch/__pycache__/despatch.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "397d6adcf55a08ea8fa76472cf74c7b410fd7a94506b2324e2646c8c6f87e1c4",
+        "sha256_in_prefix": "397d6adcf55a08ea8fa76472cf74c7b410fd7a94506b2324e2646c8c6f87e1c4",
+        "size_in_bytes": 3048
+      },
+      {
+        "_path": "Lib/site-packages/despatch/despatch.py",
+        "path_type": "hardlink",
+        "sha256": "b278e678dd7f77c4e4bc9241ad4aabf1933d5f9ef712dfa0642205113380ae2d",
+        "sha256_in_prefix": "b278e678dd7f77c4e4bc9241ad4aabf1933d5f9ef712dfa0642205113380ae2d",
+        "size_in_bytes": 3217
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::despatch==0.2.0=py39_0",
+  "sha256": "1c60b27f38df1c4a826865bc288a50cd46c01084d0c49391c4e9a894166e90d8",
+  "size": 9058,
+  "subdir": "win-64",
+  "timestamp": 1641504041167,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/despatch-0.2.0-py39_0.tar.bz2",
+  "version": "0.2.0"
+}

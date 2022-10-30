@@ -1,0 +1,86 @@
+{
+  "arch": "x86_64",
+  "build": "py39_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/esri/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\future-0.18.2-py39_2",
+  "features": "",
+  "files": [
+    "Lib/site-packages/future-0.18.2-py3.9.egg",
+    "Lib/site-packages/future.pth",
+    "Scripts/futurize-script.py",
+    "Scripts/futurize.exe",
+    "Scripts/pasteurize-script.py",
+    "Scripts/pasteurize.exe",
+    ".nonadmin"
+  ],
+  "fn": "future-0.18.2-py39_2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\future-0.18.2-py39_2",
+    "type": 1
+  },
+  "md5": "e258ae61114ff3d23ba8ddf781e71242",
+  "name": "future",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\future-0.18.2-py39_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/future-0.18.2-py3.9.egg",
+        "path_type": "hardlink",
+        "sha256": "5b8fbfe22403ebbd9ba6e3840721125109d71f6c2a7d495efd34e20ef9f61279",
+        "sha256_in_prefix": "5b8fbfe22403ebbd9ba6e3840721125109d71f6c2a7d495efd34e20ef9f61279",
+        "size_in_bytes": 483263
+      },
+      {
+        "_path": "Lib/site-packages/future.pth",
+        "path_type": "hardlink",
+        "sha256": "fef6255d9cfd7958ad9752d4d669d1b04a96f153869ef5f45c4044079497bc09",
+        "sha256_in_prefix": "fef6255d9cfd7958ad9752d4d669d1b04a96f153869ef5f45c4044079497bc09",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "Scripts/futurize-script.py",
+        "path_type": "hardlink",
+        "sha256": "ddba7d3cb8572a47bf6daf69b769954a79f1093f1d32cdf20f068701f695a82e",
+        "sha256_in_prefix": "ddba7d3cb8572a47bf6daf69b769954a79f1093f1d32cdf20f068701f695a82e",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "Scripts/futurize.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      },
+      {
+        "_path": "Scripts/pasteurize-script.py",
+        "path_type": "hardlink",
+        "sha256": "3c9b048bfac8a5b1149937cfeda0df51bbfc93cd8527237fea468eaea8d3ebc8",
+        "sha256_in_prefix": "3c9b048bfac8a5b1149937cfeda0df51bbfc93cd8527237fea468eaea8d3ebc8",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "Scripts/pasteurize.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "esri/win-64::future==0.18.2=py39_2",
+  "sha256": "02c07504acb254261ac774d58a8ff1e2b4c8ce6897413e36119f6d28798fadaa",
+  "size": 500698,
+  "subdir": "win-64",
+  "timestamp": 1643822446609,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/esri/win-64/future-0.18.2-py39_2.tar.bz2",
+  "version": "0.18.2"
+}

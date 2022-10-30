@@ -1,0 +1,113 @@
+{
+  "arch": "x86_64",
+  "build": "py39hd77b12b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\ujson-5.1.0-py39hd77b12b_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/ujson-5.1.0.dist-info/INSTALLER",
+    "Lib/site-packages/ujson-5.1.0.dist-info/LICENSE.txt",
+    "Lib/site-packages/ujson-5.1.0.dist-info/METADATA",
+    "Lib/site-packages/ujson-5.1.0.dist-info/RECORD",
+    "Lib/site-packages/ujson-5.1.0.dist-info/REQUESTED",
+    "Lib/site-packages/ujson-5.1.0.dist-info/WHEEL",
+    "Lib/site-packages/ujson-5.1.0.dist-info/direct_url.json",
+    "Lib/site-packages/ujson-5.1.0.dist-info/top_level.txt",
+    "Lib/site-packages/ujson.cp39-win_amd64.pyd",
+    ".nonadmin"
+  ],
+  "fn": "ujson-5.1.0-py39hd77b12b_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\ujson-5.1.0-py39hd77b12b_0",
+    "type": 1
+  },
+  "md5": "0c8bb9038a729b2f1ac69061db45e9a5",
+  "name": "ujson",
+  "package_tarball_full_path": "C:\\Users\\Matheus Caputo Pires\\AppData\\Local\\ESRI\\conda\\pkgs\\ujson-5.1.0-py39hd77b12b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/ujson-5.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/ujson-5.1.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "6a00a8f8b4050303368b694147bde1aed9c96bdff869c181dbbf3ccb784a1501",
+        "sha256_in_prefix": "6a00a8f8b4050303368b694147bde1aed9c96bdff869c181dbbf3ccb784a1501",
+        "size_in_bytes": 1959
+      },
+      {
+        "_path": "Lib/site-packages/ujson-5.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8203c78e4e6f1eea43303afb0b232476993e2047b4a01b7d34027aacd8e17037",
+        "sha256_in_prefix": "8203c78e4e6f1eea43303afb0b232476993e2047b4a01b7d34027aacd8e17037",
+        "size_in_bytes": 7884
+      },
+      {
+        "_path": "Lib/site-packages/ujson-5.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d3abcf2687527f35b89a1d660a0b94788330fa6f46b19f1a344f3acc03781f0c",
+        "sha256_in_prefix": "d3abcf2687527f35b89a1d660a0b94788330fa6f46b19f1a344f3acc03781f0c",
+        "size_in_bytes": 733
+      },
+      {
+        "_path": "Lib/site-packages/ujson-5.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/ujson-5.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7d571594bce2f021a2fd497cbe331d9fc804476e5d9f918183d13a93dcf8d7e6",
+        "sha256_in_prefix": "7d571594bce2f021a2fd497cbe331d9fc804476e5d9f918183d13a93dcf8d7e6",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "Lib/site-packages/ujson-5.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "725f6e95ab794663f2b20652c0bf62a5a05fe7410076a6cf76c99c668ffdcad6",
+        "sha256_in_prefix": "725f6e95ab794663f2b20652c0bf62a5a05fe7410076a6cf76c99c668ffdcad6",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "Lib/site-packages/ujson-5.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "201318b952021d68bdc6798c376d9434c10561fd784dc702ee8f6e60f872720d",
+        "sha256_in_prefix": "201318b952021d68bdc6798c376d9434c10561fd784dc702ee8f6e60f872720d",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "Lib/site-packages/ujson.cp39-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "85cc2d21baabf012a0bdeef93b174d11c1282278a4b638a445b573a31fba8c9f",
+        "sha256_in_prefix": "85cc2d21baabf012a0bdeef93b174d11c1282278a4b638a445b573a31fba8c9f",
+        "size_in_bytes": 82944
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "defaults/win-64::ujson==5.1.0=py39hd77b12b_0",
+  "sha256": "ba6dbfe0b8db759449407bbfcfce31aaf9733c858dd02071d80d161f2fab0a6d",
+  "size": 50875,
+  "subdir": "win-64",
+  "timestamp": 1648044304186,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/ujson-5.1.0-py39hd77b12b_0.conda",
+  "version": "5.1.0"
+}
