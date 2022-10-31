@@ -1,5 +1,6 @@
 import arcpy
-from arcpy.na import AddLocations, MakeVehicleRoutingProblemAnalysisLayer
+from arcpy.na import (AddLocations, AddVehicleRoutingProblemRoutes,
+                      MakeVehicleRoutingProblemAnalysisLayer, Solve)
 
 from core._constants import *
 from core.instances.Feature import Feature
@@ -24,6 +25,8 @@ class Main(BaseProperties):
         routing_layer, name = self.create_routing_layer(CONFIGS.ROUTER)
         self.add_pois(poi=origens, name=name)
         self.add_pois(poi=destinos, name=name)
+        self.add_routes(name=name)
+        self.solve()
         print(destinos)
 
     def create_routing_layer(self, router):
@@ -61,6 +64,32 @@ class Main(BaseProperties):
             "EXCLUDE",
             None,
             "ALLOW"
+        )
+
+    def add_routes(self, name):
+        AddVehicleRoutingProblemRoutes(
+            name,
+            7,
+            "Route",
+            "1",
+            "1",
+            "08:00:00",
+            "10:00:00",
+            30,
+            None,
+            None,
+            "# # 1 # #",
+            None,
+            "APPEND"
+        )
+    
+    def solve(self, name):
+        Solve(
+            name,
+            "HALT",
+            "TERMINATE",
+            None,
+            ''
         )
 
 if __name__ == '__main__':
