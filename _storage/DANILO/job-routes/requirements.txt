@@ -1,2 +1,0 @@
-#python -m pip install [lib_name]
--r requirements/base.txt

@@ -21,15 +21,14 @@ class Table(BaseDBPath, CursorManager):
 
     def __init__(self, path: str = None, name: str = None, *args, **kwargs):
         super().__init__(path=path, name=name, *args, **kwargs)
-        
-
+    
+    @wrap_on_database_editing
     def geocode_addresses(self) -> Feature:
         points = XYTableToPoint(
             in_table=self.full_path,
-            out_feature_class=s.path.join(self.temp_db,f'{self.name.strpip().split(".")[0]}_XY',
+            out_feature_class=os.path.join(self.temp_db, f'{self.name.split(".")[0]}_XY'),
             x_field=self.x_field,
             y_field=self.y_field,
             coordinate_system=self.default_sr
         )
-        print('here')
-        # feature = Feature(points)
+        return Feature(points)

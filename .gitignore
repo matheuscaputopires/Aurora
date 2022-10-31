@@ -25,3 +25,5 @@ downloads
 __pycache__
 *.pyc
 *.log
+_storage
+_venv

@@ -19,14 +19,14 @@ from arcpy.analysis import Intersect
 from arcpy.cartography import SimplifyLine, SimplifyPolygon
 from arcpy.conversion import RasterToPolygon
 from arcpy.da import SearchCursor
-from arcpy.management import AddField, CalculateField, Delete
+from arcpy.management import AddField, CalculateField, Delete, XYTableToPoint
 from core._logs import *
 from core.libs.Base import load_path_and_name
 from core.libs.BaseDBPath import BaseDBPath
+from core.libs.CustomExceptions import (DatabaseInsertionError,
+                                        MaxFailuresError,
+                                        UnexistingFeatureError)
 from core.libs.Enums import FieldType
-from core.libs.CustomExceptions import (DatabaseInsertionError, MaxFailuresError,
-                                    UnexistingFeatureError)
-from core.ml_models.ImageClassifier import BaseImageClassifier
 from nbformat import ValidationError
 
 from .Database import Database, wrap_on_database_editing
@@ -100,6 +100,9 @@ class Feature(BaseDBPath, CursorManager):
     spatialReference: dict = None
     shape_field: str = ''
     raster_field: str = 'Value'
+    y_field = 'Latitude'
+    x_field = 'Longitude'
+
 
     @load_path_and_name
     def __init__(self, path: str, name: str = None, raster: str = None, *args, **kwargs):
@@ -117,6 +120,19 @@ class Feature(BaseDBPath, CursorManager):
     
     def __repr__(self):
         return self.full_path
+
+    @wrap_on_database_editing
+    def geocode_addresses(self):
+        name = f'{self.name.split(".")[0]}_XY'
+        points = XYTableToPoint(
+            in_table=self.full_path,
+            out_feature_class=os.path.join(self.temp_db.full_path, name),
+            x_field=self.x_field,
+            y_field=self.y_field,
+            coordinate_system=self.default_sr
+        )
+        self.path = self.temp_db.full_path
+        self.name = name
 
     def row_count(self) -> int:
         return int(GetCount_management(in_rows=self.full_path)[0])
@@ -553,7 +569,7 @@ class Feature(BaseDBPath, CursorManager):
             for row in cursor:
                 cursor.updateRow(values)
 
-    def calculate_field(self, field_name: str, field_value: any = str, expression: str = None, code_block: str = None, expression_type: str = "PYTHON3", image_classifier: BaseImageClassifier = None):
+    def calculate_field(self, field_name: str, field_value: any = str, expression: str = None, code_block: str = None, expression_type: str = "PYTHON3"):
         aprint(f'Calculando campo {field_name}')
         if image_classifier is not None:
             self.look_for_missing_fields(fields={image_classifier.class_field:str})

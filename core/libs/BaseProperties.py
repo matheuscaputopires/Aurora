@@ -2,6 +2,7 @@
 #!/usr/bin/python
 import os
 
+import yaml
 from arcpy import Exists, SpatialReference
 from arcpy.management import Delete
 from core._constants import *
@@ -15,9 +16,22 @@ class BaseProperties(BasePath):
     _temp_db: Database = None
     _image_storage: str = None
 
+    def __init__(self, *args, **kwargs):
+        self.load_env_variables()
+        super().__init__(*args, **kwargs)
+
+    def load_env_variables(self):
+        env_file = self.get_files_by_extension(ROOT_DIR,'env.yaml')
+        for file in env_file:
+            with open(file) as f:
+                env_vars = yaml.safe_load(f)
+                for var in env_vars:
+                    if env_vars.get(var) and env_vars.get(var) != 'None':
+                        os.environ[var]=str(env_vars.get(var))
+
     @property
     def default_sr(self) -> SpatialReference:
-        return SpatialReference(os.environ.get('DEFAULT_SR', 3857)) # WGS84 Web Mercator
+        return SpatialReference(int(os.environ.get('DEFAULT_SR', 4326))) # WGS84
     
     @property
     def delete_temp_files_while_processing(self) -> bool:
@@ -29,12 +43,16 @@ class BaseProperties(BasePath):
 
     @property
     def temp_dir(self) -> str:
-        return os.environ.get('TEMP_DIR', TEMP_DIR)
+        temp_dir = os.environ.get('TEMP_DIR')
+        if not temp_dir:
+            return TEMP_DIR
+        return temp_dir
 
     @property
     def temp_db(self) -> Database:
         if not self._temp_db:
-            self._temp_db = Database(path=os.environ.get('TEMP_DB', self.temp_dir))
+            temp_db_folder = os.environ.get('TEMP_DB', self.temp_dir)
+            self._temp_db = Database(path=temp_db_folder, name=os.path.basename(temp_db_folder))
         return self._temp_db
 
     @property
