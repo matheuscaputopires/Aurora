@@ -1,8 +1,10 @@
-from core.instances.Feature import Feature
-from core._constants import *
-from arcpy.na import MakeVehicleRoutingProblemAnalysisLayer
-from core.libs.BaseProperties import BaseProperties
 import arcpy
+from arcpy.na import AddLocations, MakeVehicleRoutingProblemAnalysisLayer
+
+from core._constants import *
+from core.instances.Feature import Feature
+from core.libs.BaseProperties import BaseProperties
+
 
 class Settings:
     ORIGENS = os.path.join(ROOT_DIR, r'Input\Sample\origens.csv')
@@ -19,8 +21,9 @@ class Main(BaseProperties):
         destinos = Feature(CONFIGS.DESTINOS)
         destinos.geocode_addresses()
 
-        routing_layer = self.create_routing_layer(CONFIGS.ROUTER)
-        
+        routing_layer, name = self.create_routing_layer(CONFIGS.ROUTER)
+        self.add_pois(poi=origens, name=name)
+        self.add_pois(poi=destinos, name=name)
         print(destinos)
 
     def create_routing_layer(self, router):
@@ -39,6 +42,25 @@ class Main(BaseProperties):
             "DIRECTIONS",
             "CLUSTER",
             "HALT"
+        ), "Vehicle Routing Problem"
+
+    def add_pois(self, poi, name):
+        fields_string = "Name # #;Description # #;ServiceTime # #;TimeWindowStart # #;TimeWindowEnd # #;MaxViolationTime # #;TimeWindowStart2 # #;TimeWindowEnd2 # #;MaxViolationTime2 # #;InboundArriveTime # #;OutboundDepartTime # #;DeliveryQuantity_1 # #;DeliveryQuantity_2 # #;DeliveryQuantity_3 # #;DeliveryQuantity_4 # #;DeliveryQuantity_5 # #;DeliveryQuantity_6 # #;DeliveryQuantity_7 # #;DeliveryQuantity_8 # #;DeliveryQuantity_9 # #;PickupQuantity_1 # #;PickupQuantity_2 # #;PickupQuantity_3 # #;PickupQuantity_4 # #;PickupQuantity_5 # #;PickupQuantity_6 # #;PickupQuantity_7 # #;PickupQuantity_8 # #;PickupQuantity_9 # #;Revenue # #;AssignmentRule # 3;RouteName # #;Sequence # #;CurbApproach # 0"
+        AddLocations(
+            name,
+            "Orders",
+            poi.full_path,
+            fields_string,
+            "5000 Meters",
+            None,
+            "Routing_Streets SHAPE;Routing_Streets_Override NONE;Routing_ND_Junctions NONE",
+            "MATCH_TO_CLOSEST",
+            "APPEND",
+            "NO_SNAP",
+            "5 Meters",
+            "EXCLUDE",
+            None,
+            "ALLOW"
         )
 
 if __name__ == '__main__':
