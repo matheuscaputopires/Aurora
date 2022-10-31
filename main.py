@@ -2,6 +2,7 @@ from core.instances.Feature import Feature
 from core._constants import *
 from arcpy.na import MakeVehicleRoutingProblemAnalysisLayer
 from core.libs.BaseProperties import BaseProperties
+import arcpy
 
 class Settings:
     ORIGENS = os.path.join(ROOT_DIR, r'Input\Sample\origens.csv')
@@ -23,7 +24,7 @@ class Main(BaseProperties):
         print(destinos)
 
     def create_routing_layer(self, router):
-        self.temp_db
+        arcpy.env.workspace = self.temp_db.full_path
         return MakeVehicleRoutingProblemAnalysisLayer(
             router,
             "Vehicle Routing Problem",
